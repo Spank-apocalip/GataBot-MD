@@ -13,9 +13,9 @@ import { en, es, id, ar, pt } from "./lib/idiomas/total-idiomas.js"
 // [ES] > Agrega el número que será Bot y los que serán propietarios.
 // [EN] > Add the number that will be Bot and those that will be owners.
 global.owner = [
-["556499041837", '𝙊𝙬𝙣𝙚𝙧 💖🐈', true], //𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 💖🐈
-["556499041837"], 
-["556499041837"], ["556499041837"], ["559285013050"], ["559285013050"]]
+["559285013050", '𝙊𝙬𝙣𝙚𝙧 💖🐈', true], //𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 💖🐈
+["559285013050"], 
+["559285013050"], ["559285013050"], ["559285013050"], ["559285013050"]]
 
 global.mods = []
 global.prems = []
@@ -114,8 +114,8 @@ global.moment = moment
 global.official = [ // Agregate si eres Owner
 ["554591493800", 'Gata Dios 💻', 1], 
 ["559285013050", '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1],  
-["556499041837", '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1],
-["556499041837", '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿𝗮 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1],
+["559285013050", '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1],
+["559285013050", '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿𝗮 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1],
 ["559285013050", 'Soporte', 1]]
 
 global.mail = '' // Add email
@@ -136,15 +136,15 @@ global.vsJB = "2.5 (Beta)"
 global.gt = "𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿"
 
 global.yt = "https://youtube.com/@bigmc3430"
-global.yt2 = "https://www.youtube.com/watch?v=Ko019wvu2Tc&t=71s"
+global.yt2 = "https://youtube.com/@bigmc3430"
 global.ig = "https://www.instagram.com/1bigmc"
 global.md = "https://github.com/GataNina-Li/GataBot-MD"
 global.fb = "https://www.facebook.com/groups/872989990425789/"
 global.tk = "https://www.tiktok.com/@gata_bot"
 global.ths = "https://www.threads.net/@gata_dios"
 global.paypal = 'https://paypal.me/OficialGD'
-global.asistencia = 'https://wa.me/message/C45GXBEFTPONE1' //Contacto
-global.bot = 'wa.me/5214431086138\n* wa.me/17866739002' //𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 𝙊𝙛𝙞𝙘𝙞𝙖𝙡 💖🐈
+global.asistencia = 'https://wa.me/qr/X7SMHMQZL25UL1' //Contacto
+global.bot = 'wa.me/5559285013050\n* wa.me/559285013050' //𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 𝙊𝙛𝙞𝙘𝙞𝙖𝙡 💖🐈
 
 global.nna = 'https://www.atom.bio/GataBot/' // Cuentas
 global.nn2 = 'https://t.me/supergatabot' // Grupo tg GataBot
@@ -194,7 +194,7 @@ global.waitt = "*⌛ _Cargando | Charging..._ ▬▬▭▭▭*"
 global.waittt = "*⌛ _Cargando | Charging..._ ▬▬▬▬▭▭*"
 global.waitttt = "*⌛ _Cargando | Charging..._ ▬▬▬▬▬▬▭*"
 global.waittttt = "*✅ _Completado | Filled..._ ▬▬▬▬▬▬▬*"
-global.nomorown = "593993684821"
+global.nomorown = "559285013050"
 global.pdoc = ["application/vnd.openxmlformats-officedocument.presentationml.presentation", "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "application/vnd.openxmlformats-officedocument.wordprocessingml.document", "application/vnd.ms-excel", "application/msword", "application/pdf", "text/rtf"]
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
