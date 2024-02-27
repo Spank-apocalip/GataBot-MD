@@ -21,13 +21,13 @@ let gata = `𝙄𝙉𝙎𝙏𝘼𝙇𝘼𝘾𝙄𝙊𝙉 𝘿𝙀 𝙂𝘼𝙏�
 ✅ 𝗜𝗡𝗦𝗧𝗔𝗟𝗔𝗥 𝗘𝗡 𝗕𝗢𝗫𝗠𝗜𝗡𝗘
 *⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯*
 *𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 : 𝘽𝙤𝙭𝙈𝙞𝙣𝙚*
-*_https://youtu.be/Ko019wvu2Tc_*
+*_https://youtu.be/@bigmc3430_*
 *⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯*
 _PAGINA OFICIAL_ 
-_https://boxmineworld.com_
+_https://youtu.be/@bigmc3430_
 *⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯*
 _Tutorial - Crea una cuenta en la Dashboard_
-_https://www.youtube.com/watch?v=ZAwBLuNmIlI_
+_https://youtu.be/@bigmc3430_
 *⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯*
 _DASHBOARD_
 _https://dash.boxmineworld.com_
@@ -40,13 +40,13 @@ _https://panel.boxmineworld.com_
 ✅ 𝙄𝙉𝙎𝙏𝘼𝙇𝘼𝙍 𝙀𝙉 𝙏𝙀𝙍𝙈𝙐𝙓
 *⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯*
 termux-setup-storage
-apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/GataNina-Li/GataBot-MD/master/gata.sh | bash
+apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/1bigmc/GataBot-MD/master/gata.sh | bash
 *━━━━━━━━━━━━━⬣*
 
 *━━━━━━━━━━━━━⬣*
 ✅ 𝙄𝙉𝙎𝙏𝘼𝙇𝘼𝙍 𝙀𝙉 𝙃𝙀𝙍𝙊𝙆𝙐
 *⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯*
-*_https://heroku.com/deploy?template=https://github.com/GataNina-Li/GataBot-MD_*
+*_https://heroku.com/deploy?template=https://github.com/1bigmc/GataBot-MD_*
 *⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯*
 *Añada lo siguente al Buildpack:*
 _https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git_
