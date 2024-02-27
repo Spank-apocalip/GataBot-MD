@@ -12,7 +12,7 @@ try {
 if (text.includes('Hola')) text = text.replace('Hola', 'Hello');
 if (text.includes('hola')) text = text.replace('hola', 'Hello');
 if (text.includes('HOLA')) text = text.replace('HOLA', 'HELLO');
-const reis = await fetch('https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=en&dt=t&q=' + text);
+const reis = await fetch('https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=pt&dt=t&q=' + text);
 const resu = await reis.json();
 const nama = m.pushName || '1';
 const api = await fetch('http://api.brainshop.ai/get?bid=153868&key=rcKonOgrUFmn5usX&uid=' + nama + '&msg=' + resu[0][0][0]);
