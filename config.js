@@ -112,7 +112,7 @@ global.moment = moment
 // [ES] > Agregate a ti, colaboradores o ayudates, aparecerá en el comando de lista de contactos.
 // [EN] > Adding yourself, collaborators or helpers will appear in the contact list command.
 global.official = [ // Agregate si eres Owner
-["559285013050", 'Gata Dios 💻', 1], 
+["559285013050", '𝘽𝙞𝙜 𝙈𝙘 💻', 1], 
 ["559285013050", '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1],  
 ["559285013050", '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1],
 ["559285013050", '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿𝗮 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1],
@@ -146,8 +146,8 @@ global.paypal = 'https://paypal.me/OficialGD'
 global.asistencia = 'https://wa.me/qr/X7SMHMQZL25UL1' //Contacto
 global.bot = 'wa.me/5559285013050\n* wa.me/559285013050' //𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 𝙊𝙛𝙞𝙘𝙞𝙖𝙡 💖🐈
 
-global.nna = 'https://www.atom.bio/GataBot/' // Cuentas
-global.nn2 = 'https://t.me/supergatabot' // Grupo tg GataBot
+global.nna = 'https://www.instagram.com/1bigmc/' // Cuentas
+global.nn2 = 'https://t.me/@1bigmc' // Grupo tg GataBot
 global.nna2 = 'https://chat.whatsapp.com/KaTeeaexrGSHBzPm4s945b' // Help
 global.nn = 'https://chat.whatsapp.com/JaUNnmo748G1Se2NaJ0A7f' // Grupo 1
 global.nnn = 'https://chat.whatsapp.com/JaUNnmo748G1Se2NaJ0A7f' // Grupo 2
