@@ -15,7 +15,7 @@ import { en, es, id, ar, pt } from "./lib/idiomas/total-idiomas.js"
 global.owner = [
 ["559285013050", '𝙊𝙬𝙣𝙚𝙧 💖🐈', true], //𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 💖🐈
 ["559285013050"], 
-["559285013050"], ["559285013050"], ["554884702848"], ["559285013050"]]
+["559285013050"], ["559285013050"], ["559285013050"], ["559285013050"]]
 
 global.mods = []
 global.prems = []
@@ -113,7 +113,7 @@ global.moment = moment
 // [EN] > Adding yourself, collaborators or helpers will appear in the contact list command.
 global.official = [ // Agregate si eres Owner
 ["559285013050", 'Gata Dios 💻', 1], 
-["554884702848", '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1],  
+["559285013050", '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1],  
 ["559285013050", '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1],
 ["559285013050", '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿𝗮 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1],
 ["559285013050", 'Soporte', 1]]
@@ -139,8 +139,8 @@ global.yt = "https://youtube.com/@bigmc3430"
 global.yt2 = "https://youtube.com/@bigmc3430"
 global.ig = "https://www.instagram.com/1bigmc"
 global.md = "https://github.com/1bigmc/GataBot-MD"
-global.fb = "https://www.facebook.com/groups/872989990425789/"
-global.tk = "https://www.tiktok.com/@gata_bot"
+global.fb = "https://www.facebook.com/big.edits.ofc"
+global.tk = "https://www.tiktok.com/@big.edits.ofc?"
 global.ths = "https://www.threads.net/@gata_dios"
 global.paypal = 'https://paypal.me/OficialGD'
 global.asistencia = 'https://wa.me/qr/X7SMHMQZL25UL1' //Contacto
@@ -149,19 +149,19 @@ global.bot = 'wa.me/5559285013050\n* wa.me/559285013050' //𝙂𝙖𝙩𝙖𝘽�
 global.nna = 'https://www.atom.bio/GataBot/' // Cuentas
 global.nn2 = 'https://t.me/supergatabot' // Grupo tg GataBot
 global.nna2 = 'https://chat.whatsapp.com/KaTeeaexrGSHBzPm4s945b' // Help
-global.nn = 'https://chat.whatsapp.com/HBIIrHorHbW2LIxlS9MjRI' // Grupo 1
-global.nnn = 'https://chat.whatsapp.com/CtA2nopOZor0bRwV3FCYH3' // Grupo 2
-global.nnnt = 'https://chat.whatsapp.com/HVLk7c3ZlNN0mJjodw4NkV' // Grupo 3
-global.nnntt = 'https://chat.whatsapp.com/BSDrNVhj2lVElUgrNnGoby' // Grupo 4
-global.nnnttt = 'https://chat.whatsapp.com/CciFSHhsYxd9TqW2tZhhZx' // Grupo 5
-global.nnnttt1 = 'https://chat.whatsapp.com/Ej5AUrpmYnJKYtEa6YMwK6' // Grupo 6 COL
-global.nnnttt2 = 'https://chat.whatsapp.com/I9DsG6ABKer27NbW01Nl39' // Grupo 7 COL
-global.nnnttt3 = 'https://chat.whatsapp.com/BngbJC3aBVhF5KjoaawiT1' // Grupo 8 COL
-global.nnnttt4 = 'https://chat.whatsapp.com/KQtWZDVfosTKbheIlndLBN' // Grupo 9 COL
-global.nnnttt5 = 'https://chat.whatsapp.com/HXOGzELFOVXFM1KrSoKdqH' // MULTI - BOTS
-global.nnnttt6 = 'https://chat.whatsapp.com/KNFk4om8MR70h8t3fTSHea' // A.T.M.M
-global.channel1 = 'https://whatsapp.com/channel/0029Va6yY0iLY6d6XDmqA03g'
-global.channel2 = 'https://whatsapp.com/channel/0029Va4QjH7DeON0ePwzjS1A'
+global.nn = 'https://chat.whatsapp.com/JaUNnmo748G1Se2NaJ0A7f' // Grupo 1
+global.nnn = 'https://chat.whatsapp.com/JaUNnmo748G1Se2NaJ0A7f' // Grupo 2
+global.nnnt = 'https://chat.whatsapp.com/JaUNnmo748G1Se2NaJ0A7f' // Grupo 3
+global.nnntt = 'https://chat.whatsapp.com/JaUNnmo748G1Se2NaJ0A7f' // Grupo 4
+global.nnnttt = 'https://chat.whatsapp.com/JaUNnmo748G1Se2NaJ0A7f' // Grupo 5
+global.nnnttt1 = 'https://chat.whatsapp.com/JaUNnmo748G1Se2NaJ0A7f' // Grupo 6 COL
+global.nnnttt2 = 'https://chat.whatsapp.com/JaUNnmo748G1Se2NaJ0A7f' // Grupo 7 COL
+global.nnnttt3 = 'https://chat.whatsapp.com/JaUNnmo748G1Se2NaJ0A7f' // Grupo 8 COL
+global.nnnttt4 = 'https://chat.whatsapp.com/JaUNnmo748G1Se2NaJ0A7f' // Grupo 9 COL
+global.nnnttt5 = 'https://chat.whatsapp.com/JaUNnmo748G1Se2NaJ0A7f' // MULTI - BOTS
+global.nnnttt6 = 'https://chat.whatsapp.com/JaUNnmo748G1Se2NaJ0A7f' // A.T.M.M
+global.channel1 = 'https://chat.whatsapp.com/CqPaNu7j9tv8kIVYJ23TgI'
+global.channel2 = 'https://chat.whatsapp.com/CqPaNu7j9tv8kIVYJ23TgI'
 global.channel3 = 'https://t.me/globalgb'
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
