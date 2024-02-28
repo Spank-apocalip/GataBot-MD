@@ -3,30 +3,29 @@ let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status
 let cafirexos = `
 _Optimice la implementación de *GataBot* mediante la integración en un servicio de alojamiento de alto rendimiento._
 
-*🐈 COMPATIBLE CON GATABOT*
-Aprovecha la compatibilidad y comienza usar GataBot en servidores de alto rendimiento. El Staff de GataBot y Cafirexos hacen posible que puedas ejecutar las funciones que tanto te gusta usar sintiendo una experiencia fluida y de calidad.
+*𝐆𝐀𝐓𝐀 𝐁𝐎𝐓 𝐌𝐃*
 
-🔵 \`\`\`INFORMAÇAO DE HOSPEDAR\`\`\`
+🔵 \`\`\`𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐂̧𝐀𝐎 𝐃𝐒 𝐇𝐎𝐒𝐏𝐄𝐃𝐀𝐑\`\`\`
 
-💻 *PÁGINA*
+💻 *𝐏𝐀𝐆𝐈𝐍𝐀*
 https://www.cafirexos.com
 
-✨ *DASHBOARD*
+✨ *𝐃𝐀𝐒𝐇𝐁𝐎𝐀𝐑𝐃*
 https://dash.cafirexos.com
 
-⚙️ *PANEL*
+🎥 *𝐘𝐎𝐓𝐔𝐁𝐄*
 https://panel.cafirexos.com
 
-📢 *COMUNIDADE DO WHATSAPP*
+📢 *𝐂𝐎𝐌𝐌𝐔𝐍𝐘𝐓 𝐁𝐈𝐆 𝐒𝐏𝐘*
 https://chat.whatsapp.com/CqPaNu7j9tv8kIVYJ23TgI
 
-💥 *GRUPO DE WHATSAPP*
+💥 *𝐆𝐑𝐔𝐏𝐎 𝐃𝐎 𝐖𝐇𝐀𝐓𝐒𝐒𝐀𝐏𝐏*
 https://chat.whatsapp.com/JaUNnmo748G1Se2NaJ0A7f
 
-📧 *INSTAGRAM*
+📧 *𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌*
 https://www.instagram.com/1bigmc
 
-🧑‍💻 *CONTACTO (BIG MC)*
+🧑‍💻 *𝐂𝐎𝐍𝐓𝐀𝐓𝐎 (𝐁𝐈𝐆 𝐌𝐂)*
 https://wa.me/559285013050
 `
 await conn.sendFile(m.chat, 'https://grxcwmcwbxwj.objectstorage.sa-saopaulo-1.oci.customer-oci.com/n/grxcwmcwbxwj/b/cafirexos/o/logos%2Flogo.png', 'fantasy.jpg', cafirexos.trim(), fkontak, true, {
@@ -36,7 +35,7 @@ contextInfo: {
 externalAdReply: {
 showAdAttribution: true,
 renderLargerThumbnail: false,
-title: `🔵 C A F I R E X O S 🔵`,
+title: `🔵 CAFIREXOS 🔵`,
 body: `✅ HOSTING DE CALIDAD`,
 mediaType: 1,
 sourceUrl: accountsgb.getRandom(),
