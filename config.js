@@ -112,7 +112,7 @@ global.moment = moment
 // [ES] > Agregate a ti, colaboradores o ayudates, aparecerá en el comando de lista de contactos.
 // [EN] > Adding yourself, collaborators or helpers will appear in the contact list command.
 global.official = [ // Agregate si eres Owner
-["559285013050", '𝘽𝙞𝙜 𝙈𝙘 💻', 1], 
+["559285013050", '𝘽𝙞𝙜 𝙈𝙘 👨‍💻', 1], 
 ["559285013050", '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1],  
 ["559285013050", '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1],
 ["559285013050", '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿𝗮 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1],
@@ -124,7 +124,7 @@ global.desc2 = '' // Add long description (90 caractres max) (Este parámetro se
 global.country = '' // Add country, example: 🇪🇨
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
-global.packname = "𝐆𝐀𝐓𝐀-𝐌𝐃 🍷"
+global.packname = "𝐆𝐀𝐓𝐀-𝐌𝐃"
 global.author = "𝐁𝐈𝐆 𝐌𝐂"
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
@@ -133,7 +133,7 @@ global.author = "𝐁𝐈𝐆 𝐌𝐂"
 // [EN] > ACCOUNTS AND BOT VERSION INFORMATION, PLEASE KEEP THIS UNCHANGED, WE STRIVE DAILY TO PROVIDE YOU WITH A BOT FOR THE COMMUNITY, BE GRATEFUL
 global.vs = "1.7.0"
 global.vsJB = "2.5 (Beta)"
-global.gt = "🍷𝐆𝐀𝐓𝐀 𝐌𝐃🍷"
+global.gt = "𝐆𝐀𝐓𝐀 𝐌𝐃"
 
 global.yt = "https://youtube.com/@bigmc3430"
 global.yt2 = "https://youtube.com/@bigmc3430"
