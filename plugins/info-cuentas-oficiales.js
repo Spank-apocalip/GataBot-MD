@@ -1,4 +1,4 @@
-let media = 'https://telegra.ph/file/16afa62414d970ed642ae.mp4'
+let media = 'https://telegra.ph/file/f60423417a13dbcd22a5e.mp4'
 let handler = async (m, { conn, command }) => {
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 let str = `🇧🇷 𝑩𝑬𝑴𝑽𝑰𝑵𝑫𝑶(𝘼) 𝑨𝑺 𝑪𝑶𝑵𝑻𝑨𝑺 𝑶𝑭𝑰𝑪𝑰𝑨𝑰𝑺
