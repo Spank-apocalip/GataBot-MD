@@ -64,7 +64,7 @@ await conn.reply(m.chat, `${eg}🚀 𝐓𝐄𝐒𝐓𝐄 𝐃𝐄 𝐕𝐄𝐋�
 
 let neww = performance.now()
 let speed = neww - old
-let caption = `*${htki} 𝙑𝙀𝙇𝙊𝘾𝙄𝘿𝘼𝘿 : 𝙎𝙋𝙀𝙀𝘿 ${htka}*
+let caption = `*${htki} 𝐏𝐈𝐍𝐆 : 𝐒𝐏𝐄𝐄𝐃 ${htka}*
 
 🚄 *${Math.round(neww - old)}* ms
 🚄 *${speed}* ms
@@ -73,10 +73,10 @@ let caption = `*${htki} 𝙑𝙀𝙇𝙊𝘾𝙄𝘿𝘼𝘿 : 𝙎𝙋𝙀𝙀�
 ${muptime}
 ${readMore}
 *${htjava} 𝐂 𝐇 𝐀 𝐓 𝐒*
-• *${groupsIn.length}* \`\`\`𝐂𝐇𝐀𝐓𝐒 : 🇧🇷 🇱🇷\`\`\`
-• *${groupsIn.length}* \`\`\`𝐂𝐇𝐀𝐓𝐒 𝐔𝐍𝐈𝐃𝐎𝐒 : \`\`\`
-• *${groupsIn.length - groupsIn.length}* \`\`\`𝐂𝐇𝐀𝐓𝐒 𝐑𝐄𝐒𝐓𝐀𝐍𝐓 : 🚯 \`\`\`
-• *${chats.length - groupsIn.length}* \`\`\`𝐂𝐇𝐀𝐓𝐒 𝐏𝐑𝐈𝐕𝐀𝐃𝐎𝐒 : 🪐\`\`\`
+• *${groupsIn.length}* \`\`\`𝐂𝐇𝐀𝐓𝐒 𝐃𝐄 𝐆𝐑𝐏 :  🇱🇷\`\`\`
+• *${groupsIn.length}* \`\`\`𝐂𝐇𝐀𝐓𝐒 𝐔𝐍𝐈𝐃𝐎𝐒 : 🇧🇷 \`\`\`
+• *${groupsIn.length - groupsIn.length}* \`\`\`𝐂𝐇𝐀𝐓𝐒 𝐑𝐄𝐒𝐓𝐀𝐍𝐓 : 🇯🇲 \`\`\`
+• *${chats.length - groupsIn.length}* \`\`\`𝐂𝐇𝐀𝐓𝐒 𝐏𝐑𝐈𝐕𝐀𝐃𝐎𝐒 : 🏴‍☠️ \`\`\`
 • *${chats.length}* \`\`\`𝐓𝐎𝐓𝐀𝐋 𝐃𝐄 𝐂𝐇𝐀𝐓𝐒\`\`\`
 
 *${htjava} 𝐒𝐄𝐑𝐕𝐈𝐑𝐃𝐎𝐑 : 𝐒𝐄𝐑𝐕𝐄𝐑*
@@ -89,7 +89,7 @@ ${readMore}
 *𝐍𝐎𝐃𝐄𝐉𝐒 𝐔𝐒𝐎 𝐃𝐄 𝐌𝐄𝐌𝐎𝐑𝐈𝐀: 🖥️*
 ${'```' + Object.keys(used).map((key, _, arr) => `${key.padEnd(Math.max(...arr.map(v => v.length)), ' ')}: ${format(used[key])}`).join('\n') + '```'}
 
-${cpus[0] ? `*𝐔𝐒𝐎 𝐓𝐎𝐓𝐀𝐋 𝐃𝐀 𝐂𝐏𝐔*
+${cpus[0] ? `*𝐔𝐒𝐎 𝐃𝐀 𝐂𝐏𝐔*
 ${cpus[0].model.trim()} (${cpu.speed} MHZ)\n${Object.keys(cpu.times).map(type => `- *${(type + '*').padEnd(6)}: ${(100 * cpu.times[type] / cpu.total).toFixed(2)}%`).join('\n')}
 
 *CPU Core(s) Uso (${cpus.length} Core CPU)*
