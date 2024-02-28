@@ -73,10 +73,10 @@ let caption = `*${htki} 𝙑𝙀𝙇𝙊𝘾𝙄𝘿𝘼𝘿 : 𝙎𝙋𝙀𝙀�
 ${muptime}
 ${readMore}
 *${htjava} C H A T S*
-• *${groupsIn.length}* \`\`\`GRUPALES : 𝐆𝐑𝐔𝐏𝐎𝐒\`\`\`
-• *${groupsIn.length}* \`\`\`𝐆𝐑𝐔𝐏𝐎𝐒 UNIDOS : Join Groups\`\`\`
-• *${groupsIn.length - groupsIn.length}* \`\`\`𝐆𝐑𝐔𝐏𝐎𝐒 RESTANTES : 𝐆𝐑𝐔𝐏𝐎𝐒 LEFT\`\`\`
-• *${chats.length - groupsIn.length}* \`\`\`CHATS PRIVADOS : CHATS PRIV\`\`\`
+• *${groupsIn.length}* \`\`\`𝐆𝐑𝐔𝐏𝐎𝐒 : 🧞\`\`\`
+• *${groupsIn.length}* \`\`\`𝐆𝐑𝐔𝐏𝐎𝐒 UNIDOS : 🤝\`\`\`
+• *${groupsIn.length - groupsIn.length}* \`\`\`𝐆𝐑𝐔𝐏𝐎𝐒 RESTANTES : 🚯 \`\`\`
+• *${chats.length - groupsIn.length}* \`\`\`𝐂𝐇𝐀𝐓 PRIVADOS : 🪤\`\`\`
 • *${chats.length}* \`\`\`TOTAL CHATS\`\`\`
 
 *${htjava} S E R V I D O R : S E R V E R*
@@ -86,7 +86,7 @@ ${readMore}
 *💻 PLATAFORMA :* \`\`\`${os.platform()}\`\`\`
 *📡 SERVIDOR :* _${os.hostname()}_
 ${readMore}
-*NodeJS Uso de memoria : Memory Usage*
+*NODEJS USO DE MEMORIA : 🤖*
 ${'```' + Object.keys(used).map((key, _, arr) => `${key.padEnd(Math.max(...arr.map(v => v.length)), ' ')}: ${format(used[key])}`).join('\n') + '```'}
 
 ${cpus[0] ? `*Uso total de la CPU*
