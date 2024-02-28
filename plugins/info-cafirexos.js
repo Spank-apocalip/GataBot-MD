@@ -3,31 +3,31 @@ let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status
 let cafirexos = `
 _Optimice la implementación de *GataBot* mediante la integración en un servicio de alojamiento de alto rendimiento._
 
-*🐈 Compatible con GataBot*
+*🐈 COMPATIBLE CON GATABOT*
 Aprovecha la compatibilidad y comienza usar GataBot en servidores de alto rendimiento. El Staff de GataBot y Cafirexos hacen posible que puedas ejecutar las funciones que tanto te gusta usar sintiendo una experiencia fluida y de calidad.
 
-🔵 \`\`\`Información del Host\`\`\`
+🔵 \`\`\`INFORMAÇAO DE HOSPEDAR\`\`\`
 
-💻 *Página*
+💻 *PÁGINA*
 https://www.cafirexos.com
 
-✨ *Dashboard*
+✨ *DASHBOARD*
 https://dash.cafirexos.com
 
-⚙️ *Panel*
+⚙️ *PANEL*
 https://panel.cafirexos.com
 
-📢 *Canal de WhatsApp*
+📢 *COMUNIDADE DO WHATSAPP*
 https://whatsapp.com/channel/0029VaFVSkRCMY0KFmCMDX2q
 
-💥 *Grupo de WhatsApp*
-https://chat.whatsapp.com/FBtyc8Q5w2iJXVl5zGJdFJ
+💥 *GRUPO DE WHATSAPP*
+https://chat.whatsapp.com/JaUNnmo748G1Se2NaJ0A7f
 
-📧 *Correo*
-contacto@cafirexos.com
+📧 *CORREO*
+contacto@1bigmc.com
 
-🧑‍💻 *Contacto (Diego Flores)*
-https://wa.me/50497150165
+🧑‍💻 *CONTACTO (BIG MC)*
+https://wa.me/559285013050
 `
 await conn.sendFile(m.chat, 'https://grxcwmcwbxwj.objectstorage.sa-saopaulo-1.oci.customer-oci.com/n/grxcwmcwbxwj/b/cafirexos/o/logos%2Flogo.png', 'fantasy.jpg', cafirexos.trim(), fkontak, true, {
 contextInfo: {
@@ -37,7 +37,7 @@ externalAdReply: {
 showAdAttribution: true,
 renderLargerThumbnail: false,
 title: `🔵 C A F I R E X O S 🔵`,
-body: `✅ Hosting de Calidad`,
+body: `✅ HOSTING DE CALIDAD`,
 mediaType: 1,
 sourceUrl: accountsgb.getRandom(),
 thumbnailUrl: 'https://grxcwmcwbxwj.objectstorage.sa-saopaulo-1.oci.customer-oci.com/n/grxcwmcwbxwj/b/cafirexos/o/logos%2Flogo_2.png'
