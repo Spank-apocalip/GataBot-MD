@@ -142,7 +142,7 @@ global.md = "https://github.com/1bigmc/GataBot-MD"
 global.fb = "https://www.facebook.com/profile.php?id=100088294005061"
 global.tk = "https://www.tiktok.com/@big.edits.ofc?"
 global.ths = "https://www.threads.net/@gata_dios"
-global.paypal = 'https://paypal.me/OficialGD'
+global.paypal = 'https://www.paypal.com/donate/?business=78FPL4B2RETJQ&amount=10&no_recurring=0&currency_code=BRL'
 global.asistencia = 'https://wa.me/qr/X7SMHMQZL25UL1' //Contacto
 global.bot = 'wa.me/5559285013050\n* wa.me/559285013050' //𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 𝙊𝙛𝙞𝙘𝙞𝙖𝙡 💖🐈
 
