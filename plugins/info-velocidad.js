@@ -59,7 +59,7 @@ irq: 0
 }})
 
 let old = performance.now()
-await conn.reply(m.chat, `${eg}🚀 𝐓𝐄𝐒𝐓𝐄 𝐃𝐄 𝐕𝐄𝐋𝐎𝐂𝐈𝐃𝐀𝐃𝐄...\n🚀 𝙎𝙋𝙀𝙀𝘿 𝙏𝙀𝙎𝙏...`, fkontak, {contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: ' 😻 𝗦𝘂𝗽𝗲𝗿 𝗚𝗮𝘁𝗮𝗕𝗼𝘁-𝗠𝗗 - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 ', previewType: 0, thumbnail: gataImg.getRandom(), sourceUrl: accountsgb.getRandom()}}})
+await conn.reply(m.chat, `${eg}🚀 𝐓𝐄𝐒𝐓𝐄 𝐃𝐄 𝐕𝐄𝐋𝐎𝐂𝐈𝐃𝐀𝐃𝐄...\n🚀 𝐒𝐏𝐄𝐄𝐃 𝐓𝐄𝐒𝐓...`, fkontak, {contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: ' 😻 𝗦𝘂𝗽𝗲𝗿 𝗚𝗮𝘁𝗮𝗕𝗼𝘁-𝗠𝗗 - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 ', previewType: 0, thumbnail: gataImg.getRandom(), sourceUrl: accountsgb.getRandom()}}})
 //await conn.sendButton(m.chat, wm, `${eg}🚀 𝙋𝙍𝙐𝙀𝘽𝘼 𝘿𝙀 𝙑𝙀𝙇𝙊𝘾𝙄𝘿𝘼𝘿...\n🚀 𝙎𝙋𝙀𝙀𝘿 𝙏𝙀𝙎𝙏...`, null, [['𝗠 𝗘 𝗡 𝗨 ☘️', '/menu']], fkontak, m)  
 
 let neww = performance.now()
@@ -72,24 +72,24 @@ let caption = `*${htki} 𝙑𝙀𝙇𝙊𝘾𝙄𝘿𝘼𝘿 : 𝙎𝙋𝙀𝙀�
 *${htjava}* 𝐓𝐄𝐌𝐏𝐎 𝐃𝐄 𝐄𝐗𝐄𝐂𝐔𝐂𝐀𝐎 : 💻 
 ${muptime}
 ${readMore}
-*${htjava} C H A T S*
-• *${groupsIn.length}* \`\`\`𝐆𝐑𝐔𝐏𝐎𝐒 : 🌍\`\`\`
-• *${groupsIn.length}* \`\`\`𝐆𝐑𝐔𝐏𝐎𝐒 𝐔𝐍𝐈𝐃𝐎𝐒 : 🤝\`\`\`
-• *${groupsIn.length - groupsIn.length}* \`\`\`𝐂𝐇𝐀𝐓 𝐑𝐄𝐒𝐓𝐀𝐍𝐓 : 🚯 \`\`\`
-• *${chats.length - groupsIn.length}* \`\`\`𝐂𝐇𝐀𝐓 𝐏𝐑𝐈𝐕𝐀𝐃𝐎𝐒 : 🪐\`\`\`
+*${htjava} 𝐂 𝐇 𝐀 𝐓 𝐒*
+• *${groupsIn.length}* \`\`\`𝐂𝐇𝐀𝐓𝐒 : 🇧🇷 🇱🇷\`\`\`
+• *${groupsIn.length}* \`\`\`𝐂𝐇𝐀𝐓𝐒 𝐔𝐍𝐈𝐃𝐎𝐒 : \`\`\`
+• *${groupsIn.length - groupsIn.length}* \`\`\`𝐂𝐇𝐀𝐓𝐒 𝐑𝐄𝐒𝐓𝐀𝐍𝐓 : 🚯 \`\`\`
+• *${chats.length - groupsIn.length}* \`\`\`𝐂𝐇𝐀𝐓𝐒 𝐏𝐑𝐈𝐕𝐀𝐃𝐎𝐒 : 🪐\`\`\`
 • *${chats.length}* \`\`\`𝐓𝐎𝐓𝐀𝐋 𝐃𝐄 𝐂𝐇𝐀𝐓𝐒\`\`\`
 
-*${htjava} S E R V I D O R : S E R V E R*
-*🎱 RAM DISPO:* ${format(totalmem() - freemem())} / ${format(totalmem())}
-*🎱 RAM LIVRE:* ${format(freemem())}
+*${htjava} 𝐒𝐄𝐑𝐕𝐈𝐑𝐃𝐎𝐑 : 𝐒𝐄𝐑𝐕𝐄𝐑*
+*👨‍💻 𝐑𝐀𝐌 𝐃𝐈𝐒𝐏𝐎:* ${format(totalmem() - freemem())} / ${format(totalmem())}
+*👨‍💻 𝐑𝐀𝐌 𝐋𝐈𝐕𝐑𝐄:* ${format(freemem())}
 
-*💻 PLATAFORMA :* \`\`\`${os.platform()}\`\`\`
-*📡 SERVIDOR :* _${os.hostname()}_
+*💻 𝐏𝐋𝐀𝐓𝐀𝐅𝐎𝐑𝐌𝐀 :* \`\`\`${os.platform()}\`\`\`
+*📡 𝐒𝐄𝐑𝐕𝐈𝐑𝐃𝐎 :* _${os.hostname()}_
 ${readMore}
-*NODEJS USO DE MEMORIA : 🤖*
+*𝐍𝐎𝐃𝐄𝐉𝐒 𝐔𝐒𝐎 𝐃𝐄 𝐌𝐄𝐌𝐎𝐑𝐈𝐀: 🖥️*
 ${'```' + Object.keys(used).map((key, _, arr) => `${key.padEnd(Math.max(...arr.map(v => v.length)), ' ')}: ${format(used[key])}`).join('\n') + '```'}
 
-${cpus[0] ? `*Uso total de la CPU*
+${cpus[0] ? `*𝐔𝐒𝐎 𝐓𝐎𝐓𝐀𝐋 𝐃𝐀 𝐂𝐏𝐔*
 ${cpus[0].model.trim()} (${cpu.speed} MHZ)\n${Object.keys(cpu.times).map(type => `- *${(type + '*').padEnd(6)}: ${(100 * cpu.times[type] / cpu.total).toFixed(2)}%`).join('\n')}
 
 *CPU Core(s) Uso (${cpus.length} Core CPU)*
@@ -113,5 +113,5 @@ function clockString(ms) {
   let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000) % 24
   let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
   let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
-  return [' ' + d, ' *DIAS :  ☀️*\n ', h, ' *HORAS :  🕐*\n ', m, ' *MINUTOS :  ⏰*\n ', s, ' *SEGUNDOS :  ⏱️* '].map(v => v.toString().padStart(2, 0)).join('')
+  return [' ' + d, ' *𝐃𝐈𝐀𝐒 :  ☀️*\n ', h, ' *𝐇𝐎𝐑𝐀𝐒 :  🕐*\n ', m, ' *𝐌𝐈𝐍𝐔𝐓𝐎𝐒 :  ⏰*\n ', s, ' *𝐒𝐄𝐆𝐔𝐍𝐃𝐎𝐒 :  ⏱️* '].map(v => v.toString().padStart(2, 0)).join('')
 }
