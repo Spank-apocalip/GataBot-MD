@@ -47,42 +47,42 @@ if (command == 'addprem' || command == 'userpremium') {
 if (now < user.premiumTime) user.premiumTime += hora1
 else user.premiumTime = now + hora1
 user.premium = true
-conn.reply(m.chat,  `*🎟️ 𝙐𝙎𝙏𝙀𝘿 𝘼𝙃𝙊𝙍𝘼 𝙀𝙎 𝙋𝙍𝙀𝙈𝙄𝙐𝙈!!!*
+conn.reply(m.chat,  `*🎟️ 𝐕𝐎𝐂𝐄̂ 𝐀𝐆𝐎𝐑𝐀 𝐄 𝐏𝐑𝐄𝐌𝐈𝐔𝐌!!!*
 
-*✨ 𝙉𝙊𝙈𝘽𝙍𝙀 : 𝙐𝙎𝙀𝙍 » ${name}*
-*🕐 𝙏𝙄𝙀𝙈𝙋𝙊 : 𝙏𝙄𝙈𝙀 »* ${msToTime(hora1 - new Date())}
-*📉 𝙏𝙄𝙈𝙀𝙍 » ${user.premiumTime - now} seg*`, m, {contextInfo: {mentionedJid: conn.parseMention(name)}})}
+*🥷 𝐍𝐎𝐌𝐄» ${name}*
+*🕐 𝐓𝐄𝐌𝐏𝐎 : 𝐓𝐈𝐌𝐄 »* ${msToTime(hora1 - new Date())}
+*📉 𝐓𝐈𝐌𝐄𝐑 » ${user.premiumTime - now} seg*`, m, {contextInfo: {mentionedJid: conn.parseMention(name)}})}
     
 if (command == 'addprem2' || command == 'userpremium2') {
 if (now < user.premiumTime) user.premiumTime += dia1
 else user.premiumTime = now + dia1
 user.premium = true
-conn.reply(m.chat,  `*🎟️ 𝙐𝙎𝙏𝙀𝘿 𝘼𝙃𝙊𝙍𝘼 𝙀𝙎 𝙋𝙍𝙀𝙈𝙄𝙐𝙈!!!*
+conn.reply(m.chat,  `*🎟️ 𝐕𝐎𝐂𝐄̂ 𝐀𝐆𝐎𝐑𝐀 𝐄 𝐏𝐑𝐄𝐌𝐈𝐔𝐌!!!*
 
-*✨ 𝙉𝙊𝙈𝘽𝙍𝙀 : 𝙐𝙎𝙀𝙍 » ${name}*
-*🕐 𝙏𝙄𝙀𝙈𝙋𝙊 : 𝙏𝙄𝙈𝙀 » ${msToTime(dias1 - new Date())}*
-*📉 𝙏𝙄𝙈𝙀𝙍 » ${user.premiumTime - now} seg*`, m, {contextInfo: {mentionedJid: conn.parseMention(name)}})}
+*🥷 𝐍𝐎𝐌𝐄 : 𝐔𝐒𝐄𝐑 » ${name}*
+*🕐 𝐓𝐄𝐌𝐏𝐎 : 𝐓𝐈𝐌𝐄 » ${msToTime(dias1 - new Date())}*
+*📉 𝐓𝐈𝐌𝐄𝐑 » ${user.premiumTime - now} seg*`, m, {contextInfo: {mentionedJid: conn.parseMention(name)}})}
 
 if (command == 'addprem3' || command == 'userpremium3') {
 if (now < user.premiumTime) user.premiumTime += semana1
 else user.premiumTime = now + semana1
 user.premium = true
-conn.reply(m.chat,  `*🎟️ 𝙐𝙎𝙏𝙀𝘿 𝘼𝙃𝙊𝙍𝘼 𝙀𝙎 𝙋𝙍𝙀𝙈𝙄𝙐𝙈!!!*
+conn.reply(m.chat,  `*🎟️ 𝐕𝐎𝐂𝐄̂ 𝐀𝐆𝐎𝐑𝐀 𝐄 𝐏𝐑𝐄𝐌𝐈𝐔𝐌!!!*
 
-*✨ 𝙉𝙊𝙈𝘽𝙍𝙀 : 𝙐𝙎𝙀𝙍 » ${name}*
-*🕐 𝙏𝙄𝙀𝙈𝙋𝙊 : 𝙏𝙄𝙈𝙀 » ${msToTime(semana1 - new Date())}*
-*📉 𝙏𝙄𝙈𝙀𝙍 » ${user.premiumTime - now} seg*`, m, {contextInfo: {mentionedJid: conn.parseMention(name)}})}
+*🥷 𝐍𝐎𝐌𝐄 : 𝐔𝐒𝐄𝐑 » ${name}*
+*🕐 𝐓𝐄𝐌𝐏𝐎 : 𝐓𝐈𝐌𝐄 » ${msToTime(semana1 - new Date())}*
+*📉 𝐓𝐈𝐌𝐄𝐑 » ${user.premiumTime - now} seg*`, m, {contextInfo: {mentionedJid: conn.parseMention(name)}})}
 
   
 if (command == 'addprem4' || command == 'userpremium4') {
 if (now < user.premiumTime) user.premiumTime += mes1
 else user.premiumTime = now + mes1
 user.premium = true
-conn.reply(m.chat,  `*🎟️ 𝙐𝙎𝙏𝙀𝘿 𝘼𝙃𝙊𝙍𝘼 𝙀𝙎 𝙋𝙍𝙀𝙈𝙄𝙐𝙈!!!*
+conn.reply(m.chat,  `*🎟️ 𝐕𝐎𝐂𝐄̂ 𝐀𝐆𝐎𝐑𝐀 𝐄 𝐏𝐑𝐄𝐌𝐈𝐔𝐌!!!*
 
-*✨ 𝙉𝙊𝙈𝘽𝙍𝙀 : 𝙐𝙎𝙀𝙍 » ${name}*
-*🕐 𝙏𝙄𝙀𝙈𝙋𝙊 : 𝙏𝙄𝙈𝙀 » ${msToTime(mes1 - new Date())}*
-*📉 𝙏𝙄𝙈𝙀𝙍 » ${user.premiumTime - now} seg*`, m, {contextInfo: {mentionedJid: conn.parseMention(name)}})}
+*🥷 𝐍𝐎𝐌𝐄 : 𝐔𝐒𝐄𝐑 » ${name}*
+*🕐 𝐓𝐄𝐌𝐏𝐎 : 𝐓𝐈𝐌𝐄 » ${msToTime(mes1 - new Date())}*
+*📉 𝐓𝐈𝐌𝐄𝐑 » ${user.premiumTime - now} seg*`, m, {contextInfo: {mentionedJid: conn.parseMention(name)}})}
 }
 handler.help = ['addprem [@user] <days>']
 handler.tags = ['owner']
