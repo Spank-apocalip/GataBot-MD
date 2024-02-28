@@ -139,7 +139,7 @@ global.yt = "https://youtube.com/@bigmc3430"
 global.yt2 = "https://youtube.com/@bigmc3430"
 global.ig = "https://www.instagram.com/1bigmc"
 global.md = "https://github.com/1bigmc/GataBot-MD"
-global.fb = "https://www.facebook.com/big.edits.ofc"
+global.fb = "https://www.facebook.com/profile.php?id=100088294005061"
 global.tk = "https://www.tiktok.com/@big.edits.ofc?"
 global.ths = "https://www.threads.net/@gata_dios"
 global.paypal = 'https://paypal.me/OficialGD'
