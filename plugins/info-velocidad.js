@@ -69,15 +69,15 @@ let caption = `*${htki} 𝙑𝙀𝙇𝙊𝘾𝙄𝘿𝘼𝘿 : 𝙎𝙋𝙀𝙀�
 🚄 *${Math.round(neww - old)}* ms
 🚄 *${speed}* ms
 
-*${htjava}* 𝐓𝐄𝐌𝐏𝐎 𝐃𝐄 𝐄𝐗𝐄𝐂𝐔𝐂𝐀𝐎 : 𝙍𝙐𝙉𝙏𝙄𝙈𝙀 
+*${htjava}* 𝐓𝐄𝐌𝐏𝐎 𝐃𝐄 𝐄𝐗𝐄𝐂𝐔𝐂𝐀𝐎 : 💻 
 ${muptime}
 ${readMore}
 *${htjava} C H A T S*
-• *${groupsIn.length}* \`\`\`𝐆𝐑𝐔𝐏𝐎𝐒 : 🧞\`\`\`
-• *${groupsIn.length}* \`\`\`𝐆𝐑𝐔𝐏𝐎𝐒 UNIDOS : 🤝\`\`\`
-• *${groupsIn.length - groupsIn.length}* \`\`\`𝐆𝐑𝐔𝐏𝐎𝐒 RESTANTES : 🚯 \`\`\`
-• *${chats.length - groupsIn.length}* \`\`\`𝐂𝐇𝐀𝐓 PRIVADOS : 🪤\`\`\`
-• *${chats.length}* \`\`\`TOTAL CHATS\`\`\`
+• *${groupsIn.length}* \`\`\`𝐆𝐑𝐔𝐏𝐎𝐒 : 🌍\`\`\`
+• *${groupsIn.length}* \`\`\`𝐆𝐑𝐔𝐏𝐎𝐒 𝐔𝐍𝐈𝐃𝐎𝐒 : 🤝\`\`\`
+• *${groupsIn.length - groupsIn.length}* \`\`\`𝐂𝐇𝐀𝐓 𝐑𝐄𝐒𝐓𝐀𝐍𝐓 : 🚯 \`\`\`
+• *${chats.length - groupsIn.length}* \`\`\`𝐂𝐇𝐀𝐓 𝐏𝐑𝐈𝐕𝐀𝐃𝐎𝐒 : 🪐\`\`\`
+• *${chats.length}* \`\`\`𝐓𝐎𝐓𝐀𝐋 𝐃𝐄 𝐂𝐇𝐀𝐓𝐒\`\`\`
 
 *${htjava} S E R V I D O R : S E R V E R*
 *🎱 RAM DISPO:* ${format(totalmem() - freemem())} / ${format(totalmem())}
@@ -113,5 +113,5 @@ function clockString(ms) {
   let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000) % 24
   let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
   let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
-  return [' ' + d, ' *DÍAS : DAYS ☀️*\n ', h, ' *HORAS : HOURS 🕐*\n ', m, ' *MINUTO : MINUTE ⏰*\n ', s, ' *SEGUNDO : SECOND ⏱️* '].map(v => v.toString().padStart(2, 0)).join('')
+  return [' ' + d, ' *DIAS :  ☀️*\n ', h, ' *HORAS :  🕐*\n ', m, ' *MINUTOS :  ⏰*\n ', s, ' *SEGUNDOS :  ⏱️* '].map(v => v.toString().padStart(2, 0)).join('')
 }
