@@ -14,7 +14,7 @@ https://www.cafirexos.com
 https://dash.cafirexos.com
 
 🎥 *𝐘𝐎𝐓𝐔𝐁𝐄*
-https://panel.cafirexos.com
+https://youtube.com/@bigmc3430
 
 📢 *𝐂𝐎𝐌𝐌𝐔𝐍𝐘𝐓 𝐁𝐈𝐆 𝐒𝐏𝐘*
 https://chat.whatsapp.com/CqPaNu7j9tv8kIVYJ23TgI
