@@ -1,7 +1,7 @@
 let handler = async (m, { conn, command, usedPrefix }) => {
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 let cafirexos = `
-_Optimice la implementación de *GataBot* mediante la integración en un servicio de alojamiento de alto rendimiento._
+_𝐒𝐄 𝐓𝐈𝐕𝐄𝐑 𝐀𝐋𝐆𝐔𝐌𝐀 𝐃𝐔𝐕𝐈𝐃𝐀 𝐄𝐒𝐓𝐀𝐑𝐄𝐈 𝐀𝐎 𝐒𝐄𝐔 𝐃𝐈𝐒𝐏𝐎._
 
 *𝐆𝐀𝐓𝐀 𝐁𝐎𝐓 𝐌𝐃*
 
@@ -35,8 +35,8 @@ contextInfo: {
 externalAdReply: {
 showAdAttribution: true,
 renderLargerThumbnail: false,
-title: `🔵 CAFIREXOS 🔵`,
-body: `✅ HOSTING DE CALIDAD`,
+title: `🔵 𝐂𝐀𝐅𝐈𝐑𝐄𝐗𝐎𝐒 🔵`,
+body: `✅ HOSTING 𝐃𝐄 CALIDAD`,
 mediaType: 1,
 sourceUrl: accountsgb.getRandom(),
 thumbnailUrl: 'https://grxcwmcwbxwj.objectstorage.sa-saopaulo-1.oci.customer-oci.com/n/grxcwmcwbxwj/b/cafirexos/o/logos%2Flogo_2.png'
