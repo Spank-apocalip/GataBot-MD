@@ -1,7 +1,7 @@
 let handler = async (m, { conn, command, usedPrefix }) => {
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 let cafirexos = `
-_𝐒𝐄 𝐓𝐈𝐕𝐄𝐑 𝐀𝐋𝐆𝐔𝐌𝐀 𝐃𝐔𝐕𝐈𝐃𝐀 𝐄𝐒𝐓𝐀𝐑𝐄𝐈 𝐀𝐎 𝐒𝐄𝐔 𝐃𝐈𝐒𝐏𝐎._
+_𝐃𝐔𝐕𝐈𝐃𝐀𝐒🤔? 𝐄𝐒𝐓𝐀𝐑𝐄𝐈 𝐀𝐎 𝐒𝐄𝐔 𝐃𝐈𝐒𝐏𝐎𝐑🕵️‍♀️._
 
 *𝐆𝐀𝐓𝐀 𝐁𝐎𝐓 𝐌𝐃*
 
