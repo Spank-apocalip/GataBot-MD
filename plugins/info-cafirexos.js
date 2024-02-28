@@ -18,7 +18,7 @@ https://dash.cafirexos.com
 https://panel.cafirexos.com
 
 📢 *COMUNIDADE DO WHATSAPP*
-https://whatsapp.com/channel/0029VaFVSkRCMY0KFmCMDX2q
+https://chat.whatsapp.com/CqPaNu7j9tv8kIVYJ23TgI
 
 💥 *GRUPO DE WHATSAPP*
 https://chat.whatsapp.com/JaUNnmo748G1Se2NaJ0A7f
