@@ -2,25 +2,25 @@ let media = 'https://telegra.ph/file/f60423417a13dbcd22a5e.mp4'
 let handler = async (m, { conn, command }) => {
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 let str = `🇧🇷 𝑩𝑬𝑴𝑽𝑰𝑵𝑫𝑶(𝘼) 𝑨𝑺 𝑪𝑶𝑵𝑻𝑨𝑺 𝑶𝑭𝑰𝑪𝑰𝑨𝑰𝑺
-🇱🇷 𝙒𝙀𝙇𝘾𝙊𝙈𝙀 𝙏𝙊 𝙏𝙃𝙀 𝙊𝙁𝙁𝙄𝘾𝙄𝘼𝙇 𝘼𝘾𝘾𝙊𝙐𝙉𝙏𝙎
+🇱🇷 𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐓𝐎 𝐓𝐇𝐄 𝐎𝐅𝐅𝐈𝐂𝐈𝐀𝐋 𝐀𝐂𝐂𝐎𝐔𝐍𝐓𝐒
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 🤖 𝑮𝑨𝑻𝑨𝑩𝑶𝑻-𝑴𝑫 🤖
 ${bot}
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-✅ *GITHUB*
+✅ *𝐆𝐈𝐑𝐇𝐔𝐁𝐄*
 *${md}*
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-✅ *INSTAGRAM - ASISTENCIA*
+✅ *𝐈𝐍𝐒𝐓𝐀 - 𝐀𝐒𝐈𝐒𝐓𝐄𝐍𝐂𝐈𝐀*
 *${ig}*
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-✅ *YOUTUBE*
+✅ *𝐘𝐎𝐔𝐓𝐔𝐁𝐄*
 *${yt}*
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-✅ *FACEBOOK*
+✅ *𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊*
 *${fb}*
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-*Si tienen dudas, sugerencias, o preguntas solo escriban por Instagram.*\n
-*If you have doubts, suggestions or questions just write on Instagram.*`
+*𝐒𝐄 𝐓𝐈𝐕𝐄𝐑, 𝐒𝐔𝐆𝐄𝐒𝐓𝐎̃𝐄𝐒 𝐎𝐔 𝐃𝐔𝐕𝐈𝐃𝐀𝐒 𝐂𝐎𝐍𝐓𝐀𝐓 𝐌𝐄𝐔 𝐃𝐎𝐍𝐎.*\n
+* 𝐁𝐈𝐆 𝐌𝐂 𝐎𝐅𝐂.*`
 await conn.sendFile(m.chat, media, 'gata.mp4', str, fkontak)}
 /*conn.sendHydrated(m.chat, str, wm, media, 'https://github.com/GataNina-Li/GataBot-MD', '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿', null, null, [
 ['𝙂𝙧𝙪𝙥𝙤𝙨 𝙊𝙛𝙞𝙘𝙞𝙖𝙡𝙚𝙨 | 𝙂𝙧𝙤𝙪𝙥𝙨 🔰', '.grupos'],
