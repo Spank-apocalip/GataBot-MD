@@ -35,8 +35,8 @@ contextInfo: {
 externalAdReply: {
 showAdAttribution: true,
 renderLargerThumbnail: false,
-title: `🔵 𝐂𝐀𝐅𝐈𝐑𝐄𝐗𝐎𝐒 🔵`,
-body: `✅ HOSTING 𝐃𝐄 CALIDAD`,
+title: `🔵 𝐂 𝐀 𝐅 𝐈 𝐑 𝐄 𝐗 𝐎 𝐒 🔵`,
+body: `✅ 𝐐𝐔𝐀𝐋𝐈𝐃𝐀𝐃𝐄 𝐃𝐄 𝐇𝐎𝐒𝐏𝐄𝐃𝐀𝐆𝐄𝐌`,
 mediaType: 1,
 sourceUrl: accountsgb.getRandom(),
 thumbnailUrl: 'https://grxcwmcwbxwj.objectstorage.sa-saopaulo-1.oci.customer-oci.com/n/grxcwmcwbxwj/b/cafirexos/o/logos%2Flogo_2.png'
