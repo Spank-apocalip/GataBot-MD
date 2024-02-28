@@ -59,7 +59,7 @@ irq: 0
 }})
 
 let old = performance.now()
-await conn.reply(m.chat, `${eg}🚀 𝙋𝙍𝙐𝙀𝘽𝘼 𝘿𝙀 𝙑𝙀𝙇𝙊𝘾𝙄𝘿𝘼𝘿...\n🚀 𝙎𝙋𝙀𝙀𝘿 𝙏𝙀𝙎𝙏...`, fkontak, {contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: ' 😻 𝗦𝘂𝗽𝗲𝗿 𝗚𝗮𝘁𝗮𝗕𝗼𝘁-𝗠𝗗 - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 ', previewType: 0, thumbnail: gataImg.getRandom(), sourceUrl: accountsgb.getRandom()}}})
+await conn.reply(m.chat, `${eg}🚀 𝐓𝐄𝐒𝐓𝐄 𝐃𝐄 𝐕𝐄𝐋𝐎𝐂𝐈𝐃𝐀𝐃𝐄...\n🚀 𝙎𝙋𝙀𝙀𝘿 𝙏𝙀𝙎𝙏...`, fkontak, {contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: ' 😻 𝗦𝘂𝗽𝗲𝗿 𝗚𝗮𝘁𝗮𝗕𝗼𝘁-𝗠𝗗 - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 ', previewType: 0, thumbnail: gataImg.getRandom(), sourceUrl: accountsgb.getRandom()}}})
 //await conn.sendButton(m.chat, wm, `${eg}🚀 𝙋𝙍𝙐𝙀𝘽𝘼 𝘿𝙀 𝙑𝙀𝙇𝙊𝘾𝙄𝘿𝘼𝘿...\n🚀 𝙎𝙋𝙀𝙀𝘿 𝙏𝙀𝙎𝙏...`, null, [['𝗠 𝗘 𝗡 𝗨 ☘️', '/menu']], fkontak, m)  
 
 let neww = performance.now()
@@ -69,22 +69,22 @@ let caption = `*${htki} 𝙑𝙀𝙇𝙊𝘾𝙄𝘿𝘼𝘿 : 𝙎𝙋𝙀𝙀�
 🚄 *${Math.round(neww - old)}* ms
 🚄 *${speed}* ms
 
-*${htjava}* 𝙏𝙄𝙀𝙈𝙋𝙊 𝘿𝙀 𝙀𝙅𝙀𝘾𝙐𝘾𝙄𝙊𝙉 : 𝙍𝙐𝙉𝙏𝙄𝙈𝙀 
+*${htjava}* 𝐓𝐄𝐌𝐏𝐎 𝐃𝐄 𝐄𝐗𝐄𝐂𝐔𝐂𝐀𝐎 : 𝙍𝙐𝙉𝙏𝙄𝙈𝙀 
 ${muptime}
 ${readMore}
 *${htjava} C H A T S*
-• *${groupsIn.length}* \`\`\`Grupales : Groups\`\`\`
-• *${groupsIn.length}* \`\`\`Grupos Unidos : Join Groups\`\`\`
-• *${groupsIn.length - groupsIn.length}* \`\`\`Grupos Restantes : Groups Left\`\`\`
-• *${chats.length - groupsIn.length}* \`\`\`Chats Privados : Chats Private\`\`\`
-• *${chats.length}* \`\`\`Total Chats\`\`\`
+• *${groupsIn.length}* \`\`\`GRUPALES : 𝐆𝐑𝐔𝐏𝐎𝐒\`\`\`
+• *${groupsIn.length}* \`\`\`𝐆𝐑𝐔𝐏𝐎𝐒 UNIDOS : Join Groups\`\`\`
+• *${groupsIn.length - groupsIn.length}* \`\`\`𝐆𝐑𝐔𝐏𝐎𝐒 RESTANTES : 𝐆𝐑𝐔𝐏𝐎𝐒 LEFT\`\`\`
+• *${chats.length - groupsIn.length}* \`\`\`CHATS PRIVADOS : CHATS PRIV\`\`\`
+• *${chats.length}* \`\`\`TOTAL CHATS\`\`\`
 
 *${htjava} S E R V I D O R : S E R V E R*
-*🟢 RAM:* ${format(totalmem() - freemem())} / ${format(totalmem())}
-*🔵 RAM Libre:* ${format(freemem())}
+*🎱 RAM DISPO:* ${format(totalmem() - freemem())} / ${format(totalmem())}
+*🎱 RAM LIVRE:* ${format(freemem())}
 
-*💻 Plataforma :* \`\`\`${os.platform()}\`\`\`
-*📡 Servidor :* _${os.hostname()}_
+*💻 PLATAFORMA :* \`\`\`${os.platform()}\`\`\`
+*📡 SERVIDOR :* _${os.hostname()}_
 ${readMore}
 *NodeJS Uso de memoria : Memory Usage*
 ${'```' + Object.keys(used).map((key, _, arr) => `${key.padEnd(Math.max(...arr.map(v => v.length)), ' ')}: ${format(used[key])}`).join('\n') + '```'}
@@ -94,7 +94,7 @@ ${cpus[0].model.trim()} (${cpu.speed} MHZ)\n${Object.keys(cpu.times).map(type =>
 
 *CPU Core(s) Uso (${cpus.length} Core CPU)*
 ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Object.keys(cpu.times).map(type => `- *${(type + '*').padEnd(6)}: ${(100 * cpu.times[type] / cpu.total).toFixed(2)}%`).join('\n')}`).join('\n\n')}` : ''}`
-await conn.sendFile(m.chat, gataImg.getRandom(), 'pp.jpg', caption, fkontak, false, { contextInfo: {externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: ' 😻 𝗦𝘂𝗽𝗲𝗿 𝗚𝗮𝘁𝗮𝗕𝗼𝘁-𝗠𝗗 - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 ', previewType: 0, thumbnail: gataImg.getRandom(), sourceUrl: accountsgb.getRandom()}}})
+await conn.sendFile(m.chat, gataImg.getRandom(), 'pp.jpg', caption, fkontak, false, { contextInfo: {externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: ' 😼 𝗦𝘂𝗽𝗲𝗿 𝗚𝗮𝘁𝗮𝗕𝗼𝘁-𝗠𝗗 - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 ', previewType: 0, thumbnail: gataImg.getRandom(), sourceUrl: accountsgb.getRandom()}}})
 //conn.sendFile(m.chat, gataImg.getRandom(), 'gata.jpg', caption, fkontak)
 //await conn.sendButton(m.chat, wm, caption, gata.getRandom(), [['𝗠 𝗘 𝗡 𝗨 ☘️', '/menu']], m, dos.getRandom())
 } catch (e) {
@@ -113,5 +113,5 @@ function clockString(ms) {
   let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000) % 24
   let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
   let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
-  return [' ' + d, ' *Días : Days ☀️*\n ', h, ' *Horas : Hours 🕐*\n ', m, ' *Minuto : Minute ⏰*\n ', s, ' *Segundo : Second ⏱️* '].map(v => v.toString().padStart(2, 0)).join('')
+  return [' ' + d, ' *DÍAS : DAYS ☀️*\n ', h, ' *HORAS : HOURS 🕐*\n ', m, ' *MINUTO : MINUTE ⏰*\n ', s, ' *SEGUNDO : SECOND ⏱️* '].map(v => v.toString().padStart(2, 0)).join('')
 }
