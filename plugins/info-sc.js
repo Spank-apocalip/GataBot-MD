@@ -16,7 +16,7 @@ function kyun(seconds){
   var seconds = Math.floor(seconds % 60);
 
   //return pad(hours) + ':' + pad(minutes) + ':' + pad(seconds)
-  return `🌟  𝘽 𝙊 𝙏  -  𝙎 𝘾 𝙍 𝙄 𝙋 𝙏  🌟\n\n*» 𝙉𝙊𝙈𝙀 :* ${json?.name || '𝘽𝙞𝙜 𝙈𝙘'}\n*» 𝙑𝙄𝙎𝙄𝙏𝘼𝙉𝙏𝙀𝙎 :* ${json?.watchers_count || '-'}\n*» 𝘼𝘾𝙏𝙐𝘼𝙇𝙄𝙕𝘼𝘾𝙄𝙊𝙉 :* ${moment(json?.updated_at).format('DD/MM/YY - HH:mm:ss') || '-'}\n*» 𝙐𝙍𝙇 :* ${json?.html_url || 'https://github.com/Spank-apocalip/GataBot-MD'}\n\n${json?.forks_count || '-'} Forks · ${json?.stargazers_count || '-'} Stars · ${json?.open_issues_count || '-'} Issues\n\n*⏰ 𝙏𝙀𝙈𝙋𝙊 𝘼𝙏𝙄𝙑𝙊 | 𝘼𝙏𝙄𝙑𝙀 𝙏𝙄𝙈𝙀:*\n \t${pad(days)} Dias\t ${pad(hours)} Horas ${pad(minutes)} Minutos ${pad(seconds)} Segudos \t\n`
+  return `🤖  𝘽 𝙊 𝙏  -  𝙎 𝘾 𝙍 𝙄 𝙋 𝙏  🤖\n\n*» 𝙉𝙊𝙈𝙀 :* ${json?.name || '𝘽𝙞𝙜 𝙈𝙘'}\n*» 𝙑𝙄𝙎𝙄𝙏𝘼𝙉𝙏𝙀𝙎 :* ${json?.watchers_count || '-'}\n*» 𝘼𝘾𝙏𝙐𝘼𝙇𝙄𝙕𝘼𝘾𝙄𝙊𝙉 :* ${moment(json?.updated_at).format('DD/MM/YY - HH:mm:ss') || '-'}\n*» 𝙐𝙍𝙇 :* ${json?.html_url || 'https://github.com/Spank-apocalip/GataBot-MD'}\n\n${json?.forks_count || '-'} Forks · ${json?.stargazers_count || '-'} Stars · ${json?.open_issues_count || '-'} Issues\n\n*⏰ 𝙏𝙀𝙈𝙋𝙊 𝘼𝙏𝙄𝙑𝙊 | 𝘼𝙏𝙄𝙑𝙀 𝙏𝙄𝙈𝙀:*\n \t${pad(days)} Dias\t ${pad(hours)} Horas ${pad(minutes)} Minutos ${pad(seconds)} Segudos \t\n`
 }
 					const runtime = process.uptime()
 		            const teks = `${kyun(runtime)}`
