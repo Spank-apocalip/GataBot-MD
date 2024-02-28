@@ -23,8 +23,8 @@ https://chat.whatsapp.com/CqPaNu7j9tv8kIVYJ23TgI
 💥 *GRUPO DE WHATSAPP*
 https://chat.whatsapp.com/JaUNnmo748G1Se2NaJ0A7f
 
-📧 *CORREO*
-contacto@1bigmc.com
+📧 *INSTAGRAM*
+https://www.instagram.com/1bigmc
 
 🧑‍💻 *CONTACTO (BIG MC)*
 https://wa.me/559285013050
