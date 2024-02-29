@@ -5,13 +5,7 @@ _𝐃𝐔𝐕𝐈𝐃𝐀𝐒🤔? 𝐄𝐒𝐓𝐀𝐑𝐄𝐈 𝐀𝐎 𝐒�
 
 *𝐆𝐀𝐓𝐀 𝐁𝐎𝐓 𝐌𝐃*
 
-🔵 \`\`\`𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐂̧𝐀𝐎 𝐃𝐒 𝐇𝐎𝐒𝐏𝐄𝐃𝐀𝐑\`\`\`
-
-💻 *𝐏𝐀𝐆𝐈𝐍𝐀*
-https://www.cafirexos.com
-
-✨ *𝐃𝐀𝐒𝐇𝐁𝐎𝐀𝐑𝐃*
-https://dash.cafirexos.com
+👨‍💻 \`\`\`𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐂̧𝐀𝐎 𝐃𝐄 𝐇𝐎𝐒𝐏𝐄𝐃𝐀𝐑\`\`\`
 
 🎥 *𝐘𝐎𝐓𝐔𝐁𝐄*
 https://youtube.com/@bigmc3430
@@ -25,24 +19,24 @@ https://chat.whatsapp.com/JaUNnmo748G1Se2NaJ0A7f
 📧 *𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌*
 https://www.instagram.com/1bigmc
 
-🧑‍💻 *𝐂𝐎𝐍𝐓𝐀𝐓𝐎 (𝐁𝐈𝐆 𝐌𝐂)*
+🗿 *𝐂𝐎𝐍𝐓𝐀𝐓𝐎 (𝐁𝐈𝐆 𝐌𝐂)*
 https://wa.me/559285013050
 `
-await conn.sendFile(m.chat, 'https://grxcwmcwbxwj.objectstorage.sa-saopaulo-1.oci.customer-oci.com/n/grxcwmcwbxwj/b/cafirexos/o/logos%2Flogo.png', 'fantasy.jpg', cafirexos.trim(), fkontak, true, {
+await conn.sendFile(m.chat, 'https://tinyurl.com/2at8t26s', 'fantasy.jpg', cafirexos.trim(), fkontak, true, {
 contextInfo: {
 'forwardingScore': 200,
 'isForwarded': false,
 externalAdReply: {
 showAdAttribution: true,
 renderLargerThumbnail: false,
-title: `🔵 𝐂 𝐀 𝐅 𝐈 𝐑 𝐄 𝐗 𝐎 𝐒 🔵`,
+title: `🔵 𝐁𝐈𝐆 𝐌𝐂 𝐎𝐅𝐂 🔵`,
 body: `✅ 𝐐𝐔𝐀𝐋𝐈𝐃𝐀𝐃𝐄 𝐃𝐄 𝐇𝐎𝐒𝐏𝐄𝐃𝐀𝐆𝐄𝐌`,
 mediaType: 1,
 sourceUrl: accountsgb.getRandom(),
-thumbnailUrl: 'https://grxcwmcwbxwj.objectstorage.sa-saopaulo-1.oci.customer-oci.com/n/grxcwmcwbxwj/b/cafirexos/o/logos%2Flogo_2.png'
+thumbnailUrl: 'https://tinyurl.com/2at8t26s'
 }}
 }, { mentions: m.sender })
 
 }
-handler.command = /^(cafirexos|prueba38)$/i
+handler.command = /^(bigbig|prueba38)$/i
 export default handler
