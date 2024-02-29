@@ -1187,7 +1187,7 @@ if (!['owner-unbanchat.js'].includes(name) && chat && chat.isBanned && !isROwner
 if (name != 'owner-unbanchat.js' && name != 'owner-exec.js' && name != 'owner-exec2.js' && name != 'tool-delete.js' && chat?.isBanned && !isROwner) return 
 if (m.text && user.banned && !isROwner) {
 if (user.antispam > 2) return
-m.reply(`🚫 *ESTÁ BANEADO(A), NO PUEDE USAR COMANDOS*\n📑 *MOTIVO: ${user.messageSpam === 0 ? 'NO ESPECIFICADO' : user.messageSpam}*\n⚠️ \`\`\`SI ESTE BOT ES CUENTA OFICIAL Y TIENE EVIDENCIA QUE RESPALDE QUE ESTE MENSAJE ES UN ERROR, PUEDE EXPONER SU CASO EN:\`\`\`👉 *${ig}*\n👉 ${asistencia}`)
+m.reply(`🚫 *𝐄𝐒𝐓𝐀𝐑 𝐁𝐀𝐍𝐈𝐃𝐎(𝐀), 𝐍𝐀̃𝐎 𝐏𝐎𝐃𝐄 𝐔𝐒𝐀𝐑 𝐂𝐎𝐌𝐀𝐍𝐃𝐎𝐒*\n📑 *𝐌𝐎𝐓𝐈𝐕𝐎: ${user.messageSpam === 0 ? '𝐍𝐀̃𝐎 𝐄𝐒𝐏𝐄𝐂𝐈𝐅𝐈𝐂𝐀𝐃𝐎' : user.messageSpam}*\n⚠️ \`\`\`𝐕𝐎𝐂𝐄̂ 𝐄𝐒𝐓𝐀𝐑 𝐒𝐎𝐁𝐑𝐄 𝐂𝐔𝐒𝐓𝐎𝐃𝐈𝐀 𝐄 𝐒𝐄 𝐓𝐈𝐕𝐄𝐑 𝐄𝐕𝐈𝐃𝐄𝐍𝐂𝐈𝐀𝐒 𝐐𝐔𝐄 𝐎𝐂𝐎𝐑𝐑𝐄𝐔 𝐔𝐌 𝐄𝐑𝐑𝐎, 𝐏𝐎𝐃𝐄 𝐃𝐄𝐂𝐋𝐀𝐑𝐀𝐑 𝐒𝐄𝐔 𝐂𝐀𝐒𝐎 𝐄𝐌:\`\`\`👉 *${ig}*\n👉 ${asistencia}`)
 user.antispam++	
 return
 }
@@ -1249,13 +1249,13 @@ m.reply('Exp limit') // Hehehe
 else               
 if (!isPrems && plugin.money && global.db.data.users[m.sender].money < plugin.money * 1) {
 //this.reply(m.chat, `🐈 𝙉𝙊 𝙏𝙄𝙀𝙉𝙀 𝙂𝘼𝙏𝘼𝘾𝙊𝙄𝙉𝙎`, m)
-this.sendMessage(m.chat, {text: `🐈 𝙉𝙊 𝙏𝙄𝙀𝙉𝙀 𝙂𝘼𝙏𝘼𝘾𝙊𝙄𝙉𝙎`,  contextInfo: {externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: ' 😻 𝗦𝘂𝗽𝗲𝗿 𝗚𝗮𝘁𝗮𝗕𝗼𝘁-𝗠𝗗 - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 ', previewType: 0, thumbnail: gataImg.getRandom(), sourceUrl: accountsgb.getRandom()}}}, { quoted: m })         
+this.sendMessage(m.chat, {text: `🐈 𝐍𝐀̃𝐎 𝐓𝐄𝐌 𝐆𝐀𝐓𝐀𝐂𝐎𝐈𝐍𝐒`,  contextInfo: {externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: '  𝐆𝐀𝐓𝐀 𝐌𝐃 - 𝐁𝐈𝐆 𝐌𝐂 ', previewType: 0, thumbnail: gataImg.getRandom(), sourceUrl: accountsgb.getRandom()}}}, { quoted: m })         
 continue     
 }
 			
 m.exp += xp
 if (!isPrems && plugin.limit && global.db.data.users[m.sender].limit < plugin.limit * 1) {
-this.sendMessage(m.chat, {text: `${lenguajeGB['smsCont7']()} *${usedPrefix}buy*`,  contextInfo: {externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: ' 😻 𝗦𝘂𝗽𝗲𝗿 𝗚𝗮𝘁𝗮𝗕𝗼𝘁-𝗠𝗗 - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 ', previewType: 0, thumbnail: gataImg.getRandom(), sourceUrl: accountsgb.getRandom()}}}, { quoted: m })         
+this.sendMessage(m.chat, {text: `${lenguajeGB['smsCont7']()} *${usedPrefix}buy*`,  contextInfo: {externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: '  𝐆𝐀𝐓𝐀𝐁𝐎𝐓 𝐌𝐃 - 𝐁𝐈𝐆 𝐌𝐂 ', previewType: 0, thumbnail: gataImg.getRandom(), sourceUrl: accountsgb.getRandom()}}}, { quoted: m })         
 //this.reply(m.chat, `${lenguajeGB['smsCont7']()} *${usedPrefix}buy*`, m)
 continue //Sin límite
 }
@@ -1319,7 +1319,7 @@ if (m.limit)
 m.reply(+m.limit + lenguajeGB.smsCont8())
 }
 if (m.money)
-m.reply(+m.money + ' 𝙂𝘼𝙏𝘼𝘾𝙊𝙄𝙉𝙎 🐱 𝙐𝙎𝘼𝘿𝙊(𝙎)')  
+m.reply(+m.money + ' 𝐆𝐀𝐓𝐀𝐂𝐎𝐈𝐍𝐒 🐱 𝐔𝐒𝐀𝐃𝐎(𝐒)')  
 break
 }}} catch (e) {
 console.error(e)
@@ -1376,7 +1376,7 @@ if (settingsREAD.autoread2) await this.readMessages([m.key])
 	    
 if (!db.data.chats[m.chat].reaction && m.isGroup) throw 0
 if (!m.fromMem && m.text.match(/(ata|des|able|izo|ido|.-.|._.|:)|:(|:v|v:|o.o|;v|v;|v':|:'v)/gi)) {
-let emot = pickRandom(["😺", "😸", "😹", "😻", "😼", "😽", "🙀", "😿", "😾", "🤩", "😏", "😳", "🥵", "🤯", "😱", "😨", "🤫", "🥴", "🤧", "🤑", "🤠", "🤖", "🤝", "💪", "👑", "😚", "🐱", "🐈", "🐆", "🐅", "⚡️", "🌈", "☃️", "⛄️", "🌝", "🌛", "🌜", "🍓", "🍎", "🎈", "🪄", "❤️", "🧡", "💛", "💚", "💙", "💜", "🖤", "🤍", "💘", "💝", "💟", "🌝", "😎", "🔥", "🖕", "🐦"])
+let emot = pickRandom(["😺", "😸", "😹", "😻", "😼", "😽", "🙀", "😿", "😾", "🤬", "😏", "😳", "🥵", "🤯", "😱", "😨", "🤫", "🥴", "🤡", "🤑", "🤠", "🤖", "🤝", "💪", "👑", "😚", "🐱", "🐈", "🐆", "🐅", "⚡️", "🤓", "☃️", "⛄️", "🌝", "🌛", "🌜", "🍓", "🍎", "🎈", "🪄", "🗿", "🤔", "🥷", "🕵️‍♀️", "🏌️‍♂️", "🏌️", "👩‍⚖️", "🌪️", "🍼", "🥛", "🍷", "🌝", "😎", "🔥", "🖕", "🥄"])
 this.sendMessage(m.chat, { react: { text: emot, key: m.key }})}
 function pickRandom(list) { return list[Math.floor(Math.random() * list.length)]}
 }}
@@ -1430,7 +1430,7 @@ mentionedJid:[user],
 "showAdAttribution": true,
 "renderLargerThumbnail": true,
 "thumbnail": apii.data, 
-"title": [wm, '😻 𝗦𝘂𝗽𝗲𝗿 ' + gt + ' 😻', '🌟 centergatabot.gmail.com'].getRandom(),
+"title": [wm, '🤡  ' + gt + ' 🤡', '🌟 dreikdant.gmail.com'].getRandom(),
 "containsAutoReply": true,
 "mediaType": 1, 
 sourceUrl: [md, channel1, channel2, channel3, yt, ig, paypal, fb].getRandom()}}}, { quoted: fkontak2 })
@@ -1519,7 +1519,7 @@ restrict: lenguajeGB['smsRestrict'](),
 }[type]
 //if (msg) return m.reply(msg)
 let tg = { quoted: m, userJid: conn.user.jid }
-let prep = generateWAMessageFromContent(m.chat, { extendedTextMessage: { text: msg, contextInfo: { externalAdReply: { title: lenguajeGB.smsAvisoAG().slice(0,-2), body: [wm, '😻 𝗦𝘂𝗽𝗲𝗿 ' + gt + ' 😻', '🌟 centergatabot.gmail.com'].getRandom(), thumbnail: gataImg.getRandom(), sourceUrl: [md, channel1, channel2, channel3, yt, ig, paypal, fb].getRandom() }}}}, tg)
+let prep = generateWAMessageFromContent(m.chat, { extendedTextMessage: { text: msg, contextInfo: { externalAdReply: { title: lenguajeGB.smsAvisoAG().slice(0,-2), body: [wm, ' 🤡 ' + gt + ' 🤡', '🌟 dreik33651321.gmail.com'].getRandom(), thumbnail: gataImg.getRandom(), sourceUrl: [md, channel1, channel2, channel3, yt, ig, paypal, fb].getRandom() }}}}, tg)
 if (msg) return conn.relayMessage(m.chat, prep.message, { messageId: prep.key.id })
 }
 
