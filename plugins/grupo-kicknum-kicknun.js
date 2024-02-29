@@ -8,21 +8,21 @@ if (isNaN(args[0])) return m.reply(`${lenguajeGB['smsAvisoMG']()}${mid.smsMaluse
 let lol = args[0].replace(/[+]/g, '')
 let ps = participants.map(u => u.id).filter(v => v !== conn.user.jid && v.startsWith(lol || lol)) 
 let bot = global.db.data.settings[conn.user.jid] || {}
-if (ps == '') return m.reply(`${lenguajeGB['smsAvisoAG']()}𝙀𝙉 𝙀𝙎𝙏𝙀 𝙂𝙍𝙐𝙋𝙊 𝙉𝙊 𝙃𝘼𝙔 𝙉𝙄𝙉𝙂𝙐𝙉 𝙉𝙐́𝙈𝙀𝙍𝙊 𝘾𝙊𝙉 𝙀𝙇 𝘼𝙍𝙀𝘼/𝙋𝙍𝙀𝙁𝙄𝙅𝙊 +${lol}*`)
+if (ps == '') return m.reply(`${lenguajeGB['smsAvisoAG']()}𝐍𝐄𝐒𝐓𝐄 𝐂𝐇𝐀𝐓 𝐍𝐀𝐎 𝐀 𝐍𝐄𝐍𝐇𝐔𝐌 𝐍𝐔𝐌𝐄𝐑𝐎 𝐂𝐎𝐌 𝐃𝐃𝐃 /𝐀𝐒𝐒𝐈𝐌 +${lol}*`)
 let numeros = ps.map(v=> '➥ @' + v.replace(/@.+/, ''))
 const delay = time => new Promise(res=>setTimeout(res,time));
 switch (command) {
 case "listanum": 
-conn.reply(m.chat, `⚠️ 𝙇𝙄𝙎𝙏𝘼 𝘿𝙀 𝙉𝙐𝙈𝙀𝙍𝙊𝙎 𝘾𝙊𝙉 𝙀𝙇 𝙋𝙍𝙀𝙁𝙄𝙅𝙊 +${lol} 𝙌𝙐𝙀 𝙀𝙎𝙏𝘼𝙉 𝙀𝙉 𝙀𝙇 𝙂𝙍𝙐𝙋𝙊 ⚠️\n\n` + numeros.join`\n`, m, { mentions: ps })
+conn.reply(m.chat, `⚠️ 𝐋𝐈𝐒𝐓𝐀 𝐃𝐄 𝐍𝐔𝐌𝐄𝐑𝐎𝐒 𝐂𝐎𝐌 𝐎 𝐃𝐃𝐃 +${lol} 𝐐𝐔𝐄 𝐄𝐒𝐓𝐀 𝐍𝐄𝐒𝐓𝐄 𝐂𝐇𝐀𝐓 ⚠️\n\n` + numeros.join`\n`, m, { mentions: ps })
 break   
 case "kicknum":  
 if (!bot.restrict) return m.reply(`${lenguajeGB['smsAvisoAG']()} ${lenguajeGB['smsSoloOwner']()}`) 
 if (!isBotAdmin) return m.reply(`${lenguajeGB['smsAvisoAG']()} ${lenguajeGB['smsAllAdmin']()}`)          
-conn.reply(m.chat, `${lenguajeGB['smsAvisoIIG']()}𝙄𝙉𝙄𝘾𝙄𝘼𝙉𝘿𝙊 𝙀𝙇𝙄𝙈𝙄𝙉𝘼𝘾𝙄𝙊́𝙉 𝘿𝙀 𝙉𝙐́𝙈𝙀𝙍𝙊 𝘾𝙊𝙉 𝙀𝙇 𝙋𝙍𝙀𝙁𝙄𝙅𝙊 +${lol}, 𝘾𝘼𝘿𝘼 10 𝙎𝙀𝙂𝙐𝙉𝘿𝙊𝙎 𝙎𝙀 𝙀𝙇𝙄𝙈𝙄𝙉𝘼𝙍𝘼 𝘼 𝙐𝙉 𝙐𝙎𝙐𝘼𝙍𝙄𝙊`, m)            
+conn.reply(m.chat, `${lenguajeGB['smsAvisoIIG']()}𝐈𝐍𝐈𝐂𝐈𝐀𝐍𝐃𝐎 𝐄𝐋𝐈𝐌𝐈𝐍𝐀𝐂̧𝐀𝐎 𝐃𝐎𝐒 𝐍𝐔𝐌𝐄𝐑𝐎𝐒 𝐂𝐎𝐌 𝐃𝐃𝐃 +${lol}, 𝐂𝐀𝐃𝐀 10 𝐒𝐄𝐆𝐔𝐍𝐃𝐎𝐒 𝐔𝐌 𝐔𝐒𝐔𝐀𝐑𝐈𝐎 𝐒𝐄𝐑𝐀 𝐁𝐀𝐍𝐈𝐃𝐎`, m)            
 let ownerGroup = m.chat.split`-`[0] + '@s.whatsapp.net'
 let users = participants.map(u => u.id).filter(v => v !== conn.user.jid && v.startsWith(lol || lol))
 for (let user of users) {
-let error = `@${user.split("@")[0]} 𝙔𝘼 𝙃𝘼 𝙎𝙄𝘿𝙊 𝙀𝙇𝙄𝙈𝙄𝙉𝘼𝘿𝙊 𝙊 𝙃𝘼 𝘼𝘽𝘼𝙉𝘿𝙊𝙉𝘼𝘿𝙊 𝙀𝙇 𝙂𝙍𝙐𝙋𝙊 :v`    
+let error = `@${user.split("@")[0]} 𝐉𝐀 𝐅𝐎𝐈 𝐃𝐄 𝐁𝐀𝐍 𝐎𝐔 𝐒𝐀𝐈𝐔 𝐃𝐎 𝐆𝐑𝐔𝐏𝐎 :v`    
 if (user !== ownerGroup + '@s.whatsapp.net' && user !== global.conn.user.jid && user !== global.owner + '@s.whatsapp.net' && user.startsWith(lol || lol) && user !== isSuperAdmin && isBotAdmin && bot.restrict) { 
 await delay(2000)    
 let responseb = await conn.groupParticipantsUpdate(m.chat, [user], 'remove')
