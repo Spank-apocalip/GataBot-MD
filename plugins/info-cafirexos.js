@@ -29,8 +29,8 @@ contextInfo: {
 externalAdReply: {
 showAdAttribution: true,
 renderLargerThumbnail: false,
-title: `🔵 𝐁𝐈𝐆 𝐌𝐂 𝐎𝐅𝐂 🔵`,
-body: `✅ 𝐐𝐔𝐀𝐋𝐈𝐃𝐀𝐃𝐄 𝐃𝐄 𝐇𝐎𝐒𝐏𝐄𝐃𝐀𝐆𝐄𝐌`,
+title: `🧞 𝐁𝐈𝐆 𝐌𝐂 𝐎𝐅𝐂 🧞`,
+body: `𝐆𝐀𝐓𝐀 𝐁𝐎𝐓 𝐌𝐃 𝐎𝐅𝐂`,
 mediaType: 1,
 sourceUrl: accountsgb.getRandom(),
 thumbnailUrl: 'https://tinyurl.com/2at8t26s'
@@ -38,5 +38,5 @@ thumbnailUrl: 'https://tinyurl.com/2at8t26s'
 }, { mentions: m.sender })
 
 }
-handler.command = /^(bigbig|prueba38)$/i
+handler.command = /^(bigmc|prueba38)$/i
 export default handler
