@@ -22,7 +22,7 @@ contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: nul
 title: '𝐃𝐀𝐑𝐓𝐇-𝐌𝐃 | 𝐁𝐈𝐆 𝐌𝐂',
 body: 'Super Bot WhatsApp',         
 previewType: 0, thumbnail: fs.readFileSync("./media/menus/Menu3.jpg"),
-sourceUrl: `https://github.com/GataNina-Li/GataBot-MD`}}})
+sourceUrl: `https://github.com/Spank-apocalip/GataBot-MD`}}})
    await conn.sendFile(m.chat, link, name, '', m, null, { mimetype: mime, asDocument: true })
 } catch (e) {
 await conn.reply(m.chat, `${lenguajeGB['smsMalError3']()}#report ${lenguajeGB['smsMensError2']()} ${usedPrefix + command}\n\n${wm}`, m)
