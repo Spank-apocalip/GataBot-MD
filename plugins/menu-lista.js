@@ -109,7 +109,7 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ⊜ *GataCoins ➟* ${money} 🐈
 ⊜ *Tokens ➟* ${joincount} 🪙
 
-*╭━〔 🤖 OPCIONES DE MENU 🤖 〕⬣*
+*╭━〔 🤖 OPÇÕES DE MENU 🤖 〕⬣*
 ┃
 ┃Ⓜ️ _*MENU COMPLETO*_ Ⓜ️
 ┃➺ _${usedPrefix}menucompleto|allmenu_
