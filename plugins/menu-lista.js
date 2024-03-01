@@ -95,15 +95,15 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ⎔ *${lenguajeGB['smsBanChats']()}* ➺ _${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}_ 
 ⎔ *${lenguajeGB['smsBanUsers']()}* ➺ _${Object.entries(global.db.data.users).filter(user => user[1].banned).length}_ ${(conn.user.jid == global.conn.user.jid ? '' : `\n⎔ *SOY SUB BOT DE: https://wa.me/${global.conn.user.jid.split`@`[0]}*`) || ''}
 
-✨ *◜INFORMACIÓN DEL USUARIO◞* ✨
-⊜ *Tipo de registro »* ${user.registered === true ? `_${user.registroC === true ? 'Registro Completo 🗂️' : 'Registro Rápido 📑'}_` : '❌ _Sin registro_'}
-⊜ *Mi estado »* ${typeof user.miestado !== 'string' ? '❌ _' + usedPrefix + 'miestado_' : '_Me siento ' + user.miestado + '_'}
-⊜ *Registrado »* ${user.registered === true ? '✅' : '❌ _' + usedPrefix + 'verificar_'}
+✨ *◜INFORMAÇÃO DE USUARIO◞* ✨
+⊜ *TIPO DE REGISTRO »* ${user.registered === true ? `_${user.registroC === true ? 'REGISTRO COMPLETO 🗂️' : 'REGISTRO RÁPIDO 📑'}_` : '❌ _SEN REGISTRO_'}
+⊜ *MEU ESTADO »* ${typeof user.miestado !== 'string' ? '❌ _' + usedPrefix + 'miestado_' : '_Me siento ' + user.miestado + '_'}
+⊜ *REGISTRADO »* ${user.registered === true ? '✅' : '❌ _' + usedPrefix + 'verificar_'}
 ⊜ *${lenguajeGB['smsBotonM7']().charAt(0).toUpperCase() + lenguajeGB['smsBotonM7']().slice(1).toLowerCase()} »* ${user.premiumTime > 0 ? '✅' : '❌ _' + usedPrefix + 'pase premium_'}
 ⊜ *${lenguajeGB['smsBotonM5']().charAt(0).toUpperCase() + lenguajeGB['smsBotonM5']().slice(1).toLowerCase()} »* ${role}
 ⊜ *${lenguajeGB['smsBotonM6']().charAt(0).toUpperCase() + lenguajeGB['smsBotonM6']().slice(1).toLowerCase()} »* ${emoji} || ${user.exp - min}/${xp}
 ⊜ *${lenguajeGB['smsPareja']()}* ${pareja ? `\n*»* ${name} 💕 ${conn.getName(pareja)}` : `🛐 ${lenguajeGB['smsResultPareja']()}`}
-⊜ *Pasatiempo(s)* ➺ ${user.pasatiempo === 0 ? '*Sin Registro*' : user.pasatiempo + '\n'}
+⊜ *Pasatiempo(s)* ➺ ${user.pasatiempo === 0 ? '*SEN REGISTRO*' : user.pasatiempo + '\n'}
 ⊜ *Experiencia ➟* ${exp} ⚡
 ⊜ *Diamantes ➟* ${limit} 💎
 ⊜ *GataCoins ➟* ${money} 🐈
@@ -112,61 +112,61 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 *╭━〔 🤖 OPCIONES DE MENU 🤖 〕⬣*
 ┃
 ┃Ⓜ️ _*MENU COMPLETO*_ Ⓜ️
-┃➺ _${usedPrefix}menucompleto | allmenu_
+┃➺ _${usedPrefix}menucompleto|allmenu_
 ┃
-┃🔊 _*MENU DE AUDIOS*_ 🔊
-┃➺ _${usedPrefix}menuaudio | menuaudios_
+┃🔊 _*MENU DE AUDIOS*_ 
+┃➺ _${usedPrefix}menuaudio|menuaudios_
 ┃
-┃💫 _${lenguajeGB['smsTex13']()}_ 💫
+┃ℹ️ _${lenguajeGB['smsTex13']()}_ 
 ┃➺ _${usedPrefix}infomenu_
 ┃
-┃👾 _${lenguajeGB['smsTex10']()}_ 👾
+┃👾 _${lenguajeGB['smsTex10']()}_ 
 ┃➺ _${usedPrefix}juegosmenu_
 ┃
-┃🚀 _${lenguajeGB['smsTex9']()}_ 🚀
+┃🚀 _${lenguajeGB['smsTex9']()}_ 
 ┃➺ _${usedPrefix}descargasmenu_
 ┃
-┃🔐 _${lenguajeGB['smsTex11']()}_ 🔐
+┃🔐 _${lenguajeGB['smsTex11']()}_ 
 ┃➺ _${usedPrefix}grupomenu_
 ┃
-┃🧸 _${lenguajeGB['smsTex22']()}_ 🧸
+┃🧸 _${lenguajeGB['smsTex22']()}_ 
 ┃➺ _${usedPrefix}stickermenu_
 ┃
-┃🛠️ _${lenguajeGB['smsTex12']()}_ 🛠️
+┃🛠️ _${lenguajeGB['smsTex12']()}_ 
 ┃➺ _${usedPrefix}herramientasmenu_
 ┃
-┃⛩️ _${lenguajeGB['smsTex23']()}_ ⛩️
+┃⛩️ _${lenguajeGB['smsTex23']()}_ 
 ┃➺ _${usedPrefix}randommenu_
 ┃
-┃🛰️ _${lenguajeGB['smsTex8']()}_ 🛰️
+┃🛰️ _${lenguajeGB['smsTex8']()}_ 
 ┃➺ _${usedPrefix}convertidormenu_
 ┃
-┃🎈 _${lenguajeGB['smsTex1']()}_🎈
+┃🎈 _${lenguajeGB['smsTex1']()}_
 ┃➺ _${usedPrefix}buscarmenu_
 ┃
-┃🎧 _${lenguajeGB['smsTex2']()}_ 🎧
+┃🎧 _${lenguajeGB['smsTex2']()}_ 
 ┃➺ _${usedPrefix}audioefectomenu_
 ┃
-┃🔞 _${lenguajeGB['smsTex3']()}_ 🔞
-┃➺ _${usedPrefix}menu18 | hornymenu_
+┃🔞 _${lenguajeGB['smsTex3']()}_ 
+┃➺ _${usedPrefix}menu18|hornymenu_
 ┃
-┃⚗️ _${lenguajeGB['smsTex21']()}_ ⚗️
+┃⚗️ _${lenguajeGB['smsTex21']()}_ 
 ┃➺ _${usedPrefix}rpgmenu_
 ┃
-┃⛺ _${lenguajeGB['smsTex14']()}_ ⛺
+┃⛺ _${lenguajeGB['smsTex14']()}_ 
 ┃➺ _${usedPrefix}makermenu_
 ┃
-┃💮 _${lenguajeGB['smsTex15']()}_ 💮
+┃🗣️ _${lenguajeGB['smsTex15']()}_ 
 ┃➺ _${usedPrefix}menulogos2_
 ┃
-┃🌅 _${lenguajeGB['smsTex15']()}_ 🌅
+┃🌅 _${lenguajeGB['smsTex15']()}_ 
 ┃➺ _${usedPrefix}menulogos2_
 ┃
-┃💎 _${lenguajeGB['smsTex20']()}_ 💎
+┃💎 _${lenguajeGB['smsTex20']()}_ 
 ┃➺ _${usedPrefix}ownermenu_
 ┃
-┃✅ *_CONTAS OFICIAIS GATABOT_* ✅
-┃➺ _${usedPrefix}bigmc | cuentasgb_
+┃📧 *_CONTAS OFICIAIS GATABOT_* 
+┃➺ _${usedPrefix}bigmc|bigbig|cuentasgb_
 ┃
 *╰━━━━━━━━━━━━━⬣*`.trim()
 await conn.sendFile(m.chat, gataImg.getRandom(), 'lp.jpg', menu, fkontak, false, { contextInfo: {mentionedJid, externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: ' 𝐆𝐀𝐓𝐀 𝐁𝐎𝐓 𝐌𝐃 - 𝐁𝐈𝐆 𝐌𝐂 𝐎𝐅𝐂 ', previewType: 0, thumbnail: imagen4, sourceUrl: redesMenu.getRandom()}}}) 
