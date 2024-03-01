@@ -7,9 +7,9 @@ try {
 let res = await mediafireDl(args[0])
 let { name, size, date, mime, link } = res
 let caption = `${eg}
-┃ 𓃠 *${gt} ${vs}* 
+┃ 🤖 *${gt} ${vs}* 
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃ 💫 ${mid.name}
+┃ 🏷️ ${mid.name}
 ┃ ${name}
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃ 💪 ${mid.smsYT11}
