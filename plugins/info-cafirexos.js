@@ -33,7 +33,7 @@ title: `🧞 𝐁𝐈𝐆 𝐌𝐂 𝐎𝐅𝐂 🧞`,
 body: `🤖𝐆𝐀𝐓𝐀 𝐌𝐃 𝐎𝐅𝐂🤖`,
 mediaType: 1,
 sourceUrl: accountsgb.getRandom(),
-thumbnailUrl: 'https://tinyurl.com/2at8t26s'
+thumbnailUrl: 'https://tinyurl.com/22hwnrhq'
 }}
 }, { mentions: m.sender })
 
