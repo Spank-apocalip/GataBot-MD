@@ -3,7 +3,7 @@ let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status
 let cafirexos = `
 _𝐃𝐔𝐕𝐈𝐃𝐀𝐒🤔? 𝐄𝐒𝐓𝐀𝐑𝐄𝐈 𝐀𝐎 𝐒𝐄𝐔 𝐃𝐈𝐒𝐏𝐎𝐑🕵️‍♀️._
 
-*𝐆𝐀𝐓𝐀 𝐁𝐎𝐓 𝐌𝐃*
+*𝐃𝐀𝐑𝐓𝐇-𝐌𝐃*
 
 👨‍💻 \`\`\`𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐂̧𝐀𝐎 𝐃𝐄 𝐇𝐎𝐒𝐏𝐄𝐃𝐀𝐑\`\`\`
 
@@ -29,8 +29,8 @@ contextInfo: {
 externalAdReply: {
 showAdAttribution: true,
 renderLargerThumbnail: false,
-title: `🧞 𝐁𝐈𝐆 𝐌𝐂 𝐎𝐅𝐂 🧞`,
-body: `🤖𝐆𝐀𝐓𝐀 𝐌𝐃 𝐎𝐅𝐂🤖`,
+title: `🧞𝐁𝐈𝐆 𝐌𝐂 𝐎𝐅𝐂🧞`,
+body: `🤖𝐃𝐀𝐑𝐓𝐇-𝐌𝐃🤖`,
 mediaType: 1,
 sourceUrl: accountsgb.getRandom(),
 thumbnailUrl: 'https://tinyurl.com/22hwnrhq'
