@@ -7,13 +7,13 @@ try{
 let contact, number, ofc, nombre, description, correo, lugar, enlace, biog
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 let pp = gataImg.getRandom()	
-const cat = `𝐆𝐀𝐓𝐀 𝐁𝐎𝐓 𝐌𝐃
+const cat = `𝐃𝐀𝐑𝐓𝐇-𝐌𝐃
 * ${bot}
 
 *---------------------*
 
-*CENTER GATABOT*
-*centergatabot@gmail.com*
+*𝐂𝐄𝐍𝐓𝐑𝐎 𝐃𝐀𝐑𝐓𝐇-𝐌𝐃*
+*https://www.instagram.com/1bigmc*
 
 𝐁𝐈𝐆 𝐌𝐂 - 𝐀𝐒𝐈𝐒𝐓𝐄𝐍𝐂𝐈𝐀
 *${asistencia}*
@@ -41,7 +41,7 @@ enlace = official[0][0] == String(contact[0]) ? 'https://github.com/GataNina-Li'
 
 lista.push([number, ofc, nombre, description, official[3][0] == String(contact[0]) ? null : correo, lugar, enlace, bio, official[1][0] == String(contact[0]) ? 'https://www.youtube.com/@elrebelde.21' : null]) }  
 lista.push([conn.user.jid.split('@')[0], await conn.getName(conn.user.jid), packname, lenguajeGB.smsContacto8(), mail === '' ? 'centergatabot@gmail.com' : mail, lenguajeGB.smsContacto7(), md, bioBot, yt, ig, fb, paypal, nna])
-await conn.sendFile(m.chat, pp, 'lp.jpg', cat, fkontak, false, { contextInfo: {externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: ' 😻 𝗦𝘂𝗽𝗲𝗿 𝗚𝗮𝘁𝗮𝗕𝗼𝘁-𝗠𝗗 - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 ', previewType: 0, thumbnail: imagen4, sourceUrl: accountsgb.getRandom()}}})
+await conn.sendFile(m.chat, pp, 'lp.jpg', cat, fkontak, false, { contextInfo: {externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: ' 🗿𝐃𝐀𝐑𝐓𝐇-𝐌𝐃 - 𝐁𝐈𝐆 𝐌𝐂 𝐎𝐅𝐂 ', previewType: 0, thumbnail: imagen4, sourceUrl: accountsgb.getRandom()}}})
 await conn.sendContactArray(m.chat, lista, null, { quoted: fkontak })
 
 } catch (e) {
