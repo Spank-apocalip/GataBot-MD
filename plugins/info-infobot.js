@@ -56,46 +56,46 @@ let old = performance.now()
   let speed = neww - old
 
 let info = `╭━━━━[ ${gt} ]━━━━━⬣
-┃➥ *CRIADOR | CREATOR*
-┃☃ *𝐁𝐈𝐆 𝐌𝐂*
+┃➥ *CRIADOR *
+┃🥷🏻 *𝐁𝐈𝐆 𝐌𝐂*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *CONTATO | CONTACT* 
-┃☄ *${ig}*
+┃➥ *CONTATO * 
+┃📧 *${ig}*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃𓃠 *VERSÃO ATUAL | VERSION*
-┃☄ ${vs}
+┃🤖 *VERSÃO ATUAL*
+┃ ${vs}
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *PREFIXO | PREFIX*
-┃☄ *${usedPrefix}*
+┃➥ *PREFIXO*
+┃ *${usedPrefix}*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *CHATS PRIVADOS | PRIVATE CHAT*
-┃☄ *${chats.length - groups.length}*
+┃➥ *CHATS PRIVADOS*
+┃ *${chats.length - groups.length}*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *CHATS DE GRUPOS | GROUP CHAT*
-┃☄ *${groups.length}* 
+┃➥ *CHATS DE GRUPOS*
+┃ *${groups.length}* 
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *CHATS EN TOTAL | TOTAL CHATS*
-┃☃ *${chats.length}* 
+┃➥ *CHATS NO TOTAL*
+┃ *${chats.length}* 
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *ATIVIDADE | ACTIVITY*
-┃☃ *${uptime}*
+┃➥ *ATIVIDADE*
+┃⏳ *${uptime}*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *USUARIOS | USERS*
-┃☃ *${totalreg}* 
+┃➥ *USUARIOS*
+┃👥 *${totalreg}* 
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *VELOCIDADE | SPEED*
-┃☄  *${speed}*
+┃➥ *PING SPEED*
+┃🚀  *${speed}*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *BOT SECUNDARIOS ACTIVOS | ACTIVE SECONDARY BACKS*
-┃☃ *${totaljadibot.length}*
+┃➥ *BOTS SEGUNDARIOS ATIVOS*
+┃🤖 *${totaljadibot.length}*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃➥ *AUTOREAD*
-┃☄ ${autoread ? '*Activado ✔*' : '*Desactivado ✘*'}
+┃ ${autoread ? '*Ativado ✔*' : '*Desativado ✘*'}
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃➥ *RESTRICT* 
-┃☃ ${restrict ? '*Activado ✔*' : '*Desactivado ✘*'} 
+┃ ${restrict ? '*Ativado ✔*' : '*Desativado ✘*'} 
 ┃
-╰━━━[ 𝙄𝙣𝙛𝙤𝙧𝙢𝙖𝙘𝙞ó𝙣 | 𝙄𝙣𝙛𝙤𝙧𝙢𝙖𝙩𝙞𝙤𝙣 ]━━⬣`
+╰━━━[ 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐜̧𝐚̃𝐨 ]━━⬣`
 await conn.sendFile(m.chat, gataImg.getRandom(), 'lp.jpg', info, fkontak, false, { contextInfo: {externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: ' 𝐁𝐈𝐆 𝐌𝐂 𝐎𝐅𝐂 ', previewType: 0, thumbnail: imagen4, sourceUrl: accountsgb.getRandom()}}}) 
 //conn.sendFile(m.chat, pp, 'gata.mp4', info, fkontak)
 /*let info = `
