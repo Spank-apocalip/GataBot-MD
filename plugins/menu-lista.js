@@ -21,7 +21,7 @@ day: 'numeric',
 month: 'long',
 year: 'numeric'
 })
-let dateIslamic = Intl.DateTimeFormat(locale + '-TN-u-ca-islamic', {hj}
+let dateIslamic = Intl.DateTimeFormat(locale + '-TN-u-ca-islamic', {
 day: 'numeric',
 month: 'long',
 year: 'numeric'
