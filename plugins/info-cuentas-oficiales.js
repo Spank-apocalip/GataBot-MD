@@ -1,8 +1,7 @@
 let media = 'https://tinyurl.com/2bfq9pd5'
 let handler = async (m, { conn, command }) => {
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
-let str = `🇧🇷 𝑩𝑬𝑴𝑽𝑰𝑵𝑫𝑶(𝘼) 𝑨𝑺 𝑪𝑶𝑵𝑻𝑨𝑺 𝑶𝑭𝑰𝑪𝑰𝑨𝑰𝑺
-🇱🇷 𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐓𝐎 𝐓𝐇𝐄 𝐎𝐅𝐅𝐈𝐂𝐈𝐀𝐋 𝐀𝐂𝐂𝐎𝐔𝐍𝐓𝐒
+let str = `🇧🇷 𝑩𝑬𝑴𝑽𝑰𝑵𝑫𝑶(𝑨) 𝑨𝑺 𝑪𝑶𝑵𝑻𝑨𝑺 𝑶𝑭𝑰𝑪𝑰𝑨𝑰𝑺
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 🥷🏻 𝐁𝐈𝐆 𝐌𝐂 🥷🏻
 ${bot}
