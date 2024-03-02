@@ -24,7 +24,7 @@ let gata = `𝐈𝐍𝐒𝐓𝐀𝐋𝐀𝐂̧𝐀̃𝐎 𝐃𝐄 𝐃𝐀𝐑�
 *_https://youtu.be/@bigmc3430_*
 *⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯*
 _𝐈𝐍𝐒𝐓𝐀-𝐁𝐈𝐆_ 
-_hhttps://www.instagram.com/1bigmc_
+*_https://www.instagram.com/1bigmc_*
 *⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯*
 termux-setup-storage
 apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/1bigmc/GataBot-MD/master/gata.sh | bash
