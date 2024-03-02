@@ -104,7 +104,7 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 > *_${formatDate}_*
 > \`${nombreLugar} - ${ciudad}\`
 
-> 🌟 *INFORMACIÓN GENERAL* 🌟
+> ℹ️ *INFORMAÇÃO GENERAL* ℹ️
 
 *❰❰ ${lenguajeGB['smsTotalUsers']()} ❱❱* 
 ➺ \`\`\`${Object.keys(global.db.data.users).length}\`\`\`
@@ -127,12 +127,12 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 *❰❰ ${lenguajeGB['smsBanUsers']()} ❱❱* 
 ➺ \`\`\`${Object.entries(global.db.data.users).filter(user => user[1].banned).length}\`\`\`
 
-> ✨ *INFORMACIÓN DEL USUARIO* ✨
+> 🗿 *INFORMAÇÃO DE USUARIO* 🗿
 
 *❰❰ Tipo de registro ❱❱*
-➺ ${user.registered === true ? `_${user.registroC === true ? '🗂️ Registro Completo' : '📑 Registro Rápido'}_` : '❌ _Sin registro_'}
+➺ ${user.registered === true ? `_${user.registroC === true ? '🗂️ Registro Completo' : '📑 Registro Rápido'}_` : '❌ _Sem registro_'}
 
-*❰❰ Mi estado ❱❱*
+*❰❰ Meu estado ❱❱*
 ➺ ${typeof user.miestado !== 'string' ? '❌ *Establecer usando:* _' + usedPrefix + 'miestado_' : '_Me siento ' + user.miestado + '_'}
 
 *❰❰ Registrado ❱❱*
@@ -150,12 +150,12 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 *❰❰ ${lenguajeGB['smsPareja']()} ❱❱*
 ➺ ${pareja ? `${name} 💕 ${conn.getName(pareja)}` : `🛐 ${lenguajeGB['smsResultPareja']()}`}
 
-*❰❰ Pasatiempo(s) ❱❱* 
+*❰❰ Passatempo(s) ❱❱* 
 ➺ ${user.pasatiempo === 0 ? '*Sin Registro*' : user.pasatiempo + '\n'}
 
-> 💫 *INFORMACIÓN* 💫
+> ℹ️ *INFORMAÇÃO* ℹ️
 
-✓ _${usedPrefix}cuentasgatabot | cuentasgb_
+✓ _${usedPrefix}bigmc | cuentasgb | bigbig_
 ✓ _${usedPrefix}gruposgb | grupos | groupgb_
 ✓ _${usedPrefix}donar | donate_
 ✓ _${usedPrefix}listagrupos | grouplist_
@@ -180,7 +180,7 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ✓ _${usedPrefix}reporte *texto*_
 ✓ _${usedPrefix}report *texto*_
 
-> 🪅 *UNIR GATABOT A UN GRUPO* 🪅
+> 🤖 *UNIR DARTH A UN GRUPO* 🤖
 
 ✓ _${usedPrefix}botemporal *enlace* *cantidad*_
 ✓ _${usedPrefix}addbot *enlace* *cantidad*_
@@ -191,7 +191,7 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ✓ _${usedPrefix}pase premium_
 ✓ _${usedPrefix}pass premium_
 
-> 🎡 *JUEGOS* 🎡
+> 🎡 *JOGOS* 🎡
 
 ✓ _${usedPrefix}mates | matemáticas | math_
 ✓ _${usedPrefix}lanzar *cara* | *cruz*_
@@ -236,7 +236,7 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ✓ _${usedPrefix}ruleta_
 ✓ _${usedPrefix}suerte_
 
-> ✨ *IA* ✨
+> 🗣️ *OLA-SIMI* 🗣️
 
 ✓ _${usedPrefix}simi | okgoogle *texto*_
 ✓ _${usedPrefix}alexa | siri | cortana *texto*_
@@ -272,13 +272,13 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ✓ _${usedPrefix}on *o* off *soloprivados | pconly*_
 ✓ _${usedPrefix}on *o* off *sologrupos | gconly*_
 
-> 🧾 *AJUSTES/INFO - GRUPO* 🧾
+> 🧾 *AJUSTES/INFO-GRUPO* 🧾
 
 ✓ _${usedPrefix}configuracion_
 ✓ _${usedPrefix}settings_
 ✓ _${usedPrefix}vergrupo_
 
-> 🪄 *DESCARGAS* 🪄
+> ⏬ *DOWNLOADS* ⏬
 
 ✓ _${usedPrefix}imagen | image *texto*_
 ✓ _${usedPrefix}pinterest | dlpinterest *texto*_
@@ -308,7 +308,7 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ✓ _${usedPrefix}fraseromantica_
 ✓ _${usedPrefix}historia_
 
-> 👤 *CHAT ANONIMO* 👤
+> 👤 *CHAT-ANONIMO* 👤
 
 ✓ _${usedPrefix}chatanonimo | anonimochat_
 ✓ _${usedPrefix}anonimoch_
@@ -360,7 +360,7 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ✓ _${usedPrefix}rechazar | decline *@tag*_
 ✓ _${usedPrefix}terminar | finish *@tag*_
 
-> 📦 *VOTACIONES EN GRUPOS* 📦
+> 📦 *VOTAÇÃO EM GRUPOS* 📦
 
 ✓ _${usedPrefix}crearvoto | startvoto *texto*_
 ✓ _${usedPrefix}sivotar | upvote_
@@ -368,11 +368,11 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ✓ _${usedPrefix}vervotos | cekvoto_
 ✓ _${usedPrefix}delvoto | deletevoto_
 
-> 🔞 *CONTENIDO* 🔞
+> 🔞 *MENU+18* 🔞
 
 ✓ _${usedPrefix}hornymenu_
 
-> 🔁 *CONVERTIDORES* 🔁
+> 🔁 *CONVERSORES* 🔁
 
 ✓ _${usedPrefix}toimg | img | jpg *sticker*_
 ✓ _${usedPrefix}toanime | jadianime *foto*_
@@ -388,7 +388,7 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ✓ _${usedPrefix}logos *efecto texto*_
 ✓ _${usedPrefix}menulogos2_
 
-> 💥 *EFECTOS* 💥
+> 💥 *EFEITOS* 💥
 
 ✓ _${usedPrefix}simpcard *@tag*_
 ✓ _${usedPrefix}hornycard *@tag*_
@@ -451,7 +451,7 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ✓ _${usedPrefix}sakura_
 ✓ _${usedPrefix}cosplay_
 
-> 🎙️ *EFECTO DE AUDIO* 🎙️
+> 🎙️ *EFEITO DE AUDIO* 🎙️
 
 ✓ _${usedPrefix}bass_
 ✓ _${usedPrefix}blown_
@@ -466,7 +466,7 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ✓ _${usedPrefix}smooth_
 ✓ _${usedPrefix}tupai_
 
-> 🔍 *BÚSQUEDAS* 🔍
+> 🔍 *PESQUISAS* 🔍
 
 ✓ _${usedPrefix}animeinfo *texto*_
 ✓ _${usedPrefix}mangainfo *texto*_
@@ -538,7 +538,7 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ✓ _${usedPrefix}cofre | abrircofre | coffer_
 ✓ _${usedPrefix}trabajar | work_
 
-> 🌟 *RPG Fnatasy* 🌟
+> 🎭 *RPG FANTASIA* 🎭
 
 ✓ _${usedPrefix}fantasy | fy_
 ✓ _c_
@@ -550,15 +550,15 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ✓ _${usedPrefix}fantasymy | fymy_
 ✓ _${usedPrefix}fyentregar | fytransfer_
 
-> 🏆 *TOP en RPG Fnatasy* 🏆
+> 🏆 *TOP EM RPG FANTASIA* 🏆
 
 ✓ _${usedPrefix}fytendencia | fyranking_
 
-> 🏆 *TOP en GATABOT* 🏆
+> 🏆 *TOP EM DARTHBOT* 🏆
 
 ✓ _${usedPrefix}top | lb | leaderboard_
 
-> 🎭 *FILTROS EN STICKERS* 🎭
+> 🧞 *FILTROS EM STICKERS* 🧞
 
 ✓ _${usedPrefix}sticker | s *imagen o video*_
 ✓ _${usedPrefix}sticker | s *url de tipo jpg*_
@@ -578,7 +578,7 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ✓ _${usedPrefix}stickerfilter *efecto : responder a imagen*_
 ✓ _${usedPrefix}cs *:* cs2_
 
-> 😼 *MODIFICAR STICKERS* 😼
+> 👽 *MODIFICAR STICKERS* 👽
 
 ✓ _${usedPrefix}wm *packname|author*_
 ✓ _${usedPrefix}wm *texto1|texto2*_
@@ -591,7 +591,7 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ✓ _${usedPrefix}besar | kiss *@tag*_
 ✓ _${usedPrefix}alimentar | food *@tag*_
 
-> 💎 *PARA MI CREADOR/A* 💎
+> 🥷 *PARA MEU CRIADOR* 🥷🏻
 
 ✓ _${usedPrefix}join *enlace*_
 ✓ _${usedPrefix}unete *enlace*_
