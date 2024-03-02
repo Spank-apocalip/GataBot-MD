@@ -72,12 +72,12 @@ let adReply = { fileLength: fsizedoc, seconds: fsizedoc, contextInfo: { forwardi
 let str = `
 ╭┄〔 *${wm}* 〕┄⊱
 ┊ *🎶 ${lenguajeGB['smsConfi2']()} ${username}*
-┊დ *${week}, ${date}*
-┊დ *${lenguajeGB['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}* 
+┊✦ *${week}, ${date}*
+┊✦ *${lenguajeGB['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}* 
 ┊
-┊დ *${lenguajeGB['smsBotonM5']()} »* ${role}
-┊დ *${lenguajeGB['smsBotonM6']()} » ${level}*
-┊დ *${lenguajeGB['smsBotonM7']()} »* ${user.premiumTime > 0 ? '✅' : '❌'}
+┊✦ *${lenguajeGB['smsBotonM5']()} »* ${role}
+┊✦ *${lenguajeGB['smsBotonM6']()} » ${level}*
+┊✦ *${lenguajeGB['smsBotonM7']()} »* ${user.premiumTime > 0 ? '✅' : '❌'}
 ╰┄┄┄┄〔 *𓃠 ${vs}* 〕┄┄┄┄⊱
 
 ⠇ *${lenguajeGB['smsTex16']()}* 🔊
@@ -215,7 +215,7 @@ let str = `
 ∘ _Gol!_
 
 ╭════• ೋ•✧๑♡๑✧•ೋ •════╮
-                      🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈
+                      𝐁𝐈𝐆 𝐌𝐂 𝐎𝐅𝐂
          0:40 ━❍──────── -8:39
          ↻     ⊲  Ⅱ  ⊳     ↺
          VOLUMEN: ▁▂▃▄▅▆▇ 100%
