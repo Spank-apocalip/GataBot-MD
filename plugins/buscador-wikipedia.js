@@ -5,7 +5,7 @@ const handler = async (m, {conn, text, usedPrefix, command}) => {
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 if (!text) throw `${lenguajeGB['smsAvisoMG']()}${mid.smsMalused}\n*${usedPrefix + command} Universe*`
   wikipedia(`${text}`).then((res) => {
-conn.reply(m.chat, `${mid.buscador9}\n\n` + res.result.isi, fkontak, { contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: '𝐃𝐀𝐑𝐓𝐇 | 𝐖𝐢𝐤𝐢𝐩𝐞𝐝𝐢𝐚, body:𝐁𝐈𝐆 𝐌𝐂 𝐎𝐅𝐂,          previewType: 0, thumbnail: imagen2, sourceUrl: accountsgb.getRandom}}})
+conn.reply(m.chat, `${mid.buscador9}\n\n` + res.result.isi, fkontak, { contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: '𝐃𝐀𝐑𝐓𝐇 | 𝐖𝐢𝐤𝐢𝐩𝐞𝐝𝐢𝐚', body:'𝐁𝐈𝐆 𝐌𝐂 𝐎𝐅𝐂',          previewType: 0, thumbnail: imagen2, sourceUrl: accountsgb.getRandom}}})
 }).catch((e) => {
 conn.reply(m.chat, `${lenguajeGB['smsMalError3']()}#report ${lenguajeGB['smsMensError2']()} ${usedPrefix + command}\n\n${wm}`, fkontak, m)
 console.log(`❗❗ ${lenguajeGB['smsMensError2']()} ${usedPrefix + command} ❗❗`)
