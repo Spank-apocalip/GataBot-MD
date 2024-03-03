@@ -24,11 +24,11 @@ conn.reply(m.chat, `*╭┅〘 ⚠️ 𝐎𝐛𝐞𝐝𝐞𝐜𝐞𝐫 𝐚𝐬 
 *╰═┅ৡৢ͜͡✦═╡ 𝐁𝐈𝐆 𝐌𝐂 𝐎𝐅𝐂 ╞═┅ৡৢ͜͡✦═╯*`, fkontak, m)}
 
 if (/^quero um bot|como crio um bot?|quero um bot?|quiero un bot|solicitud|solícito bot|solicito bot|preciso de um bot|necessito de um bot$/i.test(m.text) ) {
-conn.reply(m.chat,  `\`⚡*Quer um bot para seu grupo?*\`
+conn.reply(m.chat,  `\`⚡*Quer um bot para seu grupo*?\`
 
-*🧡 Pode ser um sub bot mandando o seguinte comando:*
-* #serbot (escanea el QR) 
-* #jadibot --code (Código de 8 dígitos)
+*🤖 Pode ser um sub bot mandando o seguinte comando:*
+* #serbot (escanear o QR) 
+* #jadibot --code (código de 8 dígitos)
 
 *Pode adquirí-lo fazendo uma doação voluntária através de PayPal*
 
