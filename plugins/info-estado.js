@@ -29,16 +29,16 @@ let estado = `╭━━━━[ *𝐒𝐓𝐀𝐓𝐔𝐒* ]━━━━━⬣
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃ ${global.opts['self'] ? '𝐏𝐑𝐈𝐕𝐀𝐃𝐎 : '𝐏𝐔́𝐁𝐋𝐈𝐂𝐎}
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃ღ *ATIVO DURANTE* 
+┃ *ATIVO DURANTE* 
 ┃➥ ${uptime}
-┃ღ *USUARIO(S)* 
+┃ *USUARIO(S)* 
 ┃➥ ${Object.keys(global.db.data.users).length} 
-┃ღ *CHAT(S) PROIBIDO(S)*
+┃❌ *CHAT(S) PROIBIDO(S)*
 ┃➥ ${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length} 
-┃ღ *USUARIO(S) PROIBIDO(S)*
+┃❌ *USUARIO(S) PROIBIDO(S)*
 ┃➥ ${Object.entries(global.db.data.users).filter(user => user[1].banned).length} 
 ╰━━━━━━━━━━━━━━━━━━⬣`
-await conn.sendFile(m.chat, gataImg.getRandom(), 'lp.jpg', estado, fkontak, false, { contextInfo: {externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: ' 😻 𝗦𝘂𝗽𝗲𝗿 𝗚𝗮𝘁𝗮𝗕𝗼𝘁-𝗠𝗗 - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 ', previewType: 0, thumbnail: imagen4, sourceUrl: accountsgb.getRandom()}}})
+await conn.sendFile(m.chat, gataImg.getRandom(), 'lp.jpg', estado, fkontak, false, { contextInfo: {externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: ' 𝐁𝐈𝐆 𝐌𝐂 𝐎𝐅𝐂 ', previewType: 0, thumbnail: imagen4, sourceUrl: accountsgb.getRandom()}}})
 //conn.sendFile(m.chat, picture, 'gata.mp4', estado, fkontak)
 /*let estado =`
 ╭━━━━[ *𝙀𝙎𝙏𝘼𝘿𝙊 | 𝙎𝙏𝘼𝙏𝙐𝙎* ]━━━━━⬣
