@@ -16,12 +16,12 @@ let teks = `${pickRandom([`no puedo esta contra las política del grupo.😸`, `
 conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})}*/
 
 if (/^reglas|normas|Reglas$/i.test(m.text) ) { //sin prefijo 
-conn.reply(m.chat, `*╭┅〘 ⚠️ 𝗢𝗯𝗲𝗱𝗲𝗰𝗲 𝗹𝗮𝘀 𝗿𝗲𝗴𝗹𝗮𝘀 ⚠️ 〙*
-➽❌ 𝐏𝐫𝐨𝐡𝐢𝐛𝐢𝐝𝐨 𝐥𝐥𝐚𝐦𝐚𝐫 𝐚𝐥 𝐁𝐨𝐭
-➽❌ 𝐏𝐫𝐨𝐡𝐢𝐛𝐢𝐝𝐨 𝐒𝐩𝐚𝐦 𝐚𝐥 𝐁𝐨𝐭
-➽❌ 𝐍𝐨 𝐚𝐠𝐫𝐞𝐠𝐚𝐫 𝐚𝐥 𝐁𝐨𝐭
-➽❌ 𝐑𝐞𝐬𝐩𝐞𝐭𝐚 𝐥𝐨𝐬 𝐭𝐞𝐫𝐦𝐢𝐧𝐨𝐬 𝐲 𝐜𝐨𝐧𝐝𝐢𝐜𝐢𝐨𝐧𝐞𝐬
-*╰═┅ৡৢ͜͡✦═╡ 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 ╞═┅ৡৢ͜͡✦═╯*`, fkontak, m)}
+conn.reply(m.chat, `*╭┅〘 ⚠️ 𝐎𝐛𝐞𝐝𝐞𝐜𝐞𝐫 𝐚𝐬 𝐫𝐞𝐠𝐫𝐚𝐬 ⚠️ 〙*
+➽❌ 𝐏𝐫𝐨𝐢𝐛𝐢𝐝𝐨 𝐋𝐢𝐠𝐚𝐫 𝐩𝐫𝐨 𝐁𝐨𝐭
+➽❌ 𝐏𝐫𝐨𝐢𝐛𝐢𝐝𝐨 𝐒𝐩𝐚𝐦 𝐧𝐨 𝐁𝐨𝐭
+➽❌ 𝐍𝐚̃𝐨 𝐚𝐝𝐢𝐜𝐢𝐨𝐧𝐞 𝐨 𝐁𝐨𝐭
+➽❌ 𝐑𝐞𝐬𝐩𝐞𝐢𝐭𝐞 𝐨𝐬 𝐭𝐞𝐫𝐦𝐨𝐬
+*╰═┅ৡৢ͜͡✦═╡ 𝐁𝐈𝐆 𝐌𝐂 𝐎𝐅𝐂 ╞═┅ৡৢ͜͡✦═╯*`, fkontak, m)}
 
 if (/^Quiero un bot|como obtengo un bot?|Quiero un bot?|quiero un bot|solicitud|solicitó bot|solicito bot|Necesito un bot|necesito un bot$/i.test(m.text) ) {
 conn.reply(m.chat,  `\`⚡¿Quieres un bot para tu grupo?\`
