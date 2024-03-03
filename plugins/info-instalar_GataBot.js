@@ -15,7 +15,7 @@ const fkontak = {
 }
 
 let picture = './media/menus/Menu1.jpg'
-let gata = `𝐈𝐍𝐅𝐎 𝐃𝐄 𝐃𝐀𝐑𝐓𝐇 𝐎𝐅𝐂 🐈
+let gata = `𝐈𝐍𝐅𝐎 𝐃𝐄 𝐃𝐀𝐑𝐓𝐇 𝐎𝐅𝐂 
 
 *━━━━━━━━━━━━━⬣*
 ✦𝐈𝐍𝐅𝐎 𝐁𝐈𝐆✦
@@ -26,9 +26,8 @@ let gata = `𝐈𝐍𝐅𝐎 𝐃𝐄 𝐃𝐀𝐑𝐓𝐇 𝐎𝐅𝐂 🐈
 _𝐈𝐍𝐒𝐓𝐀-𝐁𝐈𝐆_ 
 *_https://www.instagram.com/1bigmc_*
 *⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯*
-https://wa.me/5559285013050
 *━━━━━━━━━━━━━⬣*
-*https://github.com/1bigmc/GataBot-MD_*
+*https://wa.me/5559285013050*
 *⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯*
 *━━━━━━━━━━━━━⬣*`
 await conn.sendFile(m.chat, gataImg.getRandom(), 'lp.jpg', gata, fkontak, false, { contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: ' 𝐁𝐈𝐆 𝐌𝐂 𝐎𝐅𝐂 ', previewType: 0, thumbnail: imagen4, sourceUrl: accountsgb.getRandom()}}})}
