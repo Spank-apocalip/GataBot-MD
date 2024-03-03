@@ -12,7 +12,7 @@ let res = await igstalk(args[0].replace(/^@/, ''))
 let res2 = await fetch(`https://api.lolhuman.xyz/api/stalkig/${args[0].replace(/^@/, '')}?apikey=${lolkeysapi}`)
 let res3 = await res2.json()
 let json = JSON.parse(JSON.stringify(res))
-let iggs = `┃ 𓃠 *${gt} ${vs}*
+let iggs = `┃ 🕵🏻‍♂️ *${gt} ${vs}*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ 
 ┃  ${mid.name}
 ┃ *${json.username}*
@@ -37,8 +37,8 @@ let iggs = `┃ 𓃠 *${gt} ${vs}*
 let aa = `${res3.result.photo_profile || res.profile}`
 await conn.sendFile(m.chat, aa, 'error.jpg', iggs, m)
 conn.reply(m.chat, `${lenguajeGB['smsAvisoIIG']()} *${mid.smsinfo}*`, m, {contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
-title: '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 | 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨',
-body: 'Super Bot WhatsApp',         
+title: '𝐁𝐈𝐆 𝐌𝐂 𝐎𝐅𝐂',
+body: '𝐃𝐀𝐑𝐓𝐇-𝐌𝐃',         
 previewType: 0, thumbnail: fs.readFileSync("./media/menus/Menu3.jpg"),
 sourceUrl: `https://github.com/GataNina-Li/GataBot-MD`}}})
 } catch (e) {
