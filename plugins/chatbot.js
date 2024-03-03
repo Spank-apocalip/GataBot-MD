@@ -48,7 +48,8 @@ _*Sim, nosso bot está conectado em um servidor pago para mantelo ativo 24/7 (po
 > *𝐎𝐛𝐫𝐢𝐠𝐚𝐝𝐨 𝐩𝐞𝐥𝐚 𝐬𝐮𝐚 𝐩𝐫𝐞𝐟𝐞𝐫𝐞̂𝐧𝐜𝐢𝐚 𝐞𝐦 ${gt} 🗿🍷*`, fkontak, {contextInfo: {externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: `Hola ${name} 👋`, body: wm, previewType: 0, thumbnail: gataImg.getRandom(), sourceUrl: accountsgb.getRandom()}}})}
  
 if (/^¿Qué es un Bot?|oque e um Bot?|oque e Bot|oque e Bot|que e um BOT|que e um Bot?|oque um bot faz?|qué es un Bot|que es un Bot|Qué es un Bot?|Que es un Bot? $/i.test(m.text) ) {
-conn.reply(m.chat, `\`✨ ¿𝐐𝐮𝐞́ 𝐞𝐬 𝐮𝐧 𝐁𝐨𝐭 𝐝𝐞 𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩? ✨\`
+conn.reply(m.chat, `\` 𝐎𝐪𝐮𝐞 𝐞 𝐮𝐦 𝐁𝐨𝐭 𝐝𝐞 𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩? 
+🤔\`
 
 🍃 _Um Bot é uma inteligência programada que permite realizar atividades dependendo do que você solicitar. Nos temas do WhatsApp é possível criar figurinhas, baixar músicas, vídeos, criar logos, pesquisar imagens, interagir em modo conversa, participe de jogos dentro de chats, etc...._
 
