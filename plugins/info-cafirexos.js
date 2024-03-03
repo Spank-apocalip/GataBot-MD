@@ -22,7 +22,7 @@ https://www.instagram.com/1bigmc
 🗿 *𝐂𝐎𝐍𝐓𝐀𝐓𝐎 (𝐁𝐈𝐆 𝐌𝐂)*
 https://wa.me/559285013050
 `
-await conn.sendFile(m.chat, 'https://tinyurl.com/2xzdpm9p', 'fantasy.jpg', cafirexos.trim(), fkontak, true, {
+await conn.sendFile(m.chat, 'https://tinyurl.com/ywgkuypd', 'fantasy.jpg', cafirexos.trim(), fkontak, true, {
 contextInfo: {
 'forwardingScore': 200,
 'isForwarded': false,
