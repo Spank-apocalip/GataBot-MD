@@ -151,7 +151,7 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ➺ ${pareja ? `${name} 💕 ${conn.getName(pareja)}` : `🛐 ${lenguajeGB['smsResultPareja']()}`}
 
 *❰❰ Passatempo(s) ❱❱* 
-➺ ${user.pasatiempo === 0 ? '*Sin Registro*' : user.pasatiempo + '\n'}
+➺ ${user.pasatiempo === 0 ? '*Sem Registro*' : user.pasatiempo + '\n'}
 
 > ℹ️ *INFORMAÇÃO* ℹ️
 
