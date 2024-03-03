@@ -160,7 +160,7 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ✓ _${usedPrefix}donar | donate_
 ✓ _${usedPrefix}listagrupos | grouplist_
 ✓ _${usedPrefix}estado | heygata | status_
-✓ _${usedPrefix}infogata | infobot_
+✓ _${usedPrefix}infodarth | infobot_
 ✓ _${usedPrefix}instalarbot | installbot_
 ✓ _${usedPrefix}creadora | owner_
 ✓ _${usedPrefix}velocidad | ping_
