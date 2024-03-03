@@ -30,7 +30,7 @@ console.log(`❗❗ ${lenguajeGB['smsMensError2']()} ${usedPrefix + command} ❗
 console.log(e)
 }} 
 handler.help = ['kick']
-handler.tags = ['owner']
+handler.tags = ['group']
 handler.command = /^(kick|echar|hechar|sacar|ban)$/i
 handler.admin = handler.group = handler.botAdmin = true
 export default handler
