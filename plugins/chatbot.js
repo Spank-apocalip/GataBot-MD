@@ -53,8 +53,8 @@ conn.reply(m.chat, `\` 𝐎𝐪𝐮𝐞 𝐞 𝐮𝐦 𝐁𝐨𝐭 𝐝𝐞 𝐖
 
 🍃 _Um Bot é uma inteligência programada que permite realizar atividades dependendo do que você solicitar. Nos temas do WhatsApp é possível criar figurinhas, baixar músicas, vídeos, criar logos, pesquisar imagens, interagir em modo conversa, participe de jogos dentro de chats, etc...._
 
-🍃 *_Para ver o menu de comandos pode usar:_*
-#menu
+🍃 *_PARA VER O MENU DE COMANDOS PODE USAR:_*
+#menucompleto
 
 𝐃𝐀𝐑𝐓𝐇-𝐌𝐃`, m)}  
 return !0 
