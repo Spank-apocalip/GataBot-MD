@@ -106,7 +106,7 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ⊜ *Pasatiempo(s)* ➺ ${user.pasatiempo === 0 ? '*Sen Registro*' : user.pasatiempo + '\n'}
 ⊜ *Experiencia ➟* ${exp} ⚡
 ⊜ *Diamantes ➟* ${limit} 💎
-⊜ *DarthCoins ➟* ${money} 🐈
+⊜ *DarthCoins ➟* ${money} 🦹🏿‍♂️
 ⊜ *Tokens ➟* ${joincount} 🪙
 
 *╭━〔OPÇÕES DE MENU〕⬣*
