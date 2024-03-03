@@ -16,7 +16,7 @@ let b = a[Math.floor(Math.random() * a.length)]
 let sap = ['Hai', 'Ohayo', 'Kyaa', 'Halo', 'Nyann']
 let sgh = md
 let sgc = nnn
-let gata = 'https://i.imgur.com/EXTbyyn.jpg'
+let gata = 'https://tinyurl.com/2cebr9zd'
 //let logo = 'https://i.pinimg.com/564x/f7/d2/e4/f7d2e48fd59a8c01cd396bfc70b0a2d1.jpg'
 let pp = await conn.profilePictureUrl(who).catch(_ => gata)
 //pp = await conn.profilePictureUrl(m.chat, 'image').catch(_ => null) || './src/grupos.jpg' 
@@ -89,18 +89,18 @@ export default handler
 
 function ucapan() {
   const time = moment.tz('America/Los_Angeles').format('HH')  //America/Los_Angeles  Asia/Jakarta   America/Toronto
-  let res = "👋 *BIENVENIDO(A) | WELCOME* 👋"
+  let res = "👋 *BEMVINDO(A)* 👋"
   if (time >= 4) {
-    res = "🌇 *Buenos Días | Good Morning* ⛅"
+    res = "🌇 *Bom Dia* ⛅"
   }
   if (time >= 11) {
-    res = "🏙️ *Buenas Tardes | Good Afternoon* 🌤️"
+    res = "🏙️ *Boa Tarde* 🌤️"
   }
   if (time >= 15) {
-    res = "🌆 *Buenas tardes | Good Afternoon* 🌥️"
+    res = "🌆 *Boa Tarde* 🌥️"
   }
   if (time >= 17) {
-    res = "🌃 *Buenas noches | Good Evening* 💫"
+    res = "🌃 *Boa noite* 💫"
   }
   return res
 } 
