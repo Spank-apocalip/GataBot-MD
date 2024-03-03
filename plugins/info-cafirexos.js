@@ -38,5 +38,5 @@ thumbnailUrl: 'https://tinyurl.com/22hwnrhq'
 }, { mentions: m.sender })
 
 }
-handler.command = /^(bigmc|prueba38)$/i
+handler.command = /^(bigmc|bigmac)$/i
 export default handler
