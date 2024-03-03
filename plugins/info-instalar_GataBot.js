@@ -15,10 +15,10 @@ const fkontak = {
 }
 
 let picture = './media/menus/Menu1.jpg'
-let gata = `𝐈𝐍𝐒𝐓𝐀𝐋𝐀𝐂̧𝐀̃𝐎 𝐃𝐄 𝐃𝐀𝐑𝐓𝐇 𝐎𝐅𝐂 🐈
+let gata = `𝐈𝐍𝐅𝐎 𝐃𝐄 𝐃𝐀𝐑𝐓𝐇 𝐎𝐅𝐂 🐈
 
 *━━━━━━━━━━━━━⬣*
-✦𝐈𝐍𝐒𝐓𝐀𝐋𝐀𝐑 𝐄𝐌 𝐀𝐑𝐐𝐔𝐈𝐕𝐎✦
+✦𝐈𝐍𝐅𝐎 𝐁𝐈𝐆✦
 *⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯*
 *𝐂𝐀𝐍𝐀𝐋-𝐁𝐈𝐆*
 *_https://youtu.be/@bigmc3430_*
@@ -26,8 +26,7 @@ let gata = `𝐈𝐍𝐒𝐓𝐀𝐋𝐀𝐂̧𝐀̃𝐎 𝐃𝐄 𝐃𝐀𝐑�
 _𝐈𝐍𝐒𝐓𝐀-𝐁𝐈𝐆_ 
 *_https://www.instagram.com/1bigmc_*
 *⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯*
-termux-setup-storage
-apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/1bigmc/GataBot-MD/master/gata.sh | bash
+https://wa.me/5559285013050
 *━━━━━━━━━━━━━⬣*
 *https://github.com/1bigmc/GataBot-MD_*
 *⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯*
