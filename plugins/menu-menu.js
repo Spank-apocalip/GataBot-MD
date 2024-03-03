@@ -617,6 +617,7 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ✓ _${usedPrefix}ctualizar | update_
 ✓ _${usedPrefix}addprem | +prem *@tag*_
 ✓ _${usedPrefix}delprem | -prem *@tag*_
+✓ _${usedPrefix}listbanuser|listanuser_
 ✓ _${usedPrefix}listapremium | listprem_       
 ✓ _${usedPrefix}añadirdiamantes *@tag cantidad*_
 ✓ _${usedPrefix}añadirxp *@tag cantidad*_
