@@ -166,7 +166,7 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ┃➺ _${usedPrefix}ownermenu_
 ┃
 ┃📧 *_CONTAS OFICIAIS DARTHBOT* 
-┃➺ _${usedPrefix}bigmc|bigbig|cuentasgb_
+┃➺ _${usedPrefix}big|bigofc_
 ┃
 *╰━━━━━━━━━━━━━⬣*`.trim()
 await conn.sendFile(m.chat, gataImg.getRandom(), 'lp.jpg', menu, fkontak, false, { contextInfo: {mentionedJid, externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: ' 𝐁𝐈𝐆 𝐌𝐂 𝐎𝐅𝐂 ', previewType: 0, thumbnail: imagen4, sourceUrl: redesMenu.getRandom()}}}) 
