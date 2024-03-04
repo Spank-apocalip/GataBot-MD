@@ -7,7 +7,7 @@ await conn.sendFile(m.chat, res, 'error.jpg', `✅ ${mid.TikTok1}\n💟 *${text}
 conn.reply(m.chat, `${lenguajeGB['smsAvisoIIG']()} *${mid.smsinfo}*`, m, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
 title: '𝐁𝐈𝐆',
-body: 'Super Bot WhatsApp',         
+body: '𝐃𝐀𝐑𝐓𝐇',         
 previewType: 0, thumbnail: fs.readFileSync("./media/menus/Menu3.jpg"),
 sourceUrl: md}}}) 
 } catch (e) {
