@@ -299,10 +299,10 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ✓ _${usedPrefix}tiktok *link*_
 ✓ _${usedPrefix}tiktokimagen | ttimagen *link*_
 ✓ _${usedPrefix}tiktokfoto | tiktokphoto *usuario(a)*_
-✓ _${usedPrefix}vertiktok | tiktokstalk *usuario(a)*_
+✓ _${usedPrefix}vertiktok | tikstalk *usuario(a)*_
 ✓ _${usedPrefix}mediafire | dlmediafire *link*_
 ✓ _${usedPrefix}clonarepo | gitclone *link*_
-✓ _${usedPrefix}clima *país ciudad*_
+✓ _${usedPrefix}clima *país cidade*_
 ✓ _${usedPrefix}consejo_
 ✓ _${usedPrefix}morse codificar *texto*_
 ✓ _${usedPrefix}morse decodificar *morse*_
