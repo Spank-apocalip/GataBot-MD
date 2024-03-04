@@ -19,10 +19,10 @@ let caption = `${eg}
 ┃ ${mime}`.trim()
 conn.reply(m.chat, caption, m, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
-title: '𝐃𝐀𝐑𝐓𝐇-𝐌𝐃 | 𝐁𝐈𝐆 𝐌𝐂',
+title: '𝐁𝐈𝐆 𝐌𝐂',
 body: 'Super Bot WhatsApp',         
 previewType: 0, thumbnail: fs.readFileSync("./media/menus/Menu3.jpg"),
-sourceUrl: `https://github.com/Spank-apocalip/GataBot-MD`}}})
+sourceUrl: `https://github.com/bigmc/bigmc`}}})
    await conn.sendFile(m.chat, link, name, '', m, null, { mimetype: mime, asDocument: true })
 } catch (e) {
 await conn.reply(m.chat, `${lenguajeGB['smsMalError3']()}#report ${lenguajeGB['smsMensError2']()} ${usedPrefix + command}\n\n${wm}`, m)
