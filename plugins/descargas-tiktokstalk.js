@@ -36,7 +36,7 @@ console.log(e)
 }}
 handler.help = ['tiktokstalk'].map(v => v + ' <username>')
 handler.tags = ['stalk']
-handler.command = /^(tiktokstalk|ttstalk)$/i
+handler.command = /^(tiktokstalk|tikstalk|ttstalk)$/i
 //handler.exp = 48
 handler.register = true
 export default handler
