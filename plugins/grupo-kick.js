@@ -6,7 +6,7 @@ const handler = async (m, {conn, participants, command, usedPrefix}) => {
   if (m.message.extendedTextMessage.contextInfo.participant !== null && m.message.extendedTextMessage.contextInfo.participant != undefined && m.message.extendedTextMessage.contextInfo.participant !== '') {
     const mentioned = m.message.extendedTextMessage.contextInfo.mentionedJid[0] ? m.message.extendedTextMessage.contextInfo.mentionedJid[0] : m.message.extendedTextMessage.contextInfo.participant;
     if (conn.user.jid.includes(mentioned)) return m.reply('*[❗] 𝙽𝙾 𝙿𝚄𝙴𝙳𝙾 𝙴𝙻𝙸𝙼𝙸𝙽𝙰𝚁𝙼𝙴 𝙰 𝙼𝙸 𝙼𝙸𝚂𝙼𝙾, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚂𝙰𝙲𝙰𝙼𝙴 𝙼𝙰𝙽𝚄𝙰𝙻𝙼𝙴𝙽𝚃𝙴 𝚂𝙸 𝙰𝚂𝙸 𝙻𝙾 𝙳𝙴𝚂𝙴𝙰𝚂*');
-    if (global.mods.includes(ownernumber)) return m.reply('*[❗] nao posso banir meu criado ne carai*')
+    if (global.mods.includes(globalauthor)) return m.reply('*[❗] nao posso banir meu criado ne carai*')
     const responseb = await conn.groupParticipantsUpdate(m.chat, [mentioned], 'remove');
     const exitoso1 = `*@${mentioned.split('@')[0]} ᴇʟɪᴍɪɴᴀᴅᴏ ᴇxɪᴛᴏsᴀᴍᴇɴᴛᴇ ᴅᴏ ɢʀᴜᴘᴏ*`;
     const error1 = `*@${mentioned.split('@')[0]} ᴇs ᴏ ᴄʀɪᴀᴅᴏʀ ᴅᴏ ɢʀᴜᴘᴏ, ɴᴏ ᴘᴏᴅᴏ ᴇʟɪᴍɪɴᴀʀ ᴄʀɪᴀᴅᴏʀ ᴅᴏ ɢʀᴜᴘᴏ*`;
