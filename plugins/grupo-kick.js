@@ -24,8 +24,6 @@ handler.command = /^(kick|ban|vaza|sacar)$/i;
 handler.admin = handler.group = handler.botAdmin = true;
 export default handler;
 
-if (global.woner(global.mods)) return m.reply('*[❗] nao posso banir meu criado ne carai*')
-
  /*var mentioned = m.message.extendedTextMessage.contextInfo.mentionedJid
 if(mentioned.includes(conn.user.jid)) return m.reply("*[❗] 𝙽𝙾 𝙿𝚄𝙴𝙳𝙾 𝙴𝙻𝙸𝙼𝙸𝙽𝙰𝚁𝙼𝙴 𝙰 𝙼𝙸 𝙼𝙸𝚂𝙼𝙾, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚂𝙰𝙲𝙰𝙼𝙴 𝙼𝙰𝙽𝚄𝙰𝙻𝙼𝙴𝙽𝚃𝙴 𝚂𝙸 𝙰𝚂𝙸 𝙻𝙾 𝙳𝙴𝚂𝙴𝙰𝚂*")
 if(mentioned.length > 1) {
