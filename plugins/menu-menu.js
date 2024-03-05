@@ -155,7 +155,7 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 
 > ℹ️ *INFORMAÇÃO* ℹ️
 
-✓ _${usedPrefix}big | bigofc | bigbig_
+✓ _${usedPrefix}darth | bigofc | bigbig_
 ✓ _${usedPrefix}bigchat | chatsbig | biggp_
 ✓ _${usedPrefix}bigmc | bigmac_
 ✓ _${usedPrefix}donar | donate_
