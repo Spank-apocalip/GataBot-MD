@@ -143,7 +143,7 @@ global.tk = "https://www.tiktok.com/@big.edits.ofc?"
 global.ths = "https://www.threads.net/@1bigmc"
 global.paypal = 'https://www.paypal.com/donate/?business=78FPL4B2RETJQ&amount=10&no_recurring=0&currency_code=BRL'
 global.asistencia = 'https://wa.me/qr/X7SMHMQZL25UL1' //Contacto
-global.bot = 'wa.me/5559285013050\n* wa.me/559285013050' //𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 𝙊𝙛𝙞𝙘𝙞𝙖𝙡 💖🐈
+global.bot = 'wa.me/553193342889\n* wa.me/553193342889' //𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 𝙊𝙛𝙞𝙘𝙞𝙖𝙡 💖🐈
 
 global.nna = 'https://www.instagram.com/1bigmc/' // Cuentas
 global.nn2 = 'https://t.me/@1bigmc' // Grupo tg GataBot
