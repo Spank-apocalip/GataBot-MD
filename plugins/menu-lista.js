@@ -96,25 +96,25 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ⎔ *${lenguajeGB['smsBanUsers']()}* ➺ _${Object.entries(global.db.data.users).filter(user => user[1].banned).length}_ ${(conn.user.jid == global.conn.user.jid ? '' : `\n⎔ *SOY SUB BOT DE: https://wa.me/${global.conn.user.jid.split`@`[0]}*`) || ''}
 
  *INFORMAÇÃO DE USUARIO* 
-⊜ *Tipo De Registro »* ${user.registered === true ? `_${user.registroC === true ? 'Registro Completo 🗂️' : 'Registro Rápido 📑'}_` : '❌ _Sen Registro_'}
+⊜ *𝚃𝙸𝙿𝙾 𝙳𝙴 𝚁𝙴𝙶𝙸𝚂𝚃𝚁𝙾 »* ${user.registered === true ? `_${user.registroC === true ? '𝚁𝙴𝙶𝙸𝚂𝚃𝚁𝙾 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙾 🗂️' : '𝚁𝙴𝙶𝙸𝚂𝚃𝚁𝙾 𝚁𝙰́𝙿𝙸𝙳𝙾 📑'}_` : '❌ _𝚂𝙴𝙽 𝚁𝙴𝙶𝙸𝚂𝚃𝚁𝙾_'}
 ⊜ *Meu Estado »* ${typeof user.miestado !== 'string' ? '❌ _' + usedPrefix + 'miestado_' : '_Me siento ' + user.miestado + '_'}
 ⊜ *Registrado »* ${user.registered === true ? '✅' : '❌ _' + usedPrefix + 'verificar_'}
 ⊜ *${lenguajeGB['smsBotonM7']().charAt(0).toUpperCase() + lenguajeGB['smsBotonM7']().slice(1).toLowerCase()} »* ${user.premiumTime > 0 ? '✅' : '❌ _' + usedPrefix + 'pase premium_'}
 ⊜ *${lenguajeGB['smsBotonM5']().charAt(0).toUpperCase() + lenguajeGB['smsBotonM5']().slice(1).toLowerCase()} »* ${role}
 ⊜ *${lenguajeGB['smsBotonM6']().charAt(0).toUpperCase() + lenguajeGB['smsBotonM6']().slice(1).toLowerCase()} »* ${emoji} || ${user.exp - min}/${xp}
 ⊜ *${lenguajeGB['smsPareja']()}* ${pareja ? `\n*»* ${name} 🥷🏻 ${conn.getName(pareja)}` : `🛐 ${lenguajeGB['smsResultPareja']()}`}
-⊜ *Pasatiempo(s)* ➺ ${user.pasatiempo === 0 ? '*Sen Registro*' : user.pasatiempo + '\n'}
-⊜ *Experiencia ➟* ${exp} ⚡
-⊜ *Diamantes ➟* ${limit} 💎
-⊜ *DarthCoins ➟* ${money} 🦹🏿‍♂️
-⊜ *Tokens ➟* ${joincount} 🪙
+⊜ *𝙿𝙰𝚂𝙰𝚃𝙸𝙴𝙼𝙿𝙾(s)* ➺ ${user.pasatiempo === 0 ? '*Sen Registro*' : user.pasatiempo + '\n'}
+⊜ *𝙴𝚇𝙿𝙴𝚁𝙸𝙴̂𝙽𝙲𝙸𝙰 ➟* ${exp} ⚡
+⊜ *𝙳𝙸𝙰𝙼𝙰𝙽𝚃𝙴𝚂 ➟* ${limit} 💎
+⊜ *𝙳𝙰𝚁𝚃𝙷𝙲𝙾𝙸𝙽𝚃𝚂 ➟* ${money} 🦹🏿‍♂️
+⊜ *𝚃𝙾𝙺𝙴𝙽𝚂 ➟* ${joincount} 🪙
 
-*╭━〔OPÇÕES DE MENU〕⬣*
+*╭━〔𝙾𝙿𝙲̧𝙾̃𝙴𝚂 𝙳𝙴 𝙼𝙴𝙽𝚄〕⬣*
 ┃
-┃Ⓜ️ _*MENU COMPLETO*_ 
+┃Ⓜ️ _*𝙼𝙴𝙽𝚄 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙾*_ 
 ┃➺ _${usedPrefix}menucompleto|allmenu_
 ┃
-┃🔊 _*MENU DE AUDIOS*_ 
+┃🔊 _*𝙼𝙴𝙽𝚄 𝙳𝙴 𝙰𝚄𝙳𝙸𝙾𝚂*_ 
 ┃➺ _${usedPrefix}menuaudio|menuaudios_
 ┃
 ┃ℹ️ _${lenguajeGB['smsTex13']()}_ 
