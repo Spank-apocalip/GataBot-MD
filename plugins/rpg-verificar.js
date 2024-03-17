@@ -5,7 +5,7 @@ let pas1 = 0, pas2 = 0, pas3 = 0, pas4 = 0, pas5 = 0
 
 let handler = async function (m, { conn, text, command, usedPrefix }) {
 let key 
-let sinDefinir = '😿 No encontrada'
+let sinDefinir = ' 𝙽𝙰̃𝙾 𝙴𝙽𝙲𝙾𝙽𝚃𝚁𝙰𝙳𝙰(𝙾) '
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }	
 let d = new Date(new Date + 3600000)
 let locale = 'es'
@@ -44,7 +44,7 @@ return
 if (typeof genero === 'string') {
 global.db.data.users[m.sender]['registroC'] = true
 registrando = false
-conn.reply(m.chat, `*SU TIEMPO DE REGISTRO HA TERMINADO!!*\n\n_Si no continúa en este momento su registro no se guardará, si guarda más tarde su registro se habrá perdido_\n\n*Para continuar escriba:* ${usedPrefix}finalizar`, fkontak, m)
+conn.reply(m.chat, `*𝚂𝙴𝚄 𝚃𝙴𝙼𝙿𝙾 𝙳𝙴 𝚁𝙴𝙶𝙸𝚂𝚃𝚁𝙾 𝙹𝙰 𝙰𝙲𝙰𝙱𝙾𝚄!!*\n\n_𝚂𝙴 𝙽𝙰̃𝙾 𝙲𝙾𝙽𝚃𝙸𝙽𝚄𝙰 𝙽𝙴𝚂𝚃𝙴 𝙼𝙾𝙼𝙴𝙽𝚃𝙾 𝚂𝙴𝚄 𝚁𝙴𝙶𝙸𝚂𝚃𝚁𝙾 𝙽𝙰̃𝙾 𝚂𝙴𝚁𝙰 𝙰𝚁𝙼𝙰𝚉𝙴𝙽𝙰𝙳𝙾, 𝚂𝙴 𝙳𝙴𝙼𝙾𝚁𝙰𝚁 𝚂𝙴𝚄 𝚁𝙴𝙶𝙸𝚂𝚃𝚁𝙾 𝚂𝙴𝚁𝙰 𝙿𝙴𝚁𝙳𝙸𝙳𝙾_\n\n*𝙿𝙰𝚁𝙰 𝙲𝙾𝙽𝚃𝙸𝙽𝚄𝙰𝚁 𝙴𝚂𝙲𝚁𝙴𝚅𝙰:* ${usedPrefix}finalizar`, fkontak, m)
 }else{
 clearInterval(intervalId)
 global.db.data.users[m.sender]['registroR'] = true		
@@ -55,7 +55,7 @@ conn.reply(m.chat, `*SU TIEMPO DE REGISTRO HA TERMINADO!!*\n\n_Si no continúa e
 if (user.registered === true) return conn.reply(m.chat, `${lenguajeGB['smsAvisoIIG']()}*YA ESTÁ REGISTRADO!!*\n*SI QUIERE ANULAR SU REGISTRO, USE ESTE COMANDO*\n*${usedPrefix}unreg numero de serie*\n\n*SI NO RECUERDA SU NÚMERO DE SERIE, USE ESTE COMANDO*\n*${usedPrefix}myns*`, fkontak, m)	
 
 if (command == 'verificar' || command == 'verify' || command == 'register' || command == 'reg' || command == 'registrar') {
-await conn.reply(m.chat, `*👀 CÓMO DESEA REGISTRARSE?*\n\n📑 *REGISTRO RÁPIDO*\n• Insignia de verificación\n• Desbloquear comandos que requieran registro\n\n*Escriba para el registro rápido:*\n${usedPrefix}reg1 nombre edad\n\n🗂️ *REGISTRO COMPLETO*\n• Insignia de verificación\n• Desbloquear comandos que requieran registro\n• Premium Temporal Gratis\n• Más opciones para este registro\n\n*Escriba para el registro completo:*\n${usedPrefix}nombre\n\n\`\`\`⭐ Considere que tendrá un tiempo para completar en caso de registrarse\`\`\``, fkontak, m)
+await conn.reply(m.chat, `*👀 𝙲𝙾𝙼𝙾 𝙳𝙴𝚂𝙴𝙹𝙰 𝚂𝙴 𝚁𝙴𝙶𝙸𝚂𝚃𝚁𝙰𝚁?*\n\n📑 *𝚁𝙴𝙶𝙸𝚂𝚃𝚁𝙾 𝚁𝙰́𝙿𝙸𝙳𝙾*\n• 𝚂𝙴𝙻𝙾 𝙳𝙴 𝚅𝙴𝚁𝙴𝙵𝙸𝙲𝙰𝙲̧𝙰̃𝙾\n• 𝙳𝙴𝚂𝙱𝙻𝙾𝚀𝚄𝙴𝙰𝚁 𝙲𝙾𝙼𝙰𝙽𝙳𝙾𝚂 𝚀𝚄𝙴 𝙴𝚇𝙸𝙶𝙴𝙼 𝚁𝙴𝙶𝙸𝚂𝚃𝚁𝙾\n\n*𝙴𝚂𝙲𝚁𝙴𝚅𝙰 𝙿𝙰𝚁𝙰 𝙾 𝚁𝙴𝙶𝙸𝚂𝚃𝚁𝙾 𝚁𝙰𝙿𝙸𝙳𝙾:*\n${usedPrefix}reg1 𝙽𝙾𝙼𝙴 𝙸𝙳𝙰𝙳𝙴\n\n🗂️ *𝚁𝙴𝙶𝙸𝚂𝚃𝚁𝙾 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙾*\n• 𝚂𝙴𝙻𝙾 𝙳𝙴 𝚅𝙴𝚁𝙴𝙵𝙸𝙲𝙰𝙲̧𝙰̃𝙾\n• 𝙳𝙴𝚂𝙱𝙻𝙾𝚀𝚄𝙴𝙰𝚁 𝙲𝙾𝙼𝙰𝙽𝙳𝙾𝚂 𝚀𝚄𝙴 𝙴𝚇𝙸𝙶𝙴𝙼 𝚁𝙴𝙶𝙸𝚂𝚃𝚁𝙾\n• 𝙿𝚁𝙴𝙼𝙸𝚄𝙼 𝚃𝙴𝙼𝙿𝙾𝚁𝙰́𝚁𝙸𝙾 𝙶𝚁𝙰𝚃𝙸𝚂\n• 𝙼𝙰𝙸𝚂 𝙾𝙿𝙲̧𝙾̃𝙴𝚂 𝙿𝙰𝚁𝙰 𝙾 𝚁𝙴𝚂𝙶𝙸𝚂𝚃𝚁𝙾\n\n*𝙴𝚂𝙲𝚁𝙴𝚅𝙰 𝙿𝙰𝚁𝙰 𝙾 𝚁𝙴𝙶𝙸𝚂𝚃𝚁𝙾 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙾:*\n${usedPrefix}𝙽𝙾𝙼𝙴\n\n\`\`\`⭐ 𝙲𝙾𝙽𝚂𝙸𝙳𝙴𝚁𝙴 𝚀𝚄𝙴 𝚃𝙴𝚁𝙰 𝚄𝙼 𝚃𝙴𝙼𝙿𝙾 𝙿𝙰𝚁𝙰 𝙲𝙾𝙽𝙲𝙻𝚄𝙸𝚁 𝙳𝙴 𝚂𝙴 𝚁𝙴𝙶𝙸𝚂𝚃𝚁𝙰𝚁\`\`\``, fkontak, m)
 }
 
 if (command == 'reg1') {
@@ -83,12 +83,12 @@ if (_registro[1] < 10) return conn.reply(m.chat, `${lenguajeGB['smsAvisoFG']()}*
 user.age = parseInt(_registro[1]) //_registro[1]	
 global.db.data.users[m.sender]['registroR'] = true
 
-let registroRapido = ` *░ 📑 REGISTRO ACTUAL 📑 ░*
+let registroRapido = ` *░ 📑 𝚁𝙴𝙶𝙸𝚂𝚃𝚁𝙾 𝙰𝚃𝚄𝙰𝙻 📑 ░*
  *∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷*
-┊ *✓ NOMBRE*
+┊ *✓ 𝙽𝙾𝙼𝙴*
 ┊ ⁘ ${user.name === 0 ? sinDefinir : user.name}
 ┊
-┊ *✓ EDAD*
+┊ *✓ 𝙸𝙳𝙰𝙳𝙴*
 ┊ ⁘ ${user.age === 0 ? sinDefinir : user.age + ' años'}
 ╰┈┈┈┈┈┈┈┈┈┈┈┈•
 
@@ -100,7 +100,7 @@ text: registroRapido,
 contextInfo: {
 externalAdReply: {
 title: wm,
-body: '🌟 Puede modificar su registro antes de finalizar',
+body: '🌟 𝙿𝙾𝙳𝙴 𝙼𝙾𝙳𝙸𝙵𝙸𝙲𝙰𝚁 𝚂𝙴𝚄 𝚁𝙴𝙶𝙸𝚂𝚃𝚁𝙾 𝙰𝙽𝚃𝙴𝚂 𝙳𝙴 𝙵𝙸𝙽𝙰𝙻𝙸𝚉𝙰𝚁',
 thumbnailUrl: pp, 
 sourceUrl: 'https://www.atom.bio/gatabot/',
 mediaType: 1,
