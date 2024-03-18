@@ -5,7 +5,7 @@ handler.all = async function (m) {
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 let chat = global.db.data.chats[m.chat]
 if (chat.isBanned) return
-let vn = 'https://qu.ax/MvNY.mp3'
+let vn = 'https://qu.ax/MvNY.mp3`, `https://qu.ax/FGRX.m4a'  
 let bot = `${pickRandom([`*𝙾𝙻𝙰 𝙴𝚂𝚃𝙾𝚄 𝙰𝚀𝚄𝙸 𝙲𝙾𝙼𝙾 𝙿𝙾𝚂𝚂𝙾 𝙰𝙹𝚄𝙳𝙰𝚁 🤔?*`, `𝙴𝚄 𝚂𝙴𝙸 𝙰𝙾𝙽𝙳𝙴 𝚅𝙾𝙲𝙴̂ 𝙼𝙾𝚁𝙰 👨🏻‍💻`, `*𝙵𝙰𝙻𝙰 𝙻𝙸𝚂𝙾 𝙾𝚀𝚄𝙴 𝚅𝙾𝙲𝙴̂ 𝚀𝚄𝙴𝚁 𝙲𝙾𝙼𝙸𝙶𝙾 ?*`])}
 `.trim()
 const estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) },
