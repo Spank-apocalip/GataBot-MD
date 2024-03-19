@@ -58,8 +58,8 @@ idle: 0,
 irq: 0
 }})
 
-let old = performance.now()
-await conn.reply(m.chat, `${eg}🚀𝐓𝐄𝐒𝐓𝐄 𝐃𝐄 𝐕𝐄𝐋𝐎𝐂𝐈𝐃𝐀𝐃𝐄🚀`, fkontak, {contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: ' 𝐁𝐈𝐆 𝐌𝐂 𝐎𝐅𝐂 ', previewType: 0, thumbnail: gataImg.getRandom(), sourceUrl: accountsgb.getRandom()}}})
+//let old = performance.now()
+//await conn.reply(m.chat, `${eg}🚀𝐓𝐄𝐒𝐓𝐄 𝐃𝐄 𝐕𝐄𝐋𝐎𝐂𝐈𝐃𝐀𝐃𝐄🚀`, fkontak, {contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: ' 𝐁𝐈𝐆 𝐌𝐂 𝐎𝐅𝐂 ', previewType: 0, thumbnail: gataImg.getRandom(), sourceUrl: accountsgb.getRandom()}}})
 //await conn.sendButton(m.chat, wm, `${eg}🚀 𝙋𝙍𝙐𝙀𝘽𝘼 𝘿𝙀 𝙑𝙀𝙇𝙊𝘾𝙄𝘿𝘼𝘿...\n🚀 𝙎𝙋𝙀𝙀𝘿 𝙏𝙀𝙎𝙏...`, null, [['𝗠 𝗘 𝗡 𝗨 ☘️', '/menu']], fkontak, m)  
 
 let neww = performance.now()
