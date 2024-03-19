@@ -64,7 +64,7 @@ let old = performance.now()
 
 let neww = performance.now()
 let speed = neww - old
-let caption = `*${htki} 𝐏𝐈𝐍𝐆 ${htka}*
+let caption = `${htki}𝐏𝐈𝐍𝐆${htka}
 
 🚄 *${Math.round(neww - old)}* ms
 🚄 *${speed}* ms
