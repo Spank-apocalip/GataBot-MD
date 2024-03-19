@@ -270,7 +270,7 @@ global.dmenub2 = "*┊*"
 global.dmenuf = "*╰┅────────┅✦*"
 global.htjava = "⫹⫺"
 
-global.htki = "*⭑⊱••••"
+global.htki = "*⭑•⊱••••"
 global.htka = "••••⊰•⭑*"
 
 global.comienzo = "• • ◕◕════"
