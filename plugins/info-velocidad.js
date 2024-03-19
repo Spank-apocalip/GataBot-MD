@@ -64,32 +64,32 @@ let old = performance.now()
 
 let neww = performance.now()
 let speed = neww - old
-let caption = `*${htki} 𝐏𝐈𝐍𝐆 : 𝐒𝐏𝐄𝐄𝐃 ${htka}*
+let caption = `*${htki} 𝙿𝙸𝙽𝙶 : 𝚂𝙿𝙴𝙴𝙳 ${htka}*
 
 🚄 *${Math.round(neww - old)}* ms
 🚄 *${speed}* ms
 
-*${htjava}* 𝐓𝐄𝐌𝐏𝐎 𝐃𝐄 𝐄𝐗𝐄𝐂𝐔𝐂𝐀𝐎 : 💻 
+*${htjava}* 𝚃𝙴𝙼𝙿𝙾 𝙳𝙴 𝙴𝚇𝙴𝙲𝚄𝙲̧𝙰̃𝙾  
 ${muptime}
 ${readMore}
-*${htjava} 𝐂 𝐇 𝐀 𝐓 𝐒*
-• *${groupsIn.length}* \`\`\`𝐂𝐇𝐀𝐓𝐒 𝐃𝐄 𝐆𝐑𝐏 :  🇱🇷\`\`\`
-• *${groupsIn.length}* \`\`\`𝐂𝐇𝐀𝐓𝐒 𝐔𝐍𝐈𝐃𝐎𝐒 : 🇧🇷 \`\`\`
-• *${groupsIn.length - groupsIn.length}* \`\`\`𝐂𝐇𝐀𝐓𝐒 𝐑𝐄𝐒𝐓𝐀𝐍𝐓 : 🇯🇲 \`\`\`
-• *${chats.length - groupsIn.length}* \`\`\`𝐂𝐇𝐀𝐓𝐒 𝐏𝐑𝐈𝐕𝐀𝐃𝐎𝐒 : 🏴‍☠️ \`\`\`
-• *${chats.length}* \`\`\`𝐓𝐎𝐓𝐀𝐋 𝐃𝐄 𝐂𝐇𝐀𝐓𝐒\`\`\`
+*${htjava} 𝙶𝚁𝚄𝙿𝙾𝚂*
+• *${groupsIn.length}* \`\`\`𝙲𝙷𝙰𝚃𝚂 𝙳𝙴 𝙶𝚁𝙿 :  🇱🇷\`\`\`
+• *${groupsIn.length}* \`\`\`𝙲𝙷𝙰𝚃𝚂 𝚄𝙽𝙸𝙳𝙾𝚂 : 🇧🇷 \`\`\`
+• *${groupsIn.length - groupsIn.length}* \`\`\`𝙲𝙷𝙰𝚃𝚂 𝚁𝙴𝚂𝚃𝙰𝙽𝚃𝙴𝚂 : 🇯🇲 \`\`\`
+• *${chats.length - groupsIn.length}* \`\`\`𝙲𝙷𝙰𝚃𝚂 𝙿𝚁𝙸𝚅𝙰𝙳𝙾𝚂 : 🏴‍☠️ \`\`\`
+• *${chats.length}* \`\`\`𝚃𝙾𝚃𝙰𝙻 𝙳𝙴 𝙲𝙷𝙰𝚃𝚂\`\`\`
 
-*${htjava} 𝐒𝐄𝐑𝐕𝐈𝐑𝐃𝐎𝐑 : 𝐒𝐄𝐑𝐕𝐄𝐑*
-*👨‍💻 𝐑𝐀𝐌 𝐃𝐈𝐒𝐏𝐎:* ${format(totalmem() - freemem())} / ${format(totalmem())}
-*👨‍💻 𝐑𝐀𝐌 𝐋𝐈𝐕𝐑𝐄:* ${format(freemem())}
+*${htjava} 𝐒𝐄𝐑𝐕𝐈𝐑𝐃𝐎𝐑*
+*👨‍💻 𝚁𝙰𝙼 𝙳𝙸𝚂𝙿𝙾:* ${format(totalmem() - freemem())} / ${format(totalmem())}
+*👨‍💻 𝚁𝙰𝙼 𝙻𝙸𝚅𝚁𝙴:* ${format(freemem())}
 
-*💻 𝐏𝐋𝐀𝐓𝐀𝐅𝐎𝐑𝐌𝐀 :* \`\`\`${os.platform()}\`\`\`
-*📡 𝐒𝐄𝐑𝐕𝐈𝐑𝐃𝐎 :* _${os.hostname()}_
+*💻 𝙿𝙻𝙰𝚃𝙰𝙵𝙾𝚁𝙼𝙰 :* \`\`\`${os.platform()}\`\`\`
+*📡 𝚂𝙴𝚁𝚅𝙴 :* _${os.hostname()}_
 ${readMore}
-*𝐍𝐎𝐃𝐄𝐉𝐒 𝐔𝐒𝐎 𝐃𝐄 𝐌𝐄𝐌𝐎𝐑𝐈𝐀: 🖥️*
+*𝙽𝙾𝙳𝙴𝙹𝚂 𝚄𝚂𝙾 𝙳𝙴 𝙼𝙴𝙼𝙾𝚁𝙸𝙰*
 ${'```' + Object.keys(used).map((key, _, arr) => `${key.padEnd(Math.max(...arr.map(v => v.length)), ' ')}: ${format(used[key])}`).join('\n') + '```'}
 
-${cpus[0] ? `*𝐔𝐒𝐎 𝐃𝐀 𝐂𝐏𝐔*
+${cpus[0] ? `*𝚄𝚂𝙾 𝙳𝙰 𝙲𝙿𝚄*
 ${cpus[0].model.trim()} (${cpu.speed} MHZ)\n${Object.keys(cpu.times).map(type => `- *${(type + '*').padEnd(6)}: ${(100 * cpu.times[type] / cpu.total).toFixed(2)}%`).join('\n')}
 
 *CPU Core(s) Uso (${cpus.length} Core CPU)*
@@ -113,5 +113,5 @@ function clockString(ms) {
   let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000) % 24
   let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
   let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
-  return [' ' + d, ' *𝐃𝐈𝐀𝐒 :  ☀️*\n ', h, ' *𝐇𝐎𝐑𝐀𝐒 :  🕐*\n ', m, ' *𝐌𝐈𝐍𝐔𝐓𝐎𝐒 :  ⏰*\n ', s, ' *𝐒𝐄𝐆𝐔𝐍𝐃𝐎𝐒 :  ⏱️* '].map(v => v.toString().padStart(2, 0)).join('')
+  return [' ' + d, ' *𝙳𝙸𝙰𝚂 :  ☀️*\n ', h, ' *𝙷𝙾𝚁𝙰𝚂 :  🕐*\n ', m, ' *𝙼𝙸𝙽𝚄𝚃𝙾𝚂 :  ⏰*\n ', s, ' *𝚂𝙴𝙶𝚄𝙽𝙳𝙾𝚂 :  ⏱️* '].map(v => v.toString().padStart(2, 0)).join('')
 }
