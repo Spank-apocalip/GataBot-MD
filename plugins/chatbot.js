@@ -8,7 +8,7 @@ let name = conn.getName(m.sender)
 if (chat.isBanned) return
 
 if (/^big$/i.test(m.text) ) { //sin prefijo 
-let teks = `${pickRandom([`ta querendo oque com meu dono?`, `big`])}`.trim()
+let teks = `${pickRandom([`*ta querendo oque com meu dono?*`, `*oque tem meu mestre?*`])}`.trim()
 conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})}
 
 /*if (/^Mande porno|porno|paja$/i.test(m.text) ) { //sin prefijo 
