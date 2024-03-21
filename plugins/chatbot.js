@@ -7,16 +7,16 @@ let chat = global.db.data.chats[m.chat]
 let name = conn.getName(m.sender)
 if (chat.isBanned) return
 
-if (/^e$/i.test(m.text) ) { //sin prefijo 
-let teks = `${pickRandom([`Que bueno sabe la letra E`, `eeeeee`])}`.trim()
+if (/^big$/i.test(m.text) ) { //sin prefijo 
+let teks = `${pickRandom([`ta querendo oque com meu dono? o ${global.woner[0][0] tem um nego te chamando aq garai`, `big`])}`.trim()
 conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})}
 
 /*if (/^Mande porno|porno|paja$/i.test(m.text) ) { //sin prefijo 
 let teks = `${pickRandom([`no puedo esta contra las política del grupo.😸`, `_uff miren un pajero_`, `_pagame y paso mi pack😏🥵_`, `_que_`, `_que quiere pija dice 🤣_`, `_pasa el pack de tu hermana😏_`, `_mire un gilipolla_`, `_siuuu sexo sexo sexo😈_`, '_callate putito_'])}`.trim()
 conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})}*/
 
-if (/^bigmac|bigbig$/i.test(m.text) ) { //sin prefijo 
-conn.reply(m.chat, `\*oque tu quer com meu dono*`, fkontak, m)}
+if (/^spy$/i.test(m.text) ) { //sin prefijo 
+conn.reply(m.chat, `\*oque tu quer com meu mano spy ja aproveitando da uma moral la no canal dele na descrição a administração agradece*`, fkontak, m)}
  
 if (/^reglas|normas|Reglas$/i.test(m.text) ) { //sin prefijo 
 conn.reply(m.chat, `*╭┅〘 ⚠️ 𝐎𝐛𝐞𝐝𝐞𝐜𝐞𝐫 𝐚𝐬 𝐫𝐞𝐠𝐫𝐚𝐬 ⚠️ 〙*
