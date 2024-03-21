@@ -23,7 +23,7 @@ conn.reply(m.chat, `*╭┅〘 ⚠️ 𝐎𝐛𝐞𝐝𝐞𝐜𝐞𝐫 𝐚𝐬 
 ➽❌ 𝐑𝐞𝐬𝐩𝐞𝐢𝐭𝐞 𝐨𝐬 𝐭𝐞𝐫𝐦𝐨𝐬
 *╰═┅ৡৢ͜͡✦═╡ 𝐁𝐈𝐆 𝐌𝐂 𝐎𝐅𝐂 ╞═┅ৡৢ͜͡✦═╯*`, fkontak, m)}
 
-if (/^quero um bot|como crio um bot?|quero um bot?|quiero un bot|preciso de bot|solícito bot|solicito bot|preciso de um bot|necessito de um bot$/i.test(m.text) ) {
+if (/^quero um bot|quero bot|como crio um bot?|quero um bot?|quiero un bot|preciso de bot|solícito bot|solicito bot|preciso de um bot|necessito de um bot$/i.test(m.text) ) {
 conn.reply(m.chat,  `\`*⚡Quer um bot para seu grupo?* \`
 
 *🤖 Pode ser um sub bot mandando o seguinte comando:*
