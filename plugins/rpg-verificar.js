@@ -102,7 +102,7 @@ externalAdReply: {
 title: wm,
 body: '🌟 𝙿𝙾𝙳𝙴 𝙼𝙾𝙳𝙸𝙵𝙸𝙲𝙰𝚁 𝚂𝙴𝚄 𝚁𝙴𝙶𝙸𝚂𝚃𝚁𝙾 𝙰𝙽𝚃𝙴𝚂 𝙳𝙴 𝙵𝙸𝙽𝙰𝙻𝙸𝚉𝙰𝚁',
 thumbnailUrl: pp, 
-sourceUrl: 'https://www.atom.bio/gatabot/',
+sourceUrl: 'https://atom.bio/bigmc',
 mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: true
