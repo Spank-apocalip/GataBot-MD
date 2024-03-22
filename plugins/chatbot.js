@@ -7,9 +7,9 @@ let chat = global.db.data.chats[m.chat]
 let name = conn.getName(m.sender)
 if (chat.isBanned) return
 
-if (/^silvinha|silvia|sil|sisil$/i.test(m.text) ) { //sin prefijo 
+/*if (/^silvinha|silvia|sil|sisil$/i.test(m.text) ) { //sin prefijo 
 let teks = `${pickRandom([`*ta querendo arruma oque com a mulher do meu dono?*`, `*vou ja ja chamar o big quer ver?*`, `*Rapazzzz deixa mulher do meu dono em paz*`, `*cuidado que o big ta so de olho em, pra tu tomar nao custa nada?*`])}`.trim()
-conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})}
+conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})}*/
 
 /*if (/^Mande porno|porno|paja$/i.test(m.text) ) { //sin prefijo 
 let teks = `${pickRandom([`no puedo esta contra las política del grupo.😸`, `_uff miren un pajero_`, `_pagame y paso mi pack😏🥵_`, `_que_`, `_que quiere pija dice 🤣_`, `_pasa el pack de tu hermana😏_`, `_mire un gilipolla_`, `_siuuu sexo sexo sexo😈_`, '_callate putito_'])}`.trim()
@@ -19,7 +19,7 @@ if (/^spy$/i.test(m.text) ) { //sin prefijo
 conn.reply(m.chat, `\*oque tu quer com meu mano spy ja aproveitando da uma moral la no canal dele na descrição a administração agradece*`, fkontak, m)}
 
 if (/^big$/i.test(m.text) ) { //sin prefijo
-conn.reply(m.chat, `\*big*`, `*meu mestre te manda um salve*`, fkontak, m)}
+conn.reply(m.chat, `\*big*`, `*sempre calmo e postura observando atentosamente*`, fkontak, m)}
  
 if (/^reglas|normas|Reglas$/i.test(m.text) ) { //sin prefijo 
 conn.reply(m.chat, `*╭┅〘 ⚠️ 𝐎𝐛𝐞𝐝𝐞𝐜𝐞𝐫 𝐚𝐬 𝐫𝐞𝐠𝐫𝐚𝐬 ⚠️ 〙*
