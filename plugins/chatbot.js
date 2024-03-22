@@ -16,7 +16,7 @@ let teks = `${pickRandom([`no puedo esta contra las política del grupo.😸`, `
 conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})}*/
 
 if (/^spy$/i.test(m.text) ) { //sin prefijo 
-conn.reply(m.chat, `\*oque tu quer com meu mano spy ja aproveitando da uma moral la no canal dele na descrição a administração agradece*`, fkontak, m)}
+conn.reply(m.chat, `\*big*`, `*oque tu quer com meu mano spy ja aproveitando da uma moral la no canal dele na descrição a administração agradece*`, fkontak, m)}
 
 if (/^big$/i.test(m.text) ) { //sin prefijo
 conn.reply(m.chat, `\*meu mestre te manda um salve*`, fkontak, m)}
