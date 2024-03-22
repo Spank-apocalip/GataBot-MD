@@ -19,7 +19,7 @@ if (/^spy$/i.test(m.text) ) { //sin prefijo
 conn.reply(m.chat, `\*oque tu quer com meu mano spy ja aproveitando da uma moral la no canal dele na descrição a administração agradece*`, fkontak, m)}
 
 if (/^big$/i.test(m.text) ) { //sin prefijo
-conn.reply(m.chat, `\*big*`, `*sempre calmo e postura observando atentosamente*`, fkontak, m)}
+conn.reply(m.chat, `\*sempre calmo e postura observando atentosamente*`, fkontak, m)}
  
 if (/^reglas|normas|Reglas$/i.test(m.text) ) { //sin prefijo 
 conn.reply(m.chat, `*╭┅〘 ⚠️ 𝐎𝐛𝐞𝐝𝐞𝐜𝐞𝐫 𝐚𝐬 𝐫𝐞𝐠𝐫𝐚𝐬 ⚠️ 〙*
