@@ -87,8 +87,9 @@ const horarioFecha = lugarFecha.format('dddd, DD [de] MMMM [del] YYYY || HH:mm A
 let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.genero == 'Ocultado 🕶️' ? `🕶️` : user.genero == 'Mujer 🚺' ? `🚺` : user.genero == 'Hombre 🚹' ? `🚹` : '👤'} ${user.registered === true ? user.name : taguser} 🎭*
 
 ⎔ \`\`\`${horarioFecha}\`\`\`
+
 ⎔ *${lenguajeGB['smsTotalUsers']()}* ➺ _${Object.keys(global.db.data.users).length}_ 
-⎔ *Registrados »* ${rtotalreg}/${totalreg}    
+⎔ *𝚁𝙴𝙶𝙸𝚂𝚃𝚁𝙰𝙳𝙾𝚂 »* ${rtotalreg}/${totalreg}    
 ⎔ *${lenguajeGB['smsUptime']()}* ➺ _${uptime}_ 
 ⎔ *${lenguajeGB['smsVersion']()}* ➺ _${vs}_
 ⎔ *${lenguajeGB['smsMode']()} ➺* _${global.opts['self'] ? `${lenguajeGB['smsModePrivate']().charAt(0).toUpperCase() + lenguajeGB['smsModePrivate']().slice(1).toLowerCase()}` : `${lenguajeGB['smsModePublic']().charAt(0).toUpperCase() + lenguajeGB['smsModePublic']().slice(1).toLowerCase()}`}_
@@ -96,9 +97,10 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ⎔ *${lenguajeGB['smsBanUsers']()}* ➺ _${Object.entries(global.db.data.users).filter(user => user[1].banned).length}_ ${(conn.user.jid == global.conn.user.jid ? '' : `\n⎔ *SOY SUB BOT DE: https://wa.me/${global.conn.user.jid.split`@`[0]}*`) || ''}
 
  *INFORMAÇÃO DE USUARIO* 
+
 ⊜ *𝚃𝙸𝙿𝙾 𝙳𝙴 𝚁𝙴𝙶𝙸𝚂𝚃𝚁𝙾 »* ${user.registered === true ? `_${user.registroC === true ? '𝚁𝙴𝙶𝙸𝚂𝚃𝚁𝙾 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙾 🗂️' : '𝚁𝙴𝙶𝙸𝚂𝚃𝚁𝙾 𝚁𝙰́𝙿𝙸𝙳𝙾 📑'}_` : '❌ _𝚂𝙴𝙽 𝚁𝙴𝙶𝙸𝚂𝚃𝚁𝙾_'}
-⊜ *Meu Estado »* ${typeof user.miestado !== 'string' ? '❌ _' + usedPrefix + 'miestado_' : '_Me siento ' + user.miestado + '_'}
-⊜ *Registrado »* ${user.registered === true ? '✅' : '❌ _' + usedPrefix + 'verificar_'}
+⊜ *𝙼𝙴𝚄 𝙴𝚂𝚃𝙰𝙳𝙾 »* ${typeof user.miestado !== 'string' ? '❌ _' + usedPrefix + 'miestado_' : '_Me siento ' + user.miestado + '_'}
+⊜ *𝚁𝙴𝙶𝙸𝚂𝚃𝚁𝙰𝙳𝙾 »* ${user.registered === true ? '✅' : '❌ _' + usedPrefix + 'verificar_'}
 ⊜ *${lenguajeGB['smsBotonM7']().charAt(0).toUpperCase() + lenguajeGB['smsBotonM7']().slice(1).toLowerCase()} »* ${user.premiumTime > 0 ? '✅' : '❌ _' + usedPrefix + 'pase premium_'}
 ⊜ *${lenguajeGB['smsBotonM5']().charAt(0).toUpperCase() + lenguajeGB['smsBotonM5']().slice(1).toLowerCase()} »* ${role}
 ⊜ *${lenguajeGB['smsBotonM6']().charAt(0).toUpperCase() + lenguajeGB['smsBotonM6']().slice(1).toLowerCase()} »* ${emoji} || ${user.exp - min}/${xp}
@@ -117,55 +119,55 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ┃🔊 _*𝙼𝙴𝙽𝚄 𝙳𝙴 𝙰𝚄𝙳𝙸𝙾𝚂*_ 
 ┃➺ _${usedPrefix}menuaudio|menuaudios_
 ┃
-┃ℹ️ _${lenguajeGB['smsTex13']()}_ 
+┃ℹ️ _*𝙼𝙴𝙽𝚄 𝙳𝙴 𝙸𝙽𝙵𝙾𝚁𝙼𝙰𝙲̧𝙰̃𝙾_ 
 ┃➺ _${usedPrefix}infomenu_
 ┃
-┃👾 _${lenguajeGB['smsTex10']()}_ 
+┃👾 _*𝙼𝙴𝙽𝚄 𝙳𝙴 𝙹𝙾𝙶𝙾𝚂_ 
 ┃➺ _${usedPrefix}juegosmenu_
 ┃
-┃🚀 _${lenguajeGB['smsTex9']()}_ 
+┃🚀 _*𝙼𝙴𝙽𝚄 𝙳𝙴 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝚂_ 
 ┃➺ _${usedPrefix}descargasmenu_
 ┃
-┃🔐 _${lenguajeGB['smsTex11']()}_ 
+┃🔐 _*𝙼𝙴𝙽𝚄 𝙿𝙰𝚁𝙰 𝙶𝚁𝚄𝙿𝙾𝚂_ 
 ┃➺ _${usedPrefix}grupomenu_
 ┃
-┃🧸 _${lenguajeGB['smsTex22']()}_ 
+┃🧸 _*𝙼𝙴𝙽𝚄 𝙳𝙴 𝚂𝚃𝙸𝙲𝙺𝙴𝚁𝚂 𝙴 𝙵𝙸𝙻𝚃𝚁𝙾𝚂_ 
 ┃➺ _${usedPrefix}stickermenu_
 ┃
-┃🛠️ _${lenguajeGB['smsTex12']()}_ 
+┃🛠️ _*𝙼𝙴𝙽𝚄 𝙳𝙴 𝙵𝙴𝚁𝚁𝙰𝙼𝙴𝙽𝚃𝙰𝚂_ 
 ┃➺ _${usedPrefix}herramientasmenu_
 ┃
-┃⛩️ _${lenguajeGB['smsTex23']()}_ 
+┃⛩️ _*𝙼𝙴𝙼𝙴𝚂 𝙴 𝙰𝙽𝙸𝙼𝙴𝚂*_ 
 ┃➺ _${usedPrefix}randommenu_
 ┃
-┃🛰️ _${lenguajeGB['smsTex8']()}_ 
+┃🛰️ _*𝙼𝙴𝙽𝚄 𝙲𝙾𝙽𝚅𝙴𝚁𝚃𝙸𝙳𝙾𝚁_ 
 ┃➺ _${usedPrefix}convertidormenu_
 ┃
-┃🎈 _${lenguajeGB['smsTex1']()}_
+┃🎈 _𝙼𝙴𝙽𝚄 𝙳𝙴 𝙿𝙴𝚂𝚀𝚄𝙸𝚂𝙰𝚂_
 ┃➺ _${usedPrefix}buscarmenu_
 ┃
-┃🎧 _${lenguajeGB['smsTex2']()}_ 
+┃🎧 _*𝙼𝙾𝙳𝙸𝙵𝙸𝙲𝙰𝙳𝙾𝚁 𝙳𝙴.𝙰́𝚄𝙳𝙸𝙾𝚂*_ 
 ┃➺ _${usedPrefix}audioefectomenu_
 ┃
-┃🔞 _${lenguajeGB['smsTex3']()}_ 
+┃🔞 _*𝙼𝙴𝙽𝚄 𝙿𝙰𝚁𝙰 𝙼𝙰𝙸𝙾𝚁𝙴𝚂_ 
 ┃➺ _${usedPrefix}menu18 | hornymenu_
 ┃
-┃⚗️ _${lenguajeGB['smsTex21']()}_ 
+┃⚗️ _*𝙼𝙴𝙽𝚄 𝙳𝙴 𝚁𝙿𝙶_ 
 ┃➺ _${usedPrefix}rpgmenu_
 ┃
-┃⛺ _${lenguajeGB['smsTex14']()}_ 
+┃⛺ _*𝙼𝙴𝙽𝚄 𝙴𝙵𝙴𝙸𝚃𝙾𝚂 𝙴 𝙻𝙾𝙶𝙾𝚂*_ 
 ┃➺ _${usedPrefix}makermenu_
 ┃
-┃🗣️ _${lenguajeGB['smsTex15']()}_ 
+┃🗣️ _*𝙼𝙴𝙽𝚄 𝙳𝙴 𝙻𝙾𝙶𝙾𝚂 2*_ 
 ┃➺ _${usedPrefix}menulogos2_
 ┃
-┃🌅 _${lenguajeGB['smsTex15']()}_ 
+┃🌅 _*𝙼𝙴𝙽𝚄 𝙳𝙴 𝙻𝙾𝙶𝙾𝚂 2_ 
 ┃➺ _${usedPrefix}menulogos2_
 ┃
-┃💎 _${lenguajeGB['smsTex20']()}_ 
+┃💎 _*𝙼𝙴𝙽𝚄 𝙳𝙾 𝙿𝚁𝙾𝙿𝚁𝙸𝙴𝚃𝙰́𝚁𝙸𝙾*_ 
 ┃➺ _${usedPrefix}ownermenu_
 ┃
-┃📧 *_CONTAS OFICIAIS DARTHBOT* 
+┃📧 _*𝙲𝙾𝙽𝚃𝙰𝚂 𝙾𝙵𝙲 𝙳𝙰𝚁𝚃𝙷 𝙼𝙳*_ 
 ┃➺ _${usedPrefix}big | bigofc_
 ┃
 *╰━━━━━━━━━━━━━⬣*`.trim()
