@@ -8,7 +8,7 @@ let name = conn.getName(m.sender)
 if (chat.isBanned) return
 
 if (/^silvinha|silvia|sil|sisil$/i.test(m.text) ) { //sin prefijo 
-let teks = `${pickRandom([`*ta querendo arruma oque com a mulher do meu dono?*`, `*vou ja ja chamar o big quer ver?`, `*Rapazzzz deixa mulher do meu dono em paz*`, `*cuidado que o big ta so de olho em, pra tu tomar nao custa nada?*`])}`.trim()
+let teks = `${pickRandom([`*ta querendo arruma oque com a mulher do meu dono?*`, `*vou ja ja chamar o big quer ver?*`, `*Rapazzzz deixa mulher do meu dono em paz*`, `*cuidado que o big ta so de olho em, pra tu tomar nao custa nada?*`])}`.trim()
 conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})}
 
 /*if (/^Mande porno|porno|paja$/i.test(m.text) ) { //sin prefijo 
