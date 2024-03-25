@@ -11,10 +11,13 @@ if (chat.isBanned) return
 let teks = `${pickRandom([`*ta querendo arruma oque com a mulher do meu dono?*`, `*vou ja ja chamar o big quer ver?*`, `*Rapazzzz deixa mulher do meu dono em paz*`, `*cuidado que o big ta so de olho em, pra tu tomar nao custa nada?*`])}`.trim()
 conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})}*/
 
-if (/^bot ruim|lixo|merda|bot nao presta|bot lixo$/i.test(m.text) ) { //sin prefijo 
-let teks = `${pickRandom([`*você sou mais útil que você*🗿🍷`, `*seu rato de laboratório*🧐`, `*e sua irma que vender pack pra comprar droguinhas*🤨`, `*deixa de ser daltônico*`, `*teu pai e mais rodado do que prato no microondas*`, `*pasa el pack de tu hermana*😏`, `*tua mãe sabe que tu e gay?*`, `*depois que perdi o número nao sabe por que*`, '_callate putito_'])}`.trim()
+if (/^bot ruim|lixo|merda|bot nao presta|bot lixo|bot gay$/i.test(m.text) ) { //sin prefijo 
+let teks = `${pickRandom([`*você sou mais útil que você*🗿🍷`, `*seu rato de laboratório*🧐`, `*e sua irma que vender pack pra comprar droguinhas*🤨`, `*deixa de ser daltônico*`, `*teu pai e mais rodado do que prato no microondas*`, `*pasa el pack de tu hermana*😏`, `*tua mãe sabe que tu e gay?*`, `*depois que perdi o número nao sabe por que*`, '*callate putito*'])}`.trim()
 conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})}
 
+if (/^prefixo$/i.test(m.text) ) { //sin prefijo 
+conn.reply(m.chat, `\n*${usedPrefix}`, fkontak, m)}
+ 
 if (/^spy$/i.test(m.text) ) { //sin prefijo 
 conn.reply(m.chat, `\*oque tu quer com meu mano spy ja aproveitando da uma moral la no canal dele na descrição a administração agradece*`, fkontak, m)}
 
