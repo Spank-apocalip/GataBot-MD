@@ -19,9 +19,9 @@ if (/^spy$/i.test(m.text) ) { //sin prefijo
 conn.reply(m.chat, `\*oque tu quer com meu mano spy ja aproveitando da uma moral la no canal dele na descrição a administração agradece*`, fkontak, m)}
 
 if (/^big$/i.test(m.text) ) { //sin prefijo
-conn.reply(m.chat, `\*sempre calmo e postura observando atentosamente*`, fkontak, m)}
+conn.reply(m.chat, `\*meu mestre sempre calmo cauteloso e postura observando atentosamente fica esperto*🗿🍷`, fkontak, m)}
  
-if (/^reglas|normas|Reglas$/i.test(m.text) ) { //sin prefijo 
+if (/^regras|normas|Regras$/i.test(m.text) ) { //sin prefijo 
 conn.reply(m.chat, `*╭┅〘 ⚠️ 𝐎𝐛𝐞𝐝𝐞𝐜𝐞𝐫 𝐚𝐬 𝐫𝐞𝐠𝐫𝐚𝐬 ⚠️ 〙*
 ➽❌ 𝐏𝐫𝐨𝐢𝐛𝐢𝐝𝐨 𝐋𝐢𝐠𝐚𝐫 𝐩𝐫𝐨 𝐁𝐨𝐭
 ➽❌ 𝐏𝐫𝐨𝐢𝐛𝐢𝐝𝐨 𝐒𝐩𝐚𝐦 𝐧𝐨 𝐁𝐨𝐭
@@ -30,7 +30,7 @@ conn.reply(m.chat, `*╭┅〘 ⚠️ 𝐎𝐛𝐞𝐝𝐞𝐜𝐞𝐫 𝐚𝐬 
 *╰═┅ৡৢ͜͡✦═╡ 𝐁𝐈𝐆 𝐌𝐂 𝐎𝐅𝐂 ╞═┅ৡৢ͜͡✦═╯*`, fkontak, m)}
 
 if (/^prefixo$/i.test(m.text) ) { //sin prefijo
-conn.reply(m.chat, `\`𝐚𝐪𝐮𝐢 𝐞𝐬𝐭𝐚𝐫 𝐦𝐞𝐮 𝐩𝐫𝐞𝐟𝐢𝐱𝐨 𝐜𝐮𝐳 ➽ [ . ] \``, fkontak, m)}
+conn.reply(m.chat, `\`𝐚𝐪𝐮𝐢 𝐞𝐬𝐭𝐚𝐫 𝐦𝐞𝐮 𝐩𝐫𝐞𝐟𝐢𝐱𝐨 ➽ [ . ] \``, fkontak, m)}
  
 if (/^quero um bot|quero bot|como crio um bot?|quero um bot?|quiero un bot|preciso de bot|solícito bot|solicito bot|preciso de um bot|necessito de um bot$/i.test(m.text) ) {
 conn.reply(m.chat,  `\`*⚡Quer um bot para seu grupo?* \`
@@ -65,7 +65,7 @@ conn.reply(m.chat, `\` 𝐎𝐪𝐮𝐞 𝐞 𝐮𝐦 𝐁𝐨𝐭 𝐝𝐞 𝐖
 🍃 *_PARA VER O MENU DE COMANDOS PODE USAR:_*
 #menucompleto
 
-𝐃𝐀𝐑𝐓𝐇-𝐌𝐃`, m)}  
+*𝙱𝙸𝙶 𝙼𝙲 𝙾𝙵𝙲*`, m)}  
 return !0 
 }
 export default handler
