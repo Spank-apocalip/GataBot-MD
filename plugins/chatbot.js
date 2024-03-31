@@ -18,6 +18,10 @@ conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})}
 if (/^spy$/i.test(m.text) ) { //sin prefijo 
 conn.reply(m.chat, `\*oque tu quer com meu mano spy ja aproveitando da uma moral la no canal dele na descrição a administração agradece*`, fkontak, m)}
 
+if (/^teste|testando$/i.test(m.text) ) { //sin prefijo 
+let teks = `${pickRandom([`*ta querendo arruma oque com a mulher do meu dono?*`, `*vou ja ja chamar o big quer ver?*`, `*Rapazzzz deixa mulher do meu dono em paz*`, `*cuidado que o big ta so de olho em, pra tu tomar nao custa nada?*`])}`.trim()
+conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})} 
+ 
 if (/^big|big big|bigbig$/i.test(m.text) ) { //sin prefijo
 conn.reply(m.chat, `\*meu mestre sempre calmo cauteloso e postura observando atentosamente fica esperto*🗿🍷`, fkontak, m)}
 
