@@ -18,8 +18,11 @@ conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})}
 if (/^spy$/i.test(m.text) ) { //sin prefijo 
 conn.reply(m.chat, `\*oque tu quer com meu mano spy ja aproveitando da uma moral la no canal dele na descrição a administração agradece*`, fkontak, m)}
 
-if (/^big$/i.test(m.text) ) { //sin prefijo
+if (/^big|big big|bigbig$/i.test(m.text) ) { //sin prefijo
 conn.reply(m.chat, `\*meu mestre sempre calmo cauteloso e postura observando atentosamente fica esperto*🗿🍷`, fkontak, m)}
+
+if (/^kkkk$/i.test(m.text) ) { //sin prefijo
+conn.reply(m.chat, `\*ta rindo pra nao chorar?*`, fkontak, m)}
  
 if (/^regras|normas|Regras$/i.test(m.text) ) { //sin prefijo 
 conn.reply(m.chat, `*╭┅〘 ⚠️ 𝐎𝐛𝐞𝐝𝐞𝐜𝐞𝐫 𝐚𝐬 𝐫𝐞𝐠𝐫𝐚𝐬 ⚠️ 〙*
