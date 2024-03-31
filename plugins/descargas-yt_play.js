@@ -10,7 +10,7 @@ try {
 const yt_play = await search(args.join(" "))
 let additionalText = ''
 if (command === 'play') { 
-additionalText = '𝙰𝚄𝙳𝙸𝙾𝚂 🔊'
+additionalText = '𝐀𝐔𝐃𝐈𝐎 🔊'
 } else if (command === 'play2') {
 additionalText = '𝚅𝙸́𝙳𝙴𝙾 🎥'}
 let captionvid = ` ✧✧✧✧═══ ${vs} ═══✧✧✧✧  *
