@@ -3,7 +3,7 @@ import yts from 'yt-search';
 import ytdl from 'ytdl-core';
 import axios from 'axios';
 const handler = async (m, {command, usedPrefix, conn, text}) => {
-if (!text) throw `${mg}${mid.smsMalused4}\n*${usedPrefix + command} Billy Ashley - Bellyache*`
+if (!text) throw `${mg}${mid.smsMalused4}\n*${usedPrefix + command} Billie Eilish - Bellyache*`
 try {
 if (command == 'play.1') {
 conn.reply(m.chat, lenguajeGB['smsAvisoEG']() + mid.smsAud, m, { contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: '𝐃𝐀𝐑𝐓𝐇-𝐌𝐃', body: '𝐁𝐈𝐆 𝐌𝐂 𝐎𝐅𝐂', previewType: 0, thumbnail: gataImg.getRandom(),  sourceUrl: accountsgb.getRandom()}}}) 
