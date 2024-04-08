@@ -7,7 +7,7 @@ let chat = global.db.data.chats[m.chat]
 let name = conn.getName(m.sender)
 if (chat.isBanned) return
 
-if (/^doninha|silvinha|silvia|sil|sisil$/i.test(m.text) ) { //sin prefijo 
+if (/^silvinha|silvia|sil|sisil$/i.test(m.text) ) { //sin prefijo 
 let teks = `${pickRandom([`*ta querendo arruma oque com a mulher do meu dono?*`, `*vou ja ja chamar o big quer ver?*`, `*Rapazzzz deixa mulher do meu dono em paz*`, `*cuidado que o big ta so de olho em, pra tu tomar nao custa nada?*`])}`.trim()
 conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})}
 
@@ -25,6 +25,9 @@ conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})}*/
 if (/^big|big big|bigbig$/i.test(m.text) ) { //sin prefijo
 conn.reply(m.chat, `\*meu mestre sempre calmo cauteloso e postura observando atentosamente tira olho que ele ja e cansado esperto(a)*🗿🍷`, fkontak, m)}
 
+if (/^doninha$/i.test(m.text) ) { //sin prefijo 
+conn.reply(m.chat, `\*só o big pode chama a silvinha assim ponhase no seu lugar*`, fkontak, m)} 
+ 
 if (/^kkkk$/i.test(m.text) ) { //sin prefijo
 conn.reply(m.chat, `\*ta rindo pra nao chorar?*`, fkontak, m)}
  
