@@ -23,7 +23,7 @@ let teks = `${pickRandom([`*ta querendo arruma oque com a mulher do meu dono?*`,
 conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})}*/
  
 if (/^big|big big|bigbig$/i.test(m.text) ) { //sin prefijo
-conn.reply(m.chat, `\*meu mestre sempre calmo cauteloso e postura observando atentosamente tira olho que ele ja e cansado esperto(a)*🗿🍷`, fkontak, m)}
+conn.reply(m.chat, `\*meu mestre sempre calmo cauteloso e postura observando atentosamente tira olho que ele ja e cansado fica esperto(a)*🗿🍷`, fkontak, m)}
 
 if (/^doninha$/i.test(m.text) ) { //sin prefijo 
 conn.reply(m.chat, `\*só o big pode chama a silvinha assim ponhase no seu lugar*`, fkontak, m)} 
