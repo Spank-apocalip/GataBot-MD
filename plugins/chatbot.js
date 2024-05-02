@@ -7,11 +7,11 @@ let chat = global.db.data.chats[m.chat]
 let name = conn.getName(m.sender)
 if (chat.isBanned) return
 
-if (/^silvinha|silvia|sil|sisil$/i.test(m.text) ) { //sin prefijo 
+if (/^sisil$/i.test(m.text) ) { //sin prefijo 
 let teks = `${pickRandom([`*ta querendo arruma oque com a mulher do meu dono?*`, `*vou ja ja chamar o big quer ver?*`, `*Rapazzzz deixa mulher do meu dono em paz*`, `*cuidado que o big ta so de olho em, pra tu tomar nao custa nada?*`])}`.trim()
 conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})}
 
-if (/^bot ruim|bot ta off|bot tá off|cade o bot|bot morreu|lixo|merda|bot nao presta|bot lixo|bot gay$/i.test(m.text) ) { //sin prefijo 
+if (/^bot ruim|bot ta off|bot tá off|cade o bot|bot morreu|lixo|bot nao presta|bot lixo|bot gay$/i.test(m.text) ) { //sin prefijo 
 let teks = `${pickRandom([`*sou mais útil que você*🗿🍷`, `*seu rato de laboratório*🧐`, `*e sua irma que vender pack pra comprar droguinhas*🤨`, `*deixa de ser daltônico*`, `*teu pai e mais rodado do que prato no microondas*`, `*pasa el pack de tu hermana*😏`, `*tua mãe sabe que tu e gay?*`, `*depois que perdi o número nao sabe por que*`, '*callate putito*'])}`.trim()
 conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})}
  
@@ -22,8 +22,8 @@ conn.reply(m.chat, `\*oque tu quer com meu mano spy ja aproveitando da uma moral
 let teks = `${pickRandom([`*ta querendo arruma oque com a mulher do meu dono?*`, `*vou ja ja chamar o big quer ver?*`, `*Rapazzzz deixa mulher do meu dono em paz*`, `*cuidado que o big ta so de olho em, pra tu tomar nao custa nada?*`])}`.trim()
 conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})}*/
  
-if (/^big|big big|bigbig$/i.test(m.text) ) { //sin prefijo
-conn.reply(m.chat, `\*meu mestre sempre calmo cauteloso e postura observando atentosamente tira olho que ele ja e cansado fica esperto(a)*🗿🍷`, fkontak, m)}
+if (/^big|big big|bigbig|bigbigbig$/i.test(m.text) ) { //sin prefijo
+conn.reply(m.chat, `\*meu mestre sempre calmo cauteloso e postura observando atentosamente tira olho que ele ja e casado fica esperto(a)*🗿🍷`, fkontak, m)}
 
 if (/^doninha$/i.test(m.text) ) { //sin prefijo 
 conn.reply(m.chat, `\*só o big pode chama a silvinha assim ponhase no seu lugar*`, fkontak, m)} 
