@@ -51,6 +51,9 @@ conn.reply(m.chat, `\*luanzin rsrs ainda não superou o th e vive pensando nele 
  
  if (/^kkkkk$/i.test(m.text) ) { //sin prefijo
 conn.reply(m.chat, `\*só sabe rir e desgraça?*`, fkontak, m)}
+
+if (/^pedro$/i.test(m.text) ) { //sin prefijo
+conn.reply(m.chat, `\*Pedro ? Ele é o melhor daqui, gente boa gostoso, ama a kim e joga bola.*`, fkontak, m)}
  
 if (/^kkkk$/i.test(m.text) ) { //sin prefijo
 conn.reply(m.chat, `\*sorria você estar sendo filmado🙂*`, fkontak, m)}
