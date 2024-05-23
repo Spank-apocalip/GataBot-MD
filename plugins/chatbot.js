@@ -8,7 +8,7 @@ let name = conn.getName(m.sender)
 if (chat.isBanned) return
 
 if (/^big$/i.test(m.text) ) { //sin prefijo 
-let teks = `${pickRandom([`*meu mestre sempre calmo, cauteloso, e posturado observando atentosamente fica esperto(a)*🥷🏻`, `*hum?🤔*`, `*fala🧐?*`, `*meu papai big😤*`, `*ele adora quando eu chamo ele de big papa🤭*`, `*gostou do meu mestre🤨? pois tira os olhos que ele e so meu😌*`, `*bang💥*`, `*oque e fala que ele ta te ouvindo🙄?*`, `*o mestre corre aqui tem um(a) nego(a) te chamando*`, `*fala liso oque tu quer?*`, `*calma calabreso que o big ta so de olho em, pra tu tomar nao custa nada?*`])}`.trim()
+let teks = `${pickRandom([`*meu mestre sempre calmo, cauteloso, e posturado observando atentosamente fica esperto(a)*🥷🏻`, `*hum?🤔*`, `*fala🧐?*`, `*meu papai big😤*`, `*ele adora quando eu chamo ele de big papa🤭*`, `*gostou do meu mestre pois tira os olhos que ele e so meu😌*`, `*bang💥*`, `*oque e fala que ele ta te ouvindo🙄?*`, `*o mestre corre aqui tem um(a) nego(a) te chamando*`, `*fala liso oque tu quer?*`, `*calma calabreso que o big ta so de olho em, pra tu tomar nao custa nada?*`])}`.trim()
 conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})}
 
 if (/^bot ruim|bot ta off|bot tá off|cade o bot|bot morreu|lixo|bot nao presta|bot lixo|bot gay$/i.test(m.text) ) { //sin prefijo 
