@@ -40,8 +40,8 @@ conn.reply(m.chat, `\*a gostosa da bot do big oque tu quer com ela🤨?*`, fkont
 if (/^th$/i.test(m.text) ) { //sin prefijo
 conn.reply(m.chat, `\*th da ari futuros marido e mulher mas ele ja pode beijar a noiva rsrs🤧❤️*`, fkontak, m)}
 
-if (/^igor|igão|igao|igorzinho$/i.test(m.text) ) { //sin prefijo
-conn.reply(m.chat, `\*meu mano criador do grupo class, só de ouvir esse nome ja ficou toda molhadinha ne fafada(o)*`, fkontak, m)}
+if (/^bibii$/i.test(m.text) ) { //sin prefijo
+conn.reply(m.chat, `\*bibi perigosaaa😤*`, fkontak, m)}
 
 if (/^Ari$/i.test(m.text) ) { //sin prefijo
 conn.reply(m.chat, `\*Meu nome e ari e eu não to nem ai😪*`, fkontak, m)}
