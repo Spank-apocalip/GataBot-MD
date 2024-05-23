@@ -28,6 +28,9 @@ conn.reply(m.chat, `\*Paulinho o loko o Rei da chaminé nesse exato momento deve
 if (/^neto|netinho$/i.test(m.text) ) { //sin prefijo
 conn.reply(m.chat, `\*Oque tu quer com meu mano neto fica esperto que ele ta sempre ligado🧐*`, fkontak, m)}
 
+if (/^igor|igão|igao|igorzinho$/i.test(m.text) ) { //sin prefijo
+conn.reply(m.chat, `\*meu mano criador do grupo class, só de ouvir esse nome ja ficou toda molhadinha ne fafada(o)*`, fkontak, m)} 
+ 
 if (/^uiui$/i.test(m.text) ) { //sin prefijo
 conn.reply(m.chat, `\*aiiiaii😁*`, fkontak, m)}
 
