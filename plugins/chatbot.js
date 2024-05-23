@@ -1,4 +1,4 @@
-hum// by https://github.com/elrebelde21
+// by https://github.com/elrebelde21
  
 let handler = m => m
 handler.all = async function (m) {
