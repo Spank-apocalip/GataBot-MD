@@ -48,9 +48,6 @@ conn.reply(m.chat, `\*Meu nome e ari e eu não to nem ai😪*`, fkontak, m)}
 
 if (/^luanzin|luan$/i.test(m.text) ) { //sin prefijo
 conn.reply(m.chat, `\*luanzin rsrs ainda não superou o th e vive pensando nele de todas as vezez que botava dizendo dizendo la ele la ele la ele la ele mil vezez🤣🤣😳*`, fkontak, m)}
-
-if (/^th7$/i.test(m.text) ) { //sin prefijo
-conn.reply(m.chat, `\*th vulgo thc a ex ou ex do luanzin nao sabemos qual dos dois era a mulher🤣 qual deles sente sdds das botadas lá eleskkkk🤫*`, fkontak, m)}
  
  if (/^kkkkk$/i.test(m.text) ) { //sin prefijo
 conn.reply(m.chat, `\*só sabe rir e desgraça?*`, fkontak, m)}
