@@ -33,6 +33,9 @@ conn.reply(m.chat, `\*aiiiaii😁*`, fkontak, m)}
 
 if (/^tj$/i.test(m.text) ) { //sin prefijo
 conn.reply(m.chat, `\*Chupador de pen-drive casado c a lemes pai aos 14😏*`, fkontak, m)}
+
+if (/^g2|gdois|gdoiss$/i.test(m.text) ) { //sin prefijo
+conn.reply(m.chat, `\*G2 COME TU, G2 COME ELA, COME SUAS AMIGAS AINDA COME AS AMIGAS DELA🤫*`, fkontak, m)}
  
 if (/^aiai$/i.test(m.text) ) { //sin prefijo
 conn.reply(m.chat, `\*uiiii uiiii😁*`, fkontak, m)}
