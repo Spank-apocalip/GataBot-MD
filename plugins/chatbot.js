@@ -31,6 +31,9 @@ conn.reply(m.chat, `\*meu mano criador do grupo class, só de ouvir esse nome ja
 if (/^uiui$/i.test(m.text) ) { //sin prefijo
 conn.reply(m.chat, `\*aiiiaii😁*`, fkontak, m)}
 
+if (/^tj$/i.test(m.text) ) { //sin prefijo
+conn.reply(m.chat, `\*rei do povo emo😏*`, fkontak, m)}
+ 
 if (/^aiai$/i.test(m.text) ) { //sin prefijo
 conn.reply(m.chat, `\*uiiii uiiii😁*`, fkontak, m)}
 
