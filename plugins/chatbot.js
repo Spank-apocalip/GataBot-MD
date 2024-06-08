@@ -22,9 +22,6 @@ conn.reply(m.chat, `\*oque tu quer com meu mano spy ja aproveitando da uma moral
 let teks = `${pickRandom([`*ta querendo arruma oque com a mulher do meu dono?*`, `*vou ja ja chamar o big quer ver?*`, `*Rapazzzz deixa mulher do meu dono em paz*`, `*cuidado que o big ta so de olho em, pra tu tomar nao custa nada?*`])}`.trim()
 conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})}*/
 
-if (/^Cadê o Paulo|Cade o Paulo|paulo$/i.test(m.text) ) { //sin prefijo
-conn.reply(m.chat, `\*Paulinho o loko o Rei da chaminé nesse exato momento deve ta fumando intensos baseados pique bob marley estilo mister catra 🔥🚬💨*`, fkontak, m)}
-
 if (/^neto|netinho$/i.test(m.text) ) { //sin prefijo
 conn.reply(m.chat, `\*Oque tu quer com meu mano neto fica esperto que ele ta sempre ligado🧐*`, fkontak, m)}
 
@@ -54,9 +51,6 @@ conn.reply(m.chat, `\*luanzin rsrs ainda não superou o th e vive pensando nele 
  
  if (/^kkkkk$/i.test(m.text) ) { //sin prefijo
 conn.reply(m.chat, `\*só sabe rir e desgraça?*`, fkontak, m)}
-
-if (/^pedro$/i.test(m.text) ) { //sin prefijo
-conn.reply(m.chat, `\*Pedro ? Ele é o melhor daqui, gente boa gostoso, ama a kim e joga bola.*`, fkontak, m)}
  
 if (/^kkkk$/i.test(m.text) ) { //sin prefijo
 conn.reply(m.chat, `\*sorria você estar sendo filmado🙂*`, fkontak, m)}
