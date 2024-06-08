@@ -49,6 +49,9 @@ conn.reply(m.chat, `\*bibi perigosaaa😤*`, fkontak, m)}
 if (/^Ari$/i.test(m.text) ) { //sin prefijo
 conn.reply(m.chat, `\*Meu nome e ari e eu não to nem ai😪*`, fkontak, m)}
 
+if (/^felix$/i.test(m.text) ) { //sin prefijo
+conn.reply(m.chat, `\*O felix cearense o famoso gostosão das quebradas eo namorado da Kim🤞😪*`, fkontak, m)}
+ 
 if (/^luanzin|luan$/i.test(m.text) ) { //sin prefijo
 conn.reply(m.chat, `\*luanzin rsrs ainda não superou o th e vive pensando nele de todas as vezez que botava dizendo dizendo la ele la ele la ele la ele mil vezez🤣🤣😳*`, fkontak, m)}
  
