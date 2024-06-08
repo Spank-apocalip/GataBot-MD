@@ -32,7 +32,7 @@ if (/^uiui$/i.test(m.text) ) { //sin prefijo
 conn.reply(m.chat, `\*aiiiaii😁*`, fkontak, m)}
 
 if (/^tj$/i.test(m.text) ) { //sin prefijo
-conn.reply(m.chat, `\*rei do povo emo😏*`, fkontak, m)}
+conn.reply(m.chat, `\*Chupador de pen-drive casado c a lemes pai aos 14😏*`, fkontak, m)}
  
 if (/^aiai$/i.test(m.text) ) { //sin prefijo
 conn.reply(m.chat, `\*uiiii uiiii😁*`, fkontak, m)}
