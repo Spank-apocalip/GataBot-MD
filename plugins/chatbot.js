@@ -43,6 +43,9 @@ conn.reply(m.chat, `\*uiiii uiiii😁*`, fkontak, m)}
 if (/^vivi$/i.test(m.text) ) { //sin prefijo
 conn.reply(m.chat, `\*a gostosa da bot do big oque tu quer com ela🤨?*`, fkontak, m)}
 
+if (/^alemes|lemes$/i.test(m.text) ) { //sin prefijo
+conn.reply(m.chat, `\*lemes linda maravilhosa casada com o tj mais conhecido como pai solteiro🧑🏻‍🍼?*`, fkontak, m)}
+ 
 if (/^th$/i.test(m.text) ) { //sin prefijo
 conn.reply(m.chat, `\*th da ari futuros marido e mulher mas ele ja pode beijar a noiva rsrs🤧❤️*`, fkontak, m)}
 
